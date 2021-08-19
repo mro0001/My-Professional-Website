@@ -16,6 +16,7 @@ output:
   postcards::trestles
 
 site: distill::distill_website
+creative_commons: CC BY
 
 ---
 
