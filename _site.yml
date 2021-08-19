@@ -3,6 +3,7 @@ title: "Michael Overton, PhD"
 description: |
   Professional Website
 output_dir: "."
+base_url: https://www.michaeloverton.net/
 navbar:
   right:
     - text: "Home"
