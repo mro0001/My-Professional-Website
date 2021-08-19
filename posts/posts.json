@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2021-08-16-life/",
+    "title": "Life",
+    "description": "Why I love my life. (Hint: It is because of my wife and dogs)",
+    "author": [
+      {
+        "name": "Michael Overton",
+        "url": {}
+      }
+    ],
+    "date": "2021-08-16",
+    "categories": [],
+    "contents": "\nMy wife is brilliant, hilarious, driven and good at almost everything!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-08-16T14:03:21-07:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to my website!",
+    "description": "What am I thinking?",
+    "author": [
+      {
+        "name": "Michael Overton",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-08-16",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-08-16T13:58:12-07:00",
+    "input_file": {}
+  }
+]
