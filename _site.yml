@@ -2,7 +2,7 @@ name: "Michael Overton, PhD Two"
 title: "Michael Overton, PhD"
 description: |
   Professional Website
-output_dir: "."
+output_dir: "_site"
 navbar:
   right:
     - text: "Home"
