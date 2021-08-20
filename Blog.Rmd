@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Blog (Click the title to read!)"
 description: "What am I thinking"
 listing: 
   posts:
