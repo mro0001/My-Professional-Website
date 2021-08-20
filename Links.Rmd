@@ -1,7 +1,29 @@
 ---
-title: "Links and Resources"
+title: "Links"
 ---
+## Academic Writing Help
+[Raul Pacheco-Vega's Academic Writing Blog](http://www.raulpacheco.org/blog/) is the first place to go if you are looking to improve your academic writing. I cannot recommend this enough!
 
-## Social Media Links
-## Resources
-## Academics to follow
+**The Classic Books**
+
+[The Elements of Style by William Strunk Jr. and James McGill](https://www.amazon.com/Elements-Style-William-Strunk-Jr/dp/1989862004/ref=pd_sbs_17/141-9178516-6254539?pd_rd_w=H8xVe&pf_rd_p=755df9fc-1b62-4c8c-831e-91a7f8454d75&pf_rd_r=Z1BBMYYQCQVS6DP9XP15&pd_rd_r=9ea2f89f-c9da-4672-a929-0d78129b1adf&pd_rd_wg=XAS0t&pd_rd_i=1989862004&psc=1)
+[On Writing Well by William Zinsser](https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548/ref=pd_bxgy_img_1/141-9178516-6254539?pd_rd_w=PYjkn&pf_rd_p=c64372fa-c41c-422e-990d-9e034f73989b&pf_rd_r=JSKHDK73CSD4WVDM9Z1Z&pd_rd_r=f9f79bda-5cdf-4a57-a08d-a50b03ae1495&pd_rd_wg=JYm4x&pd_rd_i=0060891548&psc=1)
+
+**The Newer Books**
+
+[Stylish Academic Writing by Helen Sword](https://www.amazon.com/Stylish-Academic-Writing-Helen-Sword/dp/0674064488): Great advice on developing an academic writing style.
+
+[Houston, We Have a Narrative by Randy Olson](https://www.amazon.com/Houston-We-Have-Narrative-Science/dp/022627084X/ref=asc_df_022627084X/?tag=hyprod-20&linkCode=df0&hvadid=312167502430&hvpos=&hvnetw=g&hvrand=15411002673010697599&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029641&hvtargid=pla-524672356224&psc=1&tag=&ref=&adgrpid=60258872137&hvpone=&hvptwo=&hvadid=312167502430&hvpos=&hvnetw=g&hvrand=15411002673010697599&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9029641&hvtargid=pla-524672356224): I am a huge fan of this book and believe it has made a huge difference in my academic and grant writing. I Stan for the ABT!
+
+[The Scientist's Guide to Writing by Stephen Heard](https://www.amazon.com/Scientists-Guide-Writing-Effectively-throughout-ebook/dp/B01C4V8RFW): I go to this book more than any other. It really is an underrated academic writing book. Chapter 6 on building writing momentum is worth the price of the book.
+
+## Data Science
+
+[Modern Data Science with R by Benjamin Baumer, Daniel Kaplan, and Nicholas Horton](https://mdsr-book.github.io/mdsr2e/): One of my favorite approaches to statistics and data science.
+
+[R for Data Science by Hadley Wickham and Garrett Grolemund](https://r4ds.had.co.nz/): A great introduction and reference to the tidyverse.
+
+[Grant McDermott's lectures from his courses Data Science for Economists, and Big Data in Economics](https://grantmcdermott.com/teaching/): Grant McDermott's lecture slides are an amazing and underappreciated resource. I highly recommend going over them regardless of your data expertise.
+
+[Data visualization: A Practical Introduction by Kieran Healy](https://socviz.co/): A great (and free) book on data visualization in R. Plus, Kieran Healy is the author of the [unequivocally best titled academic paper ever](https://journals.sagepub.com/doi/full/10.1177/0735275117709046?casa_token=dkuNDvkOY4wAAAAA%3AdBDilUpBkL1-c_grmVlPnNtov_NsiBsIacWAfgp8l4c2wBgUU6j6Jq2m-WjaoThyG8obfYs-jk-8TQ).  
+

@@ -1,13 +1,21 @@
 ---
-title: "Life"
+title: "Laying a Foundation"
 description: |
   Why I love my life. (Hint: It is because of my wife and dogs)
 output:
   distill::distill_article:
     self_contained: false
 ---
+**Currently Watching:** Ted Lasso
 
+**Currently Reading:** [Credibility and Theory by Scott Ashworth, Christopher Berry, and Ethan Bueno De Mesquita](https://press.princeton.edu/books/paperback/9780691213828/theory-and-credibility) 
 
-My wife is brilliant, hilarious, driven and good at almost everything!
+Creating and keeping a professional website is a daunting prospect that I have wanted to tackle for awhile. My goal is to use this website as a vehicle to promote my research and professional brand--whatever the hell that means. But I do not want this website to be an expanded CV. Sure it will serve that function, but that's not who I am or, frankly, how I want to spend my time. 
+
+I want my website to be a reflection of me, not simply the polished professional academic version of me. My posts will be eclectic, sometimes irreverent and othertimes lighthearted. Somethings I present in this space will be carefully crafted and othertimes they will be error filled and hastily thrown together. A good bit of the expected erraticness of this website will be a result of my ADHD. Occasionally, the mental energy it takes to polish my writing is taxing and I want to reserve that energy for my teaching and research responsibilities. It is important for me to create a good website...but not that important.
+
+I also have been looking for a space to share how amazing my partner is and pictures of our dogs. My wife is brilliant, hilarious, driven and good at almost everything! Why would I want to avoid writing about her? My dogs are adorable! How can I deprive the world of their beauty? I would be a fool to hide my light under a bushel. 
+
+Hopefully, you enjoy yourself!
 
 
