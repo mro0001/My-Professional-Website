@@ -25,7 +25,7 @@ net <- graph_from_data_frame(d=edges, vertices=nodes, directed=F)
 
 net2 <- asNetwork(net)
 
-net3 <- ggnetwork(net2, cell.jitter = 3)
+net3 <- ggnetwork(net2, cell.jitter = 7)
 
 
 gg_point_1 <- 
