@@ -1,7 +1,8 @@
 ---
 title: "Laying a Foundation"
 description: |
-  Why I love my life. (Hint: It is because of my wife and dogs)
+  My goals for this website, some more personal information, and a little of my experience with ADHD.
+preview: Furry_Family.jpg 
 output:
   distill::distill_article:
     self_contained: false

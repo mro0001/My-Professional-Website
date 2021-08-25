@@ -1,6 +1,52 @@
 ---
 title: "Research"
 ---
+```{r setup, include=FALSE}
+
+
+
+###network diagram test
+library(tidyverse)
+library(igraph)
+library(networkD3)
+library(ggnetwork)
+library(sna)
+library(ggiraph)
+library(intergraph)
+library(stringr)
+
+nodes <- read.csv("research_node.csv") %>%
+  select(ID, Year, Citation, Data.Science, Local.Government, Budgeting,Peer.Reviewed,
+         Books..Encyclopedia.Chapters..Book.Chapters..Book.Reviews..and.Professional.Articles,
+         Applied.Research,Type,Status,Weight, Titles)
+edges <- read.csv("reseach_edges.csv")
+
+net <- graph_from_data_frame(d=edges, vertices=nodes, directed=F)
+
+net2 <- asNetwork(net)
+
+net3 <- ggnetwork(net2, cell.jitter = 3)
+
+
+gg_point_1 <- 
+  ggplot(net3, aes(x = x, y = y, xend=xend, yend=yend, 
+                 tooltip = Citation) )  +
+  geom_edges() +
+  geom_nodes() +
+  theme_blank() +
+  geom_nodelabel(data = subset(net3, Titles != ""), aes(label = str_wrap(Titles, width = 10), lineheight =.75), fontface = "bold")+
+    scale_fill_hue(c=45, l=80)+
+  geom_point_interactive(data=subset(net3, Titles==""), aes(color=Type), size = 5) + 
+  scale_colour_discrete("Research Product", labels =  function(x) str_wrap(x, width = 30)) #this make the node interactive
+
+gg_point_1
+
+```
+```{r vis, echo=FALSE}
+
+girafe(ggobj = gg_point_1) 
+
+```
 Check my CV for a list of my research projects!
 
 [CV August 15th, 2021](https://drive.google.com/file/d/1yIxK0g89FBT0oqC8ZvaDw_9B9XE3ddry/view?usp=sharing)
