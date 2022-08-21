@@ -1,6 +1,5 @@
 ---
 title: "Personal"
-
 ---
 ## The Rovertons!
 ![My Wonderful Family](pic/avatar.jpg)
@@ -17,15 +16,22 @@ On a more serious note, I am an adult and academic with ADHD. Since I was diagno
 
 ## Meet the furry Rovertons!
 
+![Nata](pic/Nata.jpg)
+
+![Coco](pic/Coco.jpg)
+
 ![Dixon](pic/Dixon.jpg)
 
-![Skittles](pic/Skittles.JPG)
-
-![Hazelnut](pic/Hazelnut.jpg)
-
 ![Ziggy](pic/Ziggy.jpg)
+
+![Molly Passed Away](pic/Molly.JPG)
+
+![Skittles Passed Away](pic/Skittles.JPG)
+
+![Hazelnut Passed Away](pic/Hazelnut.jpg)
 
 ![Dice Passed Away](pic/Dice.JPG)
 
 ![Uno Passed Away](pic/Uno.JPG)
+
 ![Gizmo Passed Away](pic/Gizmo.JPG)
