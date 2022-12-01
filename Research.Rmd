@@ -21,7 +21,7 @@ nodes <- read.csv("research_node.csv") %>%
          Books..Encyclopedia.Chapters..Book.Chapters..Book.Reviews..and.Professional.Articles,
          Applied.Research,Type,Status,Weight, Titles)
 edges <- read.csv("reseach_edges.csv")
-set.seed(12)
+set.seed(14)
 net <- graph_from_data_frame(d=edges, vertices=nodes, directed=F)
 
 net2 <- asNetwork(net)
