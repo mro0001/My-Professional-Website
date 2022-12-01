@@ -49,6 +49,44 @@ gg_point_1
 girafe(ggobj = gg_point_1) 
 
 ```
-Check my CV for a list of my research projects!
+## CV
 
-[CV August 20, 2022](https://drive.google.com/file/d/1Kxiqxo-CVhxt3JeSakcdhcKabxNuQNzF/view?usp=sharing)
+[CV Decemeber 1, 2022](https://drive.google.com/file/d/1igwutEHIJMXzI1v0ZqSMPnBzOakbuuHI/view?usp=sharing)
+
+## Municipal Fiscal Health 
+  
+(Accepted) Rethinking Development and Redistribution Policy: Testing the Local Expenditure Assumption using the Community Development Block Grant Program.  By Michael Overton and Eric Stokan  
+  
+[50 Years as the 4th Pillar of Public Administration: A Polycentric Extension of the Social Equity Framework.](https://onlinelibrary.wiley.com/doi/10.1111/padm.12888)  By Eric Stokan, Megan Hatch, and Michael Overton  
+
+[Budget Volatility and Economic Base Composition in Local Governments.](https://www.civicresearchinstitute.com/online/article_abstract.php?pid=4&aid=10392&iid=1695)  By Michael Overton and Robert Bland  
+  
+[Emergent Patterns in Local economic Development in Light of COVID-19.](https://drive.google.com/file/d/1kyCRqvO0gluBtef5Wmh9ephbMx1Ev_BL/view?usp=sharing)  By Brad Johnson, Darrin Wilson, Eric Stokan, and Michael Overton  
+  
+[Institutional Collective Action During Covid-19: Lessons in Local Economic Development.](https://onlinelibrary.wiley.com/doi/full/10.1111/puar.13234?casa_token=WR05uOppO2EAAAAA%3AZ56QoLLGIpBZ0i6SH-4FCVv7c9wj5luyM8BXMtgnladq-KRE5IdzGqQxA4cj3y5KtC6BHUbcFo1MAWw)  By Darrin Wilson, Brad Johnson, Eric Stokan, and Michael Overton  
+  
+[Early Payments, Late Payments, and Revenue Volatility in Texas Cities.](https://drive.google.com/file/d/1N4Sd5n7IDRe8FryclcsgJJIKf5JnK_UG/view?usp=sharing)  By Michael Overton, Julius Nukpezah, and Orkhan Ismayilov  
+  
+[Assessing the Contributions of Collaborators in Public-Private Partnerships: Evidence from Tax Increment Financing.](https://drive.google.com/file/d/1P53CqcBs8TV0XSefcDsa96uiXvbP7LHW/view?usp=sharing)  By Robert Bland and Michael Overton  
+  
+[The Great Recession’s Impact on Credible Commitment: An Analysis of Private Investment in Tax Increment Financing Districts.](https://drive.google.com/file/d/1tPhuTm5seWmipsMCMWkJEh3im6z1qrCy/view?usp=sharing)  By Michael Overton and Robert Bland  
+  
+## Data and Data Science
+  
+[Public Data Primacy: The Changing Landscape of Public Service Delivery as Big Data gets Bigger.](https://link.springer.com/content/pdf/10.1007/s43508-022-00052-z.pdf?pdf=core)  by Michael Overton, Sarah Larson, Lisa Carlson and Stephen Kleinschmit  
+  
+[Transforming Research Methods Education Through Data Science Literacy.](https://drive.google.com/file/d/1l9Ghi2iS7Bii9-g7ZQvQmkgrFw5PbWT6/view?usp=sharing)  By Michael Overton and Stephen Kleinschmit  
+
+[Data Science Literacy: Towards a Philosophy of Accessible and Adaptable Data Science Skill Development in Public Administration Programs.](https://drive.google.com/file/d/1Ja4YTjbk8Sm1o5564OwvoQ0GNfMXBP7e/view?usp=sharing)  By Michael Overton and Stephen Kleinschmit  
+
+## Competition
+
+[Investigating Sales Tax Revenue Competition among Principal Cities and Their Neighboring Cities in Texas.](https://drive.google.com/file/d/1BHT7SSXy2q0uLPJ7OdgtFJI47gtd6AfG/view?usp=sharing)  By Michael Overton and Julius Nukpezah
+
+[Market Differentiation and the Adoption of Economic Development Strategies: Explaining Policy Adoption in Metropolitan Areas.](https://drive.google.com/file/d/1oMvQ63EK8O6ySWbxvSh_MSBUVWDNlsT4/view?usp=sharing)  By Michael Overton  
+  
+[Sorting Through the Determinants of Local Government Competition.](https://drive.google.com/file/d/1TjSVvRWeOPAODPKPnyOfquQI4gTroAO5/view?usp=sharing)  By Michael Overton  
+  
+
+
+
