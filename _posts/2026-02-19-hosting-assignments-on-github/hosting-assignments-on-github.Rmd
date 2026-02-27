@@ -1,0 +1,58 @@
+---
+title: "Hosting Your Assignments on GitHub"
+description: |
+  Turn your interactive assignment into a live website using GitHub Pages--free hosting, version tracking, and a shareable URL.
+author:
+  - name: Michael Overton
+    url: https://www.michaeloverton.net/
+    affiliation: University of Idaho
+categories:
+  - GitHub
+  - GitHub Pages
+  - Hosting
+  - Tutorial
+date: 02-19-2026
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+You've built an interactive assignment. It works in your browser. Now you need to put it somewhere students and colleagues can access it. That's what GitHub Pages does--it turns your repository into a live website, for free.
+
+## Quick Vocabulary
+
+A **repository** (or "repo") is a folder that GitHub tracks--it holds your files and remembers every change. A **commit** is a saved snapshot with a note about what changed. **GitHub Pages** takes the files in your repository and serves them as a website. You upload an HTML file, GitHub gives you a URL.
+
+## Step by Step: Your First Repository
+
+Log into GitHub and click the green "New" button. Name it something descriptive--"revenue-forecasting-exercise" beats "assignment1." Six months from now you'll have multiple repos and want to tell them apart.
+
+Set the repository to **Public**. GitHub Pages is free on public repos, and the whole philosophy here is openness. Check the box to add a README file. Click "Create repository."
+
+## Uploading Your Files
+
+Click "Add file" -> "Upload files." Drag your HTML file (and any CSS, images, or data files) into the upload area. Write a commit message ("Initial upload of revenue forecasting exercise") and click "Commit changes."
+
+Your files are now on GitHub, version-tracked, and visible to anyone with the link.
+
+## Turning on GitHub Pages
+
+Go to **Settings** -> **Pages** (in the left sidebar). Under "Source," select **Deploy from a branch**. Choose **main** and **/ (root)**. Click **Save**.
+
+After a minute or two, you'll see a URL like `https://yourusername.github.io/revenue-forecasting-exercise/`. Your interactive assignment is now live. Share that URL in your LMS, your syllabus, anywhere. No login required, no software to install.
+
+## Updating Your Assignment
+
+Find a bug or want to add a section? Edit files directly on GitHub (click the file, then the pencil icon) or upload a new version. Every change gets a commit message and GitHub keeps the entire history. You can always roll back if something breaks.
+
+## Write a Good README
+
+The README is the first thing visitors see. Include what the assignment covers, what course it's designed for, any key assumptions, and a link to the live GitHub Pages site. A good README is the difference between a repository that gets used and one that gets ignored.
+
+## What's Next
+
+You now have an interactive assignment hosted on the web for free. But the real power of GitHub isn't just hosting--it's collaboration. In the final post, I'll walk through forks, branches, and pull requests: the mechanics that let us build on each other's teaching materials instead of reinventing the wheel every semester.

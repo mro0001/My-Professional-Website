@@ -1,5 +1,94 @@
 [
   {
+    "path": "posts/2026-02-26-forks-branches-pull-requests-collaboration/",
+    "title": "Forks, Branches, and Pull Requests – How We Actually Collaborate",
+    "description": "The mechanics that make GitHub fundamentally different from sharing files: structured collaboration on teaching materials without stepping on each other's toes.",
+    "author": [
+      {
+        "name": "Michael Overton",
+        "url": "https://www.michaeloverton.net/"
+      }
+    ],
+    "date": "2026-02-26",
+    "categories": [
+      "GitHub",
+      "Collaboration",
+      "Forks",
+      "Pull Requests",
+      "Branches"
+    ],
+    "contents": "\nThis is where it all comes together. The previous posts were about getting set up, building something, and putting it online. This one is about structured collaboration–improving each other’s work without stepping on each other’s toes.\nFour concepts: forks, branches, commits, and pull requests. They sound like jargon, but the ideas are straightforward.\nThe Analogy\nYou’ve written a case study on municipal bond analysis. A colleague sees it and wants to add a section on credit ratings. In the pre-GitHub world, they’d email you for the file, modify their copy, maybe email it back. Now you’ve got two versions. If a third colleague wants to add something, which version do they start from? It gets messy fast.\nGitHub solves this with a structured workflow.\nForks: Making Your Own Copy\nA fork is a complete copy of someone else’s repository under your own account. Your colleague forks your case study, gets their own version they can modify freely without affecting your original. The fork maintains a link back to the original–that’s what makes the next steps possible.\nBranches: Working on Changes Safely\nA branch is a parallel version of the files within a repository–a draft workspace. Your colleague creates a branch called “add-credit-ratings” and works there. The main branch stays untouched.\nBranches let you work on multiple changes at once without interference. If the credit ratings addition works out but a calculation tweak introduces a bug, you keep one and discard the other.\nCommits: Saving With Context\nA commit is a snapshot paired with a message about what changed. Good messages matter. “Updated file” tells you nothing. “Added credit rating analysis with Moody’s and S&P rating scales” tells you exactly what happened. Commits create a detailed change log–who added the scenario analysis, who fixed the formula, who reformatted the instructions.\nPull Requests: Proposing Changes\nA pull request (PR) is how you propose that your changes be incorporated into the original repository. Your colleague submits a PR after adding credit ratings. This opens a conversation, not an automatic merge.\nYou can see exactly what changed, line by line. You leave comments: “Could you also mention Fitch ratings?” They make edits. When everyone’s satisfied, you merge and their changes become part of the official version. PRs are transparent, non-destructive, and documented.\nWhy This Matters for Us\nPublic budgeting and finance pedagogy doesn’t have good infrastructure for collaboration. We share syllabi on PASyllabi.com, swap ideas at conferences, occasionally email files. But there’s no system for iterative improvement on shared teaching materials.\nPicture this: a repository of interactive exercises covering the core public budgeting curriculum–revenue forecasting, expenditure analysis, capital budgeting, debt management, fund accounting. Any instructor can fork the collection, adapt exercises for their context, and submit pull requests with improvements. An instructor in Texas adjusts for Texas’s tax structure. Someone at a tribal college adds a module on tribal gaming revenue. A colleague with a knack for visualization improves the charts. Each contribution makes the whole collection better.\nOpen-source software works this way every day. There’s no reason we can’t apply the same model to teaching materials.\nGetting Started\nIf you’ve followed this series, you’re ready. You have a GitHub account, you can build interactive assignments with AI, you know how to host them. Now you know the collaboration mechanics. Find a colleague who teaches similar material. Share your repository. Fork theirs. Submit a pull request with an improvement–even something small like fixing a typo or adding a reflection question. The important thing is to start.\nI’m working on building out a shared repository for public budgeting and finance assignments and would love collaborators. If this series has been useful or if you’re interested in contributing, reach out. This works better the more people are involved.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2026-02-26T21:36:59-08:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2026-02-19-hosting-assignments-on-github/",
+    "title": "Hosting Your Assignments on GitHub",
+    "description": "Turn your interactive assignment into a live website using GitHub Pages--free hosting, version tracking, and a shareable URL.",
+    "author": [
+      {
+        "name": "Michael Overton",
+        "url": "https://www.michaeloverton.net/"
+      }
+    ],
+    "date": "2026-02-19",
+    "categories": [
+      "GitHub",
+      "GitHub Pages",
+      "Hosting",
+      "Tutorial"
+    ],
+    "contents": "\nYou’ve built an interactive assignment. It works in your browser. Now you need to put it somewhere students and colleagues can access it. That’s what GitHub Pages does–it turns your repository into a live website, for free.\nQuick Vocabulary\nA repository (or “repo”) is a folder that GitHub tracks–it holds your files and remembers every change. A commit is a saved snapshot with a note about what changed. GitHub Pages takes the files in your repository and serves them as a website. You upload an HTML file, GitHub gives you a URL.\nStep by Step: Your First Repository\nLog into GitHub and click the green “New” button. Name it something descriptive–“revenue-forecasting-exercise” beats “assignment1.” Six months from now you’ll have multiple repos and want to tell them apart.\nSet the repository to Public. GitHub Pages is free on public repos, and the whole philosophy here is openness. Check the box to add a README file. Click “Create repository.”\nUploading Your Files\nClick “Add file” -> “Upload files.” Drag your HTML file (and any CSS, images, or data files) into the upload area. Write a commit message (“Initial upload of revenue forecasting exercise”) and click “Commit changes.”\nYour files are now on GitHub, version-tracked, and visible to anyone with the link.\nTurning on GitHub Pages\nGo to Settings -> Pages (in the left sidebar). Under “Source,” select Deploy from a branch. Choose main and / (root). Click Save.\nAfter a minute or two, you’ll see a URL like https://yourusername.github.io/revenue-forecasting-exercise/. Your interactive assignment is now live. Share that URL in your LMS, your syllabus, anywhere. No login required, no software to install.\nUpdating Your Assignment\nFind a bug or want to add a section? Edit files directly on GitHub (click the file, then the pencil icon) or upload a new version. Every change gets a commit message and GitHub keeps the entire history. You can always roll back if something breaks.\nWrite a Good README\nThe README is the first thing visitors see. Include what the assignment covers, what course it’s designed for, any key assumptions, and a link to the live GitHub Pages site. A good README is the difference between a repository that gets used and one that gets ignored.\nWhat’s Next\nYou now have an interactive assignment hosted on the web for free. But the real power of GitHub isn’t just hosting–it’s collaboration. In the final post, I’ll walk through forks, branches, and pull requests: the mechanics that let us build on each other’s teaching materials instead of reinventing the wheel every semester.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2026-02-26T21:36:57-08:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2026-02-12-using-ai-to-make-assignments-interactive/",
+    "title": "Using AI to Make Your Assignments Interactive",
+    "description": "Take a standard assignment and turn it into something students can interact with in a browser--no coding required. Here's the workflow.",
+    "author": [
+      {
+        "name": "Michael Overton",
+        "url": "https://www.michaeloverton.net/"
+      }
+    ],
+    "date": "2026-02-12",
+    "categories": [
+      "AI",
+      "Interactive Assignments",
+      "Claude",
+      "Workflow"
+    ],
+    "contents": "\nYou’ve got a GitHub account and an AI assistant set up. Now we do something with them.\nIn this post, I’ll walk through taking a standard assignment and turning it into something interactive using AI. By “interactive,” I mean an assignment that lives in a web browser where students can manipulate inputs and see outputs change–a revenue forecasting exercise with sliders, a debt affordability analysis with toggleable assumptions.\nYou don’t need to know how to code. That’s the whole point of the AI.\nThe Basic Workflow\nStart with your existing assignment–a Word doc, a PDF, whatever you’ve been handing out. Open Claude and describe what you want the interactive version to do. The AI generates the code. You paste it into a file, open it in a browser, and see if it works. You iterate until it does what you want. Then you put the finished file on GitHub (Post 3).\nIt’s iterative and conversational–like working with a research assistant, except this one writes JavaScript.\nA Concrete Example\nSay you teach a unit on revenue forecasting with a problem set where students manually calculate projected revenues under different growth assumptions. Here’s what you might tell Claude:\n\n“Create an interactive revenue forecasting exercise for my public budgeting course. Students should see a base revenue figure and adjust an annual growth rate using a slider (-5% to 10%). Display a table and line chart showing projected revenues over 5 years. Include reflection questions about what they observe at different growth rates.”\n\nClaude generates a single HTML file containing everything needed to run this in a browser. HTML defines the structure, CSS makes it look decent, and JavaScript handles the calculations and interactivity.\nClaude Code: The Power Tool Version\nAnthropic offers Claude Code, a command-line tool that can directly create and edit files on your computer. It’s especially useful for assignments with multiple components or when modifying existing work. You can say “open the revenue forecasting exercise and add a section comparing property tax vs. sales tax revenue sensitivity” and it edits the file directly.\nSetting up Claude Code requires some comfort with the command line, but Anthropic’s documentation walks you through it. The regular Claude chat interface works perfectly well for everything in this series if you’d rather skip it.\nTips From Trial and Error\nBe specific. “Make me a budgeting assignment” gets you something generic. “Make me an interactive exercise where students allocate a $10 million general fund budget across six departments, see the percentage breakdown update in a pie chart, and receive a warning when any department falls below a minimum service threshold” gets you something useful.\nIterate. The first version is almost never exactly right. Tell it what to fix: “The chart labels are overlapping,” “Add a reset button,” “The calculations are wrong for the debt service ratio–here’s the correct formula.”\nTest it yourself. Click every button. Try every edge case. Put in ridiculous numbers. I learned this one the hard way when a student discovered that a negative growth rate of -100% produced some very creative results in a projection table.\nWhat You End Up With\nA single HTML file that runs entirely in a browser. No special software, no logins. Students just open a URL and start working.\nAnd because it’s just a file, it’s easy to share. Another professor can take your exercise, fork it on GitHub, and adapt it–maybe adding elastic vs. inelastic revenue sources, or changing figures to match their state’s budget. Your work becomes a foundation others build on. In the next post, we’ll cover getting your assignment onto GitHub as a live website.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2026-02-26T21:36:56-08:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2026-02-05-getting-started-github-and-claude/",
+    "title": "Getting Started – Registering for GitHub and Claude",
+    "description": "Two accounts, twenty minutes, and the first step toward actually sharing our course materials instead of just talking about it at conferences.",
+    "author": [
+      {
+        "name": "Michael Overton",
+        "url": "https://www.michaeloverton.net/"
+      }
+    ],
+    "date": "2026-02-05",
+    "categories": [
+      "GitHub",
+      "Claude",
+      "Getting Started",
+      "Collaboration"
+    ],
+    "contents": "\nI’ve been thinking about this problem for a while now. We–public budgeting and finance faculty–build assignments in isolation. You’ve probably spent dozens of hours developing case studies, problem sets, and simulations that teach the same concepts your colleagues at other universities are also teaching. We talk about it at ABFM. We nod about it over coffee at conferences. But we don’t have a good system for actually sharing and improving each other’s work.\nThat’s what this blog series is about. I want to walk you through a workflow that lets us put course materials on GitHub and use AI tools to make those materials more interactive and engaging. This first post is just about creating two accounts. Twenty minutes, tops.\nWhy GitHub (and not Google Drive)?\nGoogle Drive is great for sharing files. But sharing files isn’t the problem we’re trying to solve. The problem is: how do you let another professor improve your assignment without destroying your original? How do you take the best parts of three different versions of the same revenue forecasting exercise and combine them? GitHub was designed for exactly this–tracking changes, proposing edits, merging improvements. We’ll dig into the mechanics in Post 4.\nStep 1: Create a GitHub Account\nHead to github.com and click “Sign up.” Some unsolicited advice: use a recognizable username. If your colleagues are going to find you and collaborate, “jsmith-publicfinance” beats “xXbudgetNerd99Xx.” (Though I respect the energy.) Your GitHub profile functions like a professional page, so treat the username accordingly.\nYou don’t need a paid account. The free tier gives you everything we’ll use: repositories, collaboration tools, and GitHub Pages for hosting assignments as live websites.\nStep 2: Sign Up for an AI Assistant\nThe second piece is an AI assistant. I use Claude (made by Anthropic), but you can substitute ChatGPT, Gemini, or whatever you’re comfortable with.\nHere’s the important thing: the AI is not designing your assignments. You are. You know what makes a good exercise for teaching debt capacity analysis or fund accounting. The AI handles the part you probably don’t want to learn in depth–writing the HTML, CSS, and JavaScript that turns your static assignment into something interactive. Think of it as a translator between your pedagogical ideas and the web technologies that bring them to life.\nGo to claude.ai and create an account. The free tier works for getting started, but a paid subscription gives you longer conversations and more capable models.\nWhat’s Next\nThat’s it for setup. Two accounts. In the next post, we’ll take one of your existing assignments and use AI to make it interactive–sliders, dynamic calculations, visualizations. If you’ve been meaning to modernize your course materials but didn’t know where to start, this is the on-ramp.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2026-02-26T21:32:54-08:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-08-16-life/",
     "title": "Laying a Foundation",
     "description": "My goals for this website, some more personal information, and a little of my experience with ADHD.",
@@ -8,7 +97,7 @@
     "categories": [],
     "contents": "\nCurrently Watching: Ted Lasso\nCurrently Reading: Credibility and Theory by Scott Ashworth, Christopher Berry, and Ethan Bueno De Mesquita\nCreating and keeping a professional website is a daunting prospect that I have wanted to tackle for awhile. My goal is to use this website as a vehicle to promote my research and professional brand–whatever the hell that means. But I do not want this website to be an expanded CV. Sure it will serve that function, but that’s not who I am or, frankly, how I want to spend my time.\nI want my website to be a reflection of me, not simply the polished professional academic version of me. My posts will be eclectic, sometimes irreverent and othertimes lighthearted. Somethings I present in this space will be carefully crafted and othertimes they will be error filled and hastily thrown together. A good bit of the expected erraticness of this website will be a result of my ADHD. Occasionally, the mental energy it takes to polish my writing is taxing and I want to reserve that energy for my teaching and research responsibilities. It is important for me to create a good website…but not that important.\nI also have been looking for a space to share how amazing my partner is and pictures of our dogs. My wife is brilliant, hilarious, driven and good at almost everything! Why would I want to avoid writing about her? My dogs are adorable! How can I deprive the world of their beauty? I would be a fool to hide my light under a bushel.\nHopefully, you enjoy yourself!\n\n\n\n",
     "preview": "posts/2021-08-16-life/Furry_Family.jpg",
-    "last_modified": "2022-12-01T13:17:19-08:00",
+    "last_modified": "2026-02-26T17:16:21-08:00",
     "input_file": {}
   },
   {
@@ -25,7 +114,7 @@
     "categories": [],
     "contents": "\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-12-01T13:17:19-08:00",
+    "last_modified": "2026-02-26T17:16:21-08:00",
     "input_file": {}
   }
 ]

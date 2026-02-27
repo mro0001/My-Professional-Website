@@ -1,0 +1,62 @@
+---
+title: "Using AI to Make Your Assignments Interactive"
+description: |
+  Take a standard assignment and turn it into something students can interact with in a browser--no coding required. Here's the workflow.
+author:
+  - name: Michael Overton
+    url: https://www.michaeloverton.net/
+    affiliation: University of Idaho
+categories:
+  - AI
+  - Interactive Assignments
+  - Claude
+  - Workflow
+date: 02-12-2026
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+You've got a GitHub account and an AI assistant set up. Now we do something with them.
+
+In this post, I'll walk through taking a standard assignment and turning it into something interactive using AI. By "interactive," I mean an assignment that lives in a web browser where students can manipulate inputs and see outputs change--a revenue forecasting exercise with sliders, a debt affordability analysis with toggleable assumptions.
+
+You don't need to know how to code. That's the whole point of the AI.
+
+## The Basic Workflow
+
+Start with your existing assignment--a Word doc, a PDF, whatever you've been handing out. Open Claude and describe what you want the interactive version to do. The AI generates the code. You paste it into a file, open it in a browser, and see if it works. You iterate until it does what you want. Then you put the finished file on GitHub (Post 3).
+
+It's iterative and conversational--like working with a research assistant, except this one writes JavaScript.
+
+## A Concrete Example
+
+Say you teach a unit on revenue forecasting with a problem set where students manually calculate projected revenues under different growth assumptions. Here's what you might tell Claude:
+
+> *"Create an interactive revenue forecasting exercise for my public budgeting course. Students should see a base revenue figure and adjust an annual growth rate using a slider (-5% to 10%). Display a table and line chart showing projected revenues over 5 years. Include reflection questions about what they observe at different growth rates."*
+
+Claude generates a single HTML file containing everything needed to run this in a browser. HTML defines the structure, CSS makes it look decent, and JavaScript handles the calculations and interactivity.
+
+## Claude Code: The Power Tool Version
+
+Anthropic offers Claude Code, a command-line tool that can directly create and edit files on your computer. It's especially useful for assignments with multiple components or when modifying existing work. You can say "open the revenue forecasting exercise and add a section comparing property tax vs. sales tax revenue sensitivity" and it edits the file directly.
+
+Setting up Claude Code requires some comfort with the command line, but Anthropic's documentation walks you through it. The regular Claude chat interface works perfectly well for everything in this series if you'd rather skip it.
+
+## Tips From Trial and Error
+
+**Be specific.** "Make me a budgeting assignment" gets you something generic. "Make me an interactive exercise where students allocate a $10 million general fund budget across six departments, see the percentage breakdown update in a pie chart, and receive a warning when any department falls below a minimum service threshold" gets you something useful.
+
+**Iterate.** The first version is almost never exactly right. Tell it what to fix: "The chart labels are overlapping," "Add a reset button," "The calculations are wrong for the debt service ratio--here's the correct formula."
+
+**Test it yourself.** Click every button. Try every edge case. Put in ridiculous numbers. I learned this one the hard way when a student discovered that a negative growth rate of -100% produced some very creative results in a projection table.
+
+## What You End Up With
+
+A single HTML file that runs entirely in a browser. No special software, no logins. Students just open a URL and start working.
+
+And because it's just a file, it's easy to share. Another professor can take your exercise, fork it on GitHub, and adapt it--maybe adding elastic vs. inelastic revenue sources, or changing figures to match their state's budget. Your work becomes a foundation others build on. In the next post, we'll cover getting your assignment onto GitHub as a live website.

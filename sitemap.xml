@@ -2,46 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://www.michaeloverton.net/about.html</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.michaeloverton.net/Assignments.html</loc>
+    <lastmod>2026-02-26T20:03:24-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/Bio.html</loc>
-    <lastmod>2022-12-01T14:25:28-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/Blog.html</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T20:59:52-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/Grants.html</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/Links.html</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.michaeloverton.net/OpenPBF.html</loc>
+    <lastmod>2026-02-26T21:37:15-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/Personal.html</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/Research.html</loc>
-    <lastmod>2022-12-01T14:26:30-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/Teaching.html</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.michaeloverton.net/posts/2026-02-26-forks-branches-pull-requests-collaboration/</loc>
+    <lastmod>2026-02-26T21:36:59-08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.michaeloverton.net/posts/2026-02-19-hosting-assignments-on-github/</loc>
+    <lastmod>2026-02-26T21:36:57-08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.michaeloverton.net/posts/2026-02-12-using-ai-to-make-assignments-interactive/</loc>
+    <lastmod>2026-02-26T21:36:56-08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.michaeloverton.net/posts/2026-02-05-getting-started-github-and-claude/</loc>
+    <lastmod>2026-02-26T21:32:54-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/posts/2021-08-16-life/</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
   </url>
   <url>
     <loc>https://www.michaeloverton.net/posts/welcome/</loc>
-    <lastmod>2022-12-01T13:17:19-08:00</lastmod>
+    <lastmod>2026-02-26T17:16:21-08:00</lastmod>
   </url>
 </urlset>

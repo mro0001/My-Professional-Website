@@ -1,7 +1,11 @@
 ---
 title: "Blog (Click the title to read!)"
 description: "What am I thinking"
-listing: 
+listing:
   posts:
+    - 2026-02-26-forks-branches-pull-requests-collaboration
+    - 2026-02-19-hosting-assignments-on-github
+    - 2026-02-12-using-ai-to-make-assignments-interactive
+    - 2026-02-05-getting-started-github-and-claude
     - 2021-08-16-life
 ---

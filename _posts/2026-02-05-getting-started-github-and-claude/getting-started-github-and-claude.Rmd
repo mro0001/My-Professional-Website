@@ -1,0 +1,48 @@
+---
+title: "Getting Started – Registering for GitHub and Claude"
+description: |
+  Two accounts, twenty minutes, and the first step toward actually sharing our course materials instead of just talking about it at conferences.
+author:
+  - name: Michael Overton
+    url: https://www.michaeloverton.net/
+    affiliation: University of Idaho
+categories:
+  - GitHub
+  - Claude
+  - Getting Started
+  - Collaboration
+date: 02-05-2026
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I've been thinking about this problem for a while now. We--public budgeting and finance faculty--build assignments in isolation. You've probably spent dozens of hours developing case studies, problem sets, and simulations that teach the same concepts your colleagues at other universities are also teaching. We talk about it at ABFM. We nod about it over coffee at conferences. But we don't have a good system for actually sharing and improving each other's work.
+
+That's what this blog series is about. I want to walk you through a workflow that lets us put course materials on GitHub and use AI tools to make those materials more interactive and engaging. This first post is just about creating two accounts. Twenty minutes, tops.
+
+## Why GitHub (and not Google Drive)?
+
+Google Drive is great for sharing files. But sharing files isn't the problem we're trying to solve. The problem is: how do you let another professor improve your assignment without destroying your original? How do you take the best parts of three different versions of the same revenue forecasting exercise and combine them? GitHub was designed for exactly this--tracking changes, proposing edits, merging improvements. We'll dig into the mechanics in Post 4.
+
+## Step 1: Create a GitHub Account
+
+Head to [github.com](https://github.com) and click "Sign up." Some unsolicited advice: use a recognizable username. If your colleagues are going to find you and collaborate, "jsmith-publicfinance" beats "xXbudgetNerd99Xx." (Though I respect the energy.) Your GitHub profile functions like a professional page, so treat the username accordingly.
+
+You don't need a paid account. The free tier gives you everything we'll use: repositories, collaboration tools, and GitHub Pages for hosting assignments as live websites.
+
+## Step 2: Sign Up for an AI Assistant
+
+The second piece is an AI assistant. I use Claude (made by Anthropic), but you can substitute ChatGPT, Gemini, or whatever you're comfortable with.
+
+Here's the important thing: the AI is not designing your assignments. You are. You know what makes a good exercise for teaching debt capacity analysis or fund accounting. The AI handles the part you probably don't want to learn in depth--writing the HTML, CSS, and JavaScript that turns your static assignment into something interactive. Think of it as a translator between your pedagogical ideas and the web technologies that bring them to life.
+
+Go to [claude.ai](https://claude.ai) and create an account. The free tier works for getting started, but a paid subscription gives you longer conversations and more capable models.
+
+## What's Next
+
+That's it for setup. Two accounts. In the next post, we'll take one of your existing assignments and use AI to make it interactive--sliders, dynamic calculations, visualizations. If you've been meaning to modernize your course materials but didn't know where to start, this is the on-ramp.

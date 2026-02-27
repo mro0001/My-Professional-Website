@@ -1,0 +1,67 @@
+---
+title: "Forks, Branches, and Pull Requests – How We Actually Collaborate"
+description: |
+  The mechanics that make GitHub fundamentally different from sharing files: structured collaboration on teaching materials without stepping on each other's toes.
+author:
+  - name: Michael Overton
+    url: https://www.michaeloverton.net/
+    affiliation: University of Idaho
+categories:
+  - GitHub
+  - Collaboration
+  - Forks
+  - Pull Requests
+  - Branches
+date: 02-26-2026
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This is where it all comes together. The previous posts were about getting set up, building something, and putting it online. This one is about structured collaboration--improving each other's work without stepping on each other's toes.
+
+Four concepts: forks, branches, commits, and pull requests. They sound like jargon, but the ideas are straightforward.
+
+## The Analogy
+
+You've written a case study on municipal bond analysis. A colleague sees it and wants to add a section on credit ratings. In the pre-GitHub world, they'd email you for the file, modify their copy, maybe email it back. Now you've got two versions. If a third colleague wants to add something, which version do they start from? It gets messy fast.
+
+GitHub solves this with a structured workflow.
+
+## Forks: Making Your Own Copy
+
+A **fork** is a complete copy of someone else's repository under your own account. Your colleague forks your case study, gets their own version they can modify freely without affecting your original. The fork maintains a link back to the original--that's what makes the next steps possible.
+
+## Branches: Working on Changes Safely
+
+A **branch** is a parallel version of the files within a repository--a draft workspace. Your colleague creates a branch called "add-credit-ratings" and works there. The **main** branch stays untouched.
+
+Branches let you work on multiple changes at once without interference. If the credit ratings addition works out but a calculation tweak introduces a bug, you keep one and discard the other.
+
+## Commits: Saving With Context
+
+A **commit** is a snapshot paired with a message about what changed. Good messages matter. "Updated file" tells you nothing. "Added credit rating analysis with Moody's and S&P rating scales" tells you exactly what happened. Commits create a detailed change log--who added the scenario analysis, who fixed the formula, who reformatted the instructions.
+
+## Pull Requests: Proposing Changes
+
+A **pull request** (PR) is how you propose that your changes be incorporated into the original repository. Your colleague submits a PR after adding credit ratings. This opens a conversation, not an automatic merge.
+
+You can see exactly what changed, line by line. You leave comments: "Could you also mention Fitch ratings?" They make edits. When everyone's satisfied, you **merge** and their changes become part of the official version. PRs are transparent, non-destructive, and documented.
+
+## Why This Matters for Us
+
+Public budgeting and finance pedagogy doesn't have good infrastructure for collaboration. We share syllabi on PASyllabi.com, swap ideas at conferences, occasionally email files. But there's no system for iterative improvement on shared teaching materials.
+
+Picture this: a repository of interactive exercises covering the core public budgeting curriculum--revenue forecasting, expenditure analysis, capital budgeting, debt management, fund accounting. Any instructor can fork the collection, adapt exercises for their context, and submit pull requests with improvements. An instructor in Texas adjusts for Texas's tax structure. Someone at a tribal college adds a module on tribal gaming revenue. A colleague with a knack for visualization improves the charts. Each contribution makes the whole collection better.
+
+Open-source software works this way every day. There's no reason we can't apply the same model to teaching materials.
+
+## Getting Started
+
+If you've followed this series, you're ready. You have a GitHub account, you can build interactive assignments with AI, you know how to host them. Now you know the collaboration mechanics. Find a colleague who teaches similar material. Share your repository. Fork theirs. Submit a pull request with an improvement--even something small like fixing a typo or adding a reflection question. The important thing is to start.
+
+I'm working on building out a shared repository for public budgeting and finance assignments and would love collaborators. If this series has been useful or if you're interested in contributing, reach out. This works better the more people are involved.

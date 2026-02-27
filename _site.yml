@@ -16,6 +16,8 @@ navbar:
       href: Teaching.html
     - text: "Assignments"
       href: Assignments.html
+    - text: "OpenPBF"
+      href: OpenPBF.html
     - text: "Grants"
       href: Grants.html
     - text: "Personal"
