@@ -14,6 +14,8 @@ navbar:
       href: Research.html
     - text: "Teaching"
       href: Teaching.html
+    - text: "Assignments"
+      href: Assignments.html
     - text: "Grants"
       href: Grants.html
     - text: "Personal"

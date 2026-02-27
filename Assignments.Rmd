@@ -1,0 +1,198 @@
+---
+title: "Assignments"
+---
+
+## Public Budgeting & Finance Exercises
+
+These interactive, browser-based tutorials are designed for MPA/Public Administration courses in budgeting and finance. Each exercise is a self-contained HTML application — no software installation required. Students work hands-on in Excel or Google Sheets, then use the tutorial to verify their work, get progressive hints, and explore discussion questions grounded in real-world case studies.
+
+All exercises share a common design: downloadable starter spreadsheets, three levels of progressive hints, quick-check and file-upload verification, answer keys, and guided discussion questions.
+
+-----
+
+### Exercise 1: Sales Tax Trend Analysis & Revenue Forecasting {#ex1}
+
+**Skills:** CPI-based inflation adjustment, year-over-year percentage change, 12-month moving averages, trendline graphing
+**Data:** 245 rows of monthly sales tax collections (Oct 2001 -- Feb 2022)
+**Course:** POLS 557 — Public Budgeting & Finance (based on the exercise by Prof. Bob Bland & Bernard Boadu, University of North Texas)
+
+**Tasks covered:**
+
+1. Inflation Adjustment — converting nominal dollars to real dollars using CPI ratio
+2. Year-over-Year Percentage Change — comparing same month across years
+3. 12-Month Moving Average — smoothing noisy data to reveal trends
+4. Data Visualization — line charts with trendlines
+5. Discussion & Forecasting — predicting future collections and justifying assumptions
+
+[**Launch Tutorial (Main Version)**](https://mro0001.github.io/excel-revenue-forecasting/)
+ | [GitHub Repository](https://github.com/mro0001/excel-revenue-forecasting)
+
+#### Variants (Branches)
+
+This tutorial has multiple versions tailored for different audiences and institutions:
+
+| Version | Description | Link |
+|---------|-------------|------|
+| Main | Base version of the tutorial | [View](https://mro0001.github.io/excel-revenue-forecasting/) |
+| ADA Compliance | Accessibility-enhanced version | [Branch](https://github.com/mro0001/excel-revenue-forecasting/tree/ada-compliance) |
+| Content Changes | Updated content and revisions | [Branch](https://github.com/mro0001/excel-revenue-forecasting/tree/content-changes) |
+| Miami Branding | Branded for Miami University | [Branch](https://github.com/mro0001/excel-revenue-forecasting/tree/miami-branding) |
+| Practitioner Tutorial | Adapted for working professionals | [Branch](https://github.com/mro0001/excel-revenue-forecasting/tree/practitioner-tutorial) |
+| U of Idaho Branding | Branded for University of Idaho | [Branch](https://github.com/mro0001/excel-revenue-forecasting/tree/uidaho-branding) |
+
+#### Related Case Studies
+
+**Primary: Lubbock, TX — Sales Tax Forecasting Gone Wrong, Then Right**
+
+Lubbock overestimated sales tax revenue by $5M in FY2025, leading to a hiring freeze and spending cuts. By FY2026, conservative budgeting brought collections 6% above target. Students who complete the moving average and percentage change exercises will recognize exactly how analysts could over- or under-estimate — and the real policy consequences of getting it wrong.
+
+- [Lubbock sales tax revenue running 6% above budget (KCBD, Feb 2026)](https://www.kcbd.com/2026/02/25/lubbock-sales-tax-revenue-running-6-above-budget-start-fiscal-year-2026/)
+- [City discusses plans to save close to $5M (Lubbock Lights)](https://lubbocklights.com/city-discusses-plans-to-save-close-to-5-million-in-current-budget-due-to-continuing-weaker-sales-tax/)
+- [November sales up 18% over prior year (KCBD, Jan 2026)](https://www.kcbd.com/2026/01/08/lubbock-sales-tax-revenue-november-sales-up-18-over-prior-year/)
+
+**Supplementary: Jefferson City, MO**
+
+- [City sales tax revenue below budget projections (News Tribune)](https://www.newstribune.com/news/2025/nov/25/city-sales-tax-revenue-below-budget-projections/)
+- [Sales tax revenue comes in below expectations (News Tribune)](https://www.newstribune.com/news/2025/sep/18/jefferson-city-sales-tax-revenue-come-in-below/)
+- [Officials explore use tax as sales tax falls short (KRCG)](https://krcgtv.com/news/local/jefferson-city-officials-explore-use-tax-as-sales-tax-revenue-fails-to-meet-projections)
+
+-----
+
+### Exercise 2: Waste Water Cost Schedule Analysis {#ex2}
+
+**Skills:** Fixed/variable cost identification, average and marginal cost calculation, cost curve graphing, pricing strategy analysis
+**Difficulty:** Beginner | **Time:** ~45 min
+**Course:** POLS 557 — Public Budgeting & Finance, University of North Texas
+
+**Tasks covered:**
+
+1. Complete the Cost Schedule — calculate FC, VC, AC, and MC for wastewater treatment
+2. Graph the Cost Curves — visualize AC and MC curves, identify minimum efficient scale
+3. MC Pricing & Total Cost Recovery — evaluate marginal cost pricing efficiency
+4. Cost Recovery Pricing — calculate per-gallon rates using a 15,000-connection base
+5. Discussion Questions — U-shaped costs, MC vs. AC pricing tradeoffs, two-part tariffs
+
+[**Launch Tutorial**](https://mro0001.github.io/exercise2-waste-water-costs/)
+ | [GitHub Repository](https://github.com/mro0001/exercise2-waste-water-costs)
+
+#### Related Case Studies
+
+**Primary: Billings, MT — Two-Part Wastewater Rate Structure**
+
+Billings (pop. ~120,000) uses a two-part rate structure — a fixed monthly base charge covering infrastructure overhead plus a volumetric per-gallon charge — that directly mirrors the pricing concepts students explore in this exercise. The city "regularly reviews rates to determine whether current rates are generating adequate revenue to cover the cost of providing service."
+
+- [Billings Water & Wastewater Service Rates](https://www.billingsmtpublicworks.gov/282/Water-Wastewater-Service-Rates)
+
+**Supplementary:**
+
+- [Columbia, SC — 5% rate hike to cover rising costs (WLTX)](https://www.wltx.com/article/money/consumer/columbia-water-sewer-bills-increase/101-eefd5f46-5e5d-49c3-95b7-ae9270432c97)
+- [Navigating Long-Term Water Utility Inflation (Governing Magazine)](https://www.governing.com/finance/navigating-long-term-water-utility-inflation)
+
+-----
+
+### Exercise 3: Development Department Budget Trend Analysis {#ex3}
+
+**Skills:** Column totals, year-over-year percentage changes, average growth rates, budget extrapolation, balance analysis
+**Difficulty:** Intermediate | **Time:** ~90 min
+**Course:** Based on the exercise by Prof. Bob Bland & Bernard Boadu, University of North Texas
+
+**Tasks covered:**
+
+1. Column Totals — compute totals across 6 fiscal years of actuals plus adopted/revised budgets
+2. Annual Percentage Changes — calculate year-over-year changes for 32 expenditure and 34 revenue line items
+3. Average % Change & Proposed FY8 Budget — extrapolate trends to build a proposed budget
+4. Budget Worksheet & Balance Analysis — determine if development fees cover operating expenditures
+5. Discussion Questions — revenue vs. expenditure trends, target-base budgeting, budget linkages
+
+[**Launch Tutorial**](https://mro0001.github.io/exercise3-budget-trend-analysis/)
+ | [GitHub Repository](https://github.com/mro0001/exercise3-budget-trend-analysis)
+
+#### Related Case Studies
+
+**Primary: Austin, TX — Development Services Department Fee Revenue vs. Costs**
+
+Austin's Development Services Department handles building permits, plan reviews, and inspections — the same functions in this exercise. During Austin's building boom (2020–2023), permit fee revenues surged; when construction cooled, revenues dropped while fixed staffing costs remained. The department has faced recurring debates about whether permit fees cover operating costs — precisely the policy question in this exercise.
+
+- [Austin weighs development staffing cuts as construction slows (Community Impact)](https://communityimpact.com/austin/south-central-austin/government/2024/07/30/austin-weighs-development-staffing-cuts-as-local-construction-slows/)
+- [DSD fee increases to reflect cost of service (RECA)](https://www.reca.org/developmentfeeincrease.html)
+- [FY2026–2030 Five-Year Financial Forecast (City of Austin PDF)](https://www.austintexas.gov/sites/default/files/files/Finance/Financial%20Transparency/FY-2026---FY-2030-Five-Year-Financial-Forecast-Report.pdf)
+- [Austin budget review — DSD construction slowdown (Bingham GP)](https://www.binghamgp.com/blog/2024/5/8/bg-blog-austin-budget-review-2024)
+- [DSD fee study — 56% cost recovery rate (City of Austin PDF)](https://www.austintexas.gov/sites/default/files/files/Development_Services/Matrix_Fee_Study_-2015.pdf)
+
+**Supplementary:**
+
+- [Evanston, IL — flat tax levies then 12.9% reckoning (City of Evanston)](https://www.cityofevanston.org/Home/Components/News/News/6704/249)
+- [By the numbers: five graphs explaining Evanston's 2024 budget (Daily Northwestern)](https://dailynorthwestern.com/2024/01/14/city/by-the-numbers-five-graphs-that-explain-evanstons-2024-budget/)
+- [City fiscal conditions 2024 (NLC)](https://www.nlc.org/resource/city-fiscal-conditions-2024/)
+- [City budgets face flat revenues and cost increases (Construction Dive / NLC)](https://www.constructiondive.com/news/city-budgets-flat-revenues-cost-increases-2025-national-league-of-cities/806398/)
+- [More cities seeing budget gaps — what not to do (Route Fifty / Buffalo, NY)](https://www.route-fifty.com/finance/2024/06/more-cities-are-seeing-budget-gaps-heres-what-not-do/397247/)
+
+-----
+
+### Exercise 4: Year-End Budget Monitoring & Projections {#ex4}
+
+**Skills:** Three projection formulas (average spending, seasonal, current month), best-estimate selection, variance analysis
+**Difficulty:** Intermediate | **Time:** ~75 min
+**Course:** POLS 557 — Public Budgeting & Finance, University of North Texas
+
+**Tasks covered:**
+
+1. Average Spending Formula — YTD / 7 x 12 (assumes uniform monthly spending)
+2. Seasonal & Current Month Formulas — using last year's pattern and most recent month data
+3. Select Best Estimate — choose the most appropriate formula per line item
+4. Variance & Budget Comparison — compute Adopted Budget minus EOY Estimate
+5. Discussion Questions — when each formula works best, surplus/deficit management
+
+[**Launch Tutorial**](https://mro0001.github.io/exercise4-budget-monitoring/)
+ | [GitHub Repository](https://github.com/mro0001/exercise4-budget-monitoring)
+
+#### Related Case Studies
+
+**Primary: Stockton, CA — When Budget Monitoring Fails**
+
+Stockton failed to track how actual spending commitments (generous pensions, a $47M arena, rising personnel costs) aligned with sustainable revenue. The gap grew over years until bankruptcy was the only option. The three projection formulas students apply in this exercise are the same type of basic monitoring that would have flagged Stockton's growing fiscal crisis.
+
+- [For Stockton, bankruptcy freezes everything (NPR, 2012)](https://www.npr.org/2012/07/20/157105483/for-stockton-calif-bankruptcy-freezes-everything)
+- [Stockton bankruptcy, 10 years later (ABC10)](https://www.abc10.com/article/news/local/stockton/stockton-bankruptcy-10-years-later/103-188125b5-ef3c-44e0-a523-c2ea77e74e81)
+- [An example to avoid: City of Stockton on the brink (NPR, 2012)](https://www.npr.org/2012/03/11/148384030/an-example-to-avoid-city-of-stockton-on-the-brink)
+
+**Supplementary:**
+
+- [How states can manage midyear budget gaps (Pew Charitable Trusts)](https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2022/03/how-states-can-manage-midyear-budget-gaps)
+
+-----
+
+### Exercise 5: Budgeting for Debt Service Using Constant Principal {#ex5}
+
+**Skills:** Debt service schedule construction, SUMPRODUCT-based interest, NIC/TIC calculation, I&S tax rate analysis
+**Data:** $20 million serial bond issue, level principal ($1M/year for 20 years)
+**Course:** Based on the exercise by Lewis F. McLain, Jr. — Local Government Budgeting
+
+**Tasks covered:**
+
+1. Compute Interest & Debt Service — build the full annual payment schedule
+2. Calculate Bond Metrics — bond-years, average life, Net Interest Cost (NIC), True Interest Cost (TIC via IRR)
+3. I&S Tax Rate & Debt Capacity — determine the tax rate needed to fund debt service
+4. Visualize the Debt Schedule — chart principal, interest, and total payments over time
+5. Discussion — budgeting for Year 1 vs. Year 20, impact of rate changes, debt capacity limits
+
+[**Launch Tutorial**](https://mro0001.github.io/exercise5-debt-service/)
+ | [GitHub Repository](https://github.com/mro0001/exercise5-debt-service)
+
+#### Related Case Studies
+
+**Primary: Harvey, IL — Bond Default and Restructuring**
+
+Harvey defaulted on $32M in GO bonds — the exact instrument students model in this exercise. The city's total debt grew to $164M, far beyond any reasonable I&S rate capacity. When students calculate Year 1 debt service of $1,418,600 for a well-managed $20M bond, they can contrast that with Harvey's inability to make any payments at all. Every metric students calculate (debt service, NIC, I&S rate) is a metric Harvey's analysts should have been tracking.
+
+- [Harvey declares itself financially distressed (Bond Buyer, Oct 2025)](https://www.bondbuyer.com/news/harvey-illinois-declares-itself-financially-distressed)
+- [Harvey seals deal on bond default litigation (Bond Buyer, Aug 2023)](https://www.bondbuyer.com/news/harvey-illinois-finally-seals-deal-on-bond-default-litigation)
+- [Harvey launches GO bond exchange offer (Bond Buyer, Jul 2023)](https://www.bondbuyer.com/news/harvey-illinois-launches-go-bond-exchange-offer-on-defaulted-debt)
+- [Harvey: financially distressed, shutdown imminent (Chicago Tribune)](https://www.chicagotribune.com/2025/10/17/harvey-financially-distressed-shutdown-imminent/)
+- [Harvey declaring financial distress under $164M debt (Illinois Policy)](https://www.illinoispolicy.org/harvey-declaring-financial-distress-under-164m-debt/)
+
+**Supplementary:**
+
+- [Alexandria, VA — interest rate sensitivity and municipal bond threats (City of Alexandria)](https://www.alexandriava.gov/budget-memos-fy26/fy-26-budget-qa-053-provide-an-update-on-potential-threats-to-the-municipal-bond)
+- [Beulah, MI — $10.5M sewer bond, $435K annual payments for 40 years (Record-Eagle)](https://www.record-eagle.com/news/local_news/digging-deep-beulah-oks-treatment-plant-sewer-main-projects/article_b4a44acd-a08d-439c-b89a-64e64d89eaca.html)
+- [Beulah Sewer Project — community information site](https://beulahsewerproject.org/)
