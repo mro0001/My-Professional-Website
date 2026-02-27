@@ -1,0 +1,395 @@
+---
+title: "OpenPBF"
+description: "Open Public Budgeting & Finance — AI-enhanced resources for teaching, collaboration, and accreditation"
+---
+
+<style>
+/* ── OpenPBF Page Styles ──────────────────────────────── */
+.opbf-vision {
+  background: linear-gradient(135deg, #0F2E3D 0%, #1a4a5e 100%);
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.opbf-vision h2 {
+  color: #ffffff;
+  margin-top: 0;
+  font-size: 1.5rem;
+  border: none;
+  text-align: center;
+}
+
+.opbf-vision p {
+  font-size: 0.97rem;
+  line-height: 1.7;
+  margin: 0.75rem 0 0 0;
+  opacity: 0.92;
+}
+
+.opbf-vision p.opbf-intro {
+  font-size: 1.0rem;
+  opacity: 1;
+  margin-bottom: 0.5rem;
+}
+
+.opbf-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.opbf-card h2 {
+  margin-top: 0;
+  color: #0F2E3D;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #0F2E3D;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.opbf-card h3 {
+  color: #0F2E3D;
+  font-size: 1.05rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ── Blog Series Grid ─────────────────────────────────── */
+.blog-series {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.blog-entry {
+  background: #f7fafa;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #0F2E3D;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.25rem;
+}
+
+.blog-entry .post-number {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.blog-entry h4 {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.98rem;
+  color: #0F2E3D;
+}
+
+.blog-entry h4 a {
+  color: #0F2E3D;
+  text-decoration: none;
+}
+
+.blog-entry h4 a:hover {
+  text-decoration: underline;
+}
+
+.blog-entry p {
+  font-size: 0.88rem;
+  color: #4b5563;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ── Resource Items ───────────────────────────────────── */
+.resource-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.resource-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.resource-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  background: #0F2E3D;
+  color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.resource-body h4 {
+  margin: 0 0 0.3rem 0;
+  font-size: 0.95rem;
+  color: #0F2E3D;
+}
+
+.resource-body h4 a {
+  color: #0F2E3D;
+  text-decoration: none;
+}
+
+.resource-body h4 a:hover {
+  text-decoration: underline;
+}
+
+.resource-body p {
+  font-size: 0.88rem;
+  color: #4b5563;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.resource-tag {
+  display: inline-block;
+  background: #e8f0f2;
+  color: #0F2E3D;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  margin-top: 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ── Gaps List ─────────────────────────────────────────── */
+.gap-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.gap-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.gap-number {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  background: #0F2E3D;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-top: 0.1rem;
+}
+
+.gap-body h4 {
+  margin: 0 0 0.3rem 0;
+  font-size: 0.95rem;
+  color: #0F2E3D;
+}
+
+.gap-body p {
+  font-size: 0.88rem;
+  color: #4b5563;
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ── Responsive ───────────────────────────────────────── */
+@media (max-width: 768px) {
+  .blog-series {
+    grid-template-columns: 1fr;
+  }
+
+  .opbf-vision {
+    padding: 1.5rem;
+  }
+
+  .opbf-card {
+    padding: 1.25rem;
+  }
+}
+</style>
+
+
+<div class="opbf-vision l-page">
+<h2>OpenPBF</h2>
+<p class="opbf-intro">Agentic AI offers a transformative opportunity to unlock the collective expertise already distributed across the public budgeting and finance teaching community.</p>
+<p>By dramatically reducing the labor of producing, standardizing, and maintaining shared materials, AI can turn static syllabi into structured curriculum maps, help practitioners convert real-world decisions into classroom-ready cases in days rather than months, build and refresh applied datasets from public sources automatically, and generate modular learning content that faculty curate rather than create from scratch. Critically, this is not about replacing expert judgment&mdash;no AI can replicate the nuanced understanding of municipal budget politics or the pedagogical skill needed to teach governmental accounting to reluctant quantitative learners. Rather, agentic AI serves as the tireless collaborator that lets a community of faculty and practitioners operate at a scale previously unimaginable, closing gaps in coverage, access, and currency that the field has identified for over a decade but lacked the capacity to address.</p>
+<p>OpenPBF is starting as a collection of resources to help connect public budgeting and finance scholars to agentic AI skills&mdash;practical tools, workflows, and frameworks for building, sharing, and improving teaching materials collaboratively.</p>
+</div>
+
+
+<div class="opbf-card l-page">
+<h2>Blog Series: AI + GitHub for Public Budgeting Faculty</h2>
+<p style="font-size:0.92rem; color:#4b5563; margin-top:0; margin-bottom:0.5rem;">A four-part walkthrough for building, sharing, and collaborating on interactive course materials&mdash;no coding background required.</p>
+
+<div class="blog-series">
+
+<div class="blog-entry">
+<span class="post-number">Post 1</span>
+<h4><a href="posts/2026-02-05-getting-started-github-and-claude/">Getting Started &ndash; Registering for GitHub and Claude</a></h4>
+<p>Two accounts, twenty minutes, and the first step toward actually sharing our course materials instead of just talking about it at conferences.</p>
+</div>
+
+<div class="blog-entry">
+<span class="post-number">Post 2</span>
+<h4><a href="posts/2026-02-12-using-ai-to-make-assignments-interactive/">Using AI to Make Your Assignments Interactive</a></h4>
+<p>Take a standard assignment and turn it into something students can interact with in a browser&mdash;no coding required.</p>
+</div>
+
+<div class="blog-entry">
+<span class="post-number">Post 3</span>
+<h4><a href="posts/2026-02-19-hosting-assignments-on-github/">Hosting Your Assignments on GitHub</a></h4>
+<p>Turn your interactive assignment into a live website using GitHub Pages&mdash;free hosting, version tracking, and a shareable URL.</p>
+</div>
+
+<div class="blog-entry">
+<span class="post-number">Post 4</span>
+<h4><a href="posts/2026-02-26-forks-branches-pull-requests-collaboration/">Forks, Branches, and Pull Requests &ndash; How We Actually Collaborate</a></h4>
+<p>The mechanics that make GitHub fundamentally different from sharing files: structured collaboration without stepping on each other&rsquo;s toes.</p>
+</div>
+
+</div>
+</div>
+
+
+<div class="opbf-card l-page">
+<h2>Key Gaps in Existing Resources</h2>
+<p style="font-size:0.92rem; color:#4b5563; margin-top:0; margin-bottom:1.25rem;">The public budgeting and finance teaching community has built valuable resources over the years, but significant structural gaps remain. OpenPBF is designed to address them.</p>
+
+<div class="gap-item">
+<div class="gap-number">1</div>
+<div class="gap-body">
+<h4>No shared, openly licensed teaching materials&mdash;only metadata about teaching</h4>
+<p>The ABFM syllabi database shares syllabi (course outlines), and McDonald &amp; Jordan&rsquo;s book shares pedagogical advice, but neither provides the actual teaching content itself: open-access case studies, datasets, simulations, assignment rubrics, slide decks, or problem sets that any instructor could adopt and adapt. The materials remain locked inside individual classrooms or behind publisher paywalls. This is the fundamental gap&mdash;what exists is a community of practice <em>about</em> teaching, not a shared commons <em>of</em> teaching materials.</p>
+</div>
+</div>
+
+<div class="gap-item">
+<div class="gap-number">2</div>
+<div class="gap-body">
+<h4>No living, version-controlled curriculum</h4>
+<p>The resources are static snapshots. The ABFM syllabi are submitted and sit; the McDonald &amp; Jordan book was published in 2021 and reflects one moment. There&rsquo;s no mechanism for continuous collaborative improvement&mdash;no way for an instructor at a smaller program to fork a case study, update it with 2025 fiscal data, and contribute it back. The Jinping Sun (2022) study in <em>JPAE</em> found that the curriculum has remained essentially unchanged since the 1980s, still overwhelmingly focused on budgeting at the expense of broader financial management. A static resource ecosystem reinforces curricular inertia.</p>
+</div>
+</div>
+
+<div class="gap-item">
+<div class="gap-number">3</div>
+<div class="gap-body">
+<h4>A persistent budgeting-heavy, financial-management-light imbalance</h4>
+<p>Sun&rsquo;s syllabi analysis confirmed what earlier studies (Moody &amp; Marlow 2009; Purtell &amp; Fossett 2010; Peddle &amp; Thurmaier 2011) have been flagging for over a decade: courses overemphasize budget process and theory at the expense of skills practitioners actually need&mdash;debt management, pension finance, financial reporting and analysis, risk management, capital planning, and cost-benefit analysis. Open collaborative resources could help address this by making it easier for faculty who lack deep expertise in these areas to teach them well.</p>
+</div>
+</div>
+
+<div class="gap-item">
+<div class="gap-number">4</div>
+<div class="gap-body">
+<h4>No shared applied/experiential learning infrastructure</h4>
+<p>The field talks constantly about the need for applied, practitioner-oriented pedagogy&mdash;simulations, real-budget exercises, Excel-based financial modeling&mdash;but there&rsquo;s no open repository of these materials. Each instructor builds their own budget simulation from scratch or relies on whatever their textbook publisher offers. There are no shared datasets (say, standardized versions of actual municipal CAFRs or budget documents) curated for classroom use.</p>
+</div>
+</div>
+
+<div class="gap-item">
+<div class="gap-number">5</div>
+<div class="gap-body">
+<h4>No mechanism for practitioner co-creation</h4>
+<p>The existing resources are almost entirely faculty-to-faculty. Practitioners&mdash;budget directors, finance officers, GFOA members&mdash;are largely absent from the content creation process, even though the curriculum-practice gap is a recurring theme in the literature. There&rsquo;s no structured way for a city budget analyst to contribute a case study based on a real decision they faced, or for a GFOA training module to be adapted for graduate classroom use.</p>
+</div>
+</div>
+
+<div class="gap-item">
+<div class="gap-number">6</div>
+<div class="gap-body">
+<h4>No standardized competency benchmarks tied to shared assessments</h4>
+<p>NASPAA sets broad competency domains but provides no curricular guidelines specific to budgeting and finance. Sun&rsquo;s study found significant variation in how programs interpret and assess NASPAA competencies. There&rsquo;s no shared rubric library or assessment framework that programs could voluntarily adopt to benchmark what students should actually be able to do at the end of a core budget/finance course.</p>
+</div>
+</div>
+
+<div class="gap-item">
+<div class="gap-number">7</div>
+<div class="gap-body">
+<h4>Missing coverage of technology, data analytics, and AI</h4>
+<p>The NASPAA section hosted one webinar on AI, which is a start, but there&rsquo;s no systematic effort to integrate data analytics, visualization tools, ERP systems, or AI-assisted fiscal analysis into shared teaching materials. Students are graduating into a profession increasingly shaped by these tools with minimal exposure.</p>
+</div>
+</div>
+
+<div class="gap-item">
+<div class="gap-number">8</div>
+<div class="gap-body">
+<h4>No equity and access orientation</h4>
+<p>The existing resources are gated behind professional association membership (ABFM), institutional subscriptions (NASPAA), or commercial publishers (Routledge). Adjuncts, instructors at under-resourced institutions, international faculty, and doctoral students building their first course have limited access&mdash;precisely the people who would benefit most from open, collaborative materials.</p>
+</div>
+</div>
+
+</div>
+
+
+<div class="opbf-card l-page">
+<h2>NASPAA Assignment Alignment Tool</h2>
+
+<div class="resource-item">
+<div class="resource-icon">N</div>
+<div class="resource-body">
+<h4><a href="files/NASPAA_Single_Assignment_Review_Prompt.md">NASPAA Single Assignment Review Prompt</a></h4>
+<p>A structured AI prompt that evaluates any course assignment against NASPAA&rsquo;s five universal competency domains (Standard 5.1). Paste it into Claude or ChatGPT along with your assignment materials, and it produces a competency alignment matrix, detailed analysis with evidence, suggested rubric additions, and metadata tags&mdash;formatted for direct use in accreditation documentation or curriculum mapping.</p>
+<span class="resource-tag">Prompt Template</span> <span class="resource-tag">Accreditation</span> <span class="resource-tag">NASPAA Standard 5.1</span>
+</div>
+</div>
+
+</div>
+
+
+<div class="opbf-card l-page">
+<h2>TaMPER Framework: AI in Research Administration</h2>
+<p style="font-size:0.92rem; color:#4b5563; margin-top:0; margin-bottom:1rem;">The TaMPER framework (Task, Model, Prompt, Evaluation, Reporting) provides a structured model for secure and reliable AI use. Developed by the AI for Research Administration initiative at the University of Idaho.</p>
+
+<div class="resource-item">
+<div class="resource-icon">T</div>
+<div class="resource-body">
+<h4><a href="https://ai4ra.uidaho.edu/wp-content/uploads/2025/07/A-Practical-Guide-to-Using-AI-in-Research-Administration-GUIDE-ONLY.pdf">A Practical Guide to Using AI in Research Administration: The TaMPER Framework</a></h4>
+<p>A walkthrough of the TaMPER model&rsquo;s five steps, designed to ensure secure and reliable AI use for research administration organizations. Recommended to pair with the accompanying worksheet below.</p>
+<span class="resource-tag">PDF Guide</span>
+</div>
+</div>
+
+<div class="resource-item">
+<div class="resource-icon">W</div>
+<div class="resource-body">
+<h4><a href="https://ai4ra.uidaho.edu/wp-content/uploads/2025/07/TaMPER-Framework-Worksheet-V2-7.21.25.pdf">TaMPER Framework: AI Workflow Design Worksheet</a></h4>
+<p>A fillable worksheet for implementing the TaMPER model step by step on your own administrative tasks. Use alongside the guide above.</p>
+<span class="resource-tag">Fillable Worksheet</span>
+</div>
+</div>
+
+<div class="resource-item">
+<div class="resource-icon">B</div>
+<div class="resource-body">
+<h4><a href="https://ai4ra.uidaho.edu/introducing-the-tamper-framework-a-practical-guide-to-using-ai-in-research-administration/">Introducing the TaMPER Framework (Blog Post)</a></h4>
+<p>An overview blog post introducing the TaMPER framework, its rationale, and how research administrators can start applying it to their workflows.</p>
+<span class="resource-tag">Blog Post</span> <span class="resource-tag">AI4RA</span>
+</div>
+</div>
+
+</div>
