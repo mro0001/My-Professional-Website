@@ -14,7 +14,6 @@ All exercises share a common design: downloadable starter spreadsheets, three le
 
 **Skills:** CPI-based inflation adjustment, year-over-year percentage change, 12-month moving averages, trendline graphing
 **Data:** 245 rows of monthly sales tax collections (Oct 2001 -- Feb 2022)
-**Course:** POLS 557 — Public Budgeting & Finance (based on the exercise by Prof. Bob Bland & Bernard Boadu, University of North Texas)
 
 **Tasks covered:**
 
@@ -61,8 +60,6 @@ Lubbock overestimated sales tax revenue by $5M in FY2025, leading to a hiring fr
 ### Exercise 2: Waste Water Cost Schedule Analysis {#ex2}
 
 **Skills:** Fixed/variable cost identification, average and marginal cost calculation, cost curve graphing, pricing strategy analysis
-**Difficulty:** Beginner | **Time:** ~45 min
-**Course:** POLS 557 — Public Budgeting & Finance, University of North Texas
 
 **Tasks covered:**
 
@@ -93,8 +90,6 @@ Billings (pop. ~120,000) uses a two-part rate structure — a fixed monthly base
 ### Exercise 3: Development Department Budget Trend Analysis {#ex3}
 
 **Skills:** Column totals, year-over-year percentage changes, average growth rates, budget extrapolation, balance analysis
-**Difficulty:** Intermediate | **Time:** ~90 min
-**Course:** Based on the exercise by Prof. Bob Bland & Bernard Boadu, University of North Texas
 
 **Tasks covered:**
 
@@ -132,8 +127,6 @@ Austin's Development Services Department handles building permits, plan reviews,
 ### Exercise 4: Year-End Budget Monitoring & Projections {#ex4}
 
 **Skills:** Three projection formulas (average spending, seasonal, current month), best-estimate selection, variance analysis
-**Difficulty:** Intermediate | **Time:** ~75 min
-**Course:** POLS 557 — Public Budgeting & Finance, University of North Texas
 
 **Tasks covered:**
 
@@ -141,7 +134,6 @@ Austin's Development Services Department handles building permits, plan reviews,
 2. Seasonal & Current Month Formulas — using last year's pattern and most recent month data
 3. Select Best Estimate — choose the most appropriate formula per line item
 4. Variance & Budget Comparison — compute Adopted Budget minus EOY Estimate
-5. Discussion Questions — when each formula works best, surplus/deficit management
 
 [**Launch Tutorial**](https://mro0001.github.io/exercise4-budget-monitoring/)
  | [GitHub Repository](https://github.com/mro0001/exercise4-budget-monitoring)
@@ -165,8 +157,6 @@ Stockton failed to track how actual spending commitments (generous pensions, a $
 ### Exercise 5: Budgeting for Debt Service Using Constant Principal {#ex5}
 
 **Skills:** Debt service schedule construction, SUMPRODUCT-based interest, NIC/TIC calculation, I&S tax rate analysis
-**Data:** $20 million serial bond issue, level principal ($1M/year for 20 years)
-**Course:** Based on the exercise by Lewis F. McLain, Jr. — Local Government Budgeting
 
 **Tasks covered:**
 
@@ -174,7 +164,6 @@ Stockton failed to track how actual spending commitments (generous pensions, a $
 2. Calculate Bond Metrics — bond-years, average life, Net Interest Cost (NIC), True Interest Cost (TIC via IRR)
 3. I&S Tax Rate & Debt Capacity — determine the tax rate needed to fund debt service
 4. Visualize the Debt Schedule — chart principal, interest, and total payments over time
-5. Discussion — budgeting for Year 1 vs. Year 20, impact of rate changes, debt capacity limits
 
 [**Launch Tutorial**](https://mro0001.github.io/exercise5-debt-service/)
  | [GitHub Repository](https://github.com/mro0001/exercise5-debt-service)
