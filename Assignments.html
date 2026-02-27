@@ -2156,203 +2156,682 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<style>
+/* ── Exercise Card Layout ─────────────────────────────── */
+.exercise-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.exercise-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #0F2E3D;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #0F2E3D;
+  padding-bottom: 0.5rem;
+}
+
+.exercise-row {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Left column: assignment details */
+.exercise-details {
+  flex: 0 0 58%;
+  min-width: 0;
+}
+
+/* Right column: case studies */
+.exercise-cases {
+  flex: 0 0 calc(42% - 2rem);
+  min-width: 0;
+  background: #f7fafa;
+  border-left: 3px solid #0F2E3D;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.25rem;
+}
+
+/* ── Section Labels ───────────────────────────────────── */
+.section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #6b7280;
+  margin-bottom: 0.35rem;
+  display: block;
+}
+
+.case-heading {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  margin-top: 0.75rem;
+  color: #0F2E3D;
+}
+
+.case-heading:first-child {
+  margin-top: 0;
+}
+
+.case-heading.supplementary {
+  color: #4b5563;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 0.75rem;
+  margin-top: 1rem;
+}
+
+.case-summary {
+  font-size: 0.88rem;
+  color: #374151;
+  line-height: 1.55;
+  margin-bottom: 0.5rem;
+}
+
+/* ── Skills & Tasks ───────────────────────────────────── */
+.skills-line {
+  font-size: 0.92rem;
+  margin-bottom: 0.75rem;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.skills-line strong {
+  color: #0F2E3D;
+}
+
+.task-list {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 1rem 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.task-list li {
+  margin-bottom: 0.2rem;
+}
+
+/* ── Buttons & Links ──────────────────────────────────── */
+.launch-btn {
+  display: inline-block;
+  background: #0F2E3D;
+  color: #ffffff !important;
+  padding: 0.5rem 1.25rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.92rem;
+  transition: background 0.2s;
+  margin-right: 0.5rem;
+}
+
+.launch-btn:hover {
+  background: #1a4a5e;
+  text-decoration: none;
+  color: #ffffff !important;
+}
+
+.repo-link {
+  font-size: 0.85rem;
+  color: #6b7280;
+  text-decoration: none;
+}
+
+.repo-link:hover {
+  color: #0F2E3D;
+  text-decoration: underline;
+}
+
+.btn-row {
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* ── Variant Table ────────────────────────────────────── */
+.variant-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.variant-table th {
+  text-align: left;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 2px solid #d1d5db;
+  color: #374151;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.variant-table td {
+  padding: 0.35rem 0.6rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.variant-table a {
+  color: #0F2E3D;
+  text-decoration: none;
+}
+
+.variant-table a:hover {
+  text-decoration: underline;
+}
+
+/* ── Case Study Links ─────────────────────────────────── */
+.case-links {
+  list-style: none;
+  padding: 0;
+  margin: 0.35rem 0 0 0;
+  font-size: 0.85rem;
+}
+
+.case-links li {
+  margin-bottom: 0.35rem;
+  line-height: 1.45;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.case-links li::before {
+  content: "\2022";
+  color: #9ca3af;
+  position: absolute;
+  left: 0;
+}
+
+.case-links a {
+  color: #1a4a5e;
+  text-decoration: none;
+}
+
+.case-links a:hover {
+  text-decoration: underline;
+  color: #0F2E3D;
+}
+
+/* ── Responsive: stack on small screens ───────────────── */
+@media (max-width: 768px) {
+  .exercise-row {
+    flex-direction: column;
+  }
+
+  .exercise-details,
+  .exercise-cases {
+    flex: 1 1 100%;
+  }
+
+  .exercise-cases {
+    border-left: none;
+    border-top: 3px solid #0F2E3D;
+    border-radius: 0 0 6px 6px;
+    margin-top: 1rem;
+  }
+
+  .exercise-card {
+    padding: 1.25rem;
+  }
+}
+</style>
 <h2 id="public-budgeting-finance-exercises">Public Budgeting &amp; Finance Exercises</h2>
 <p>These interactive, browser-based tutorials are designed for MPA/Public Administration courses in budgeting and finance. Each exercise is a self-contained HTML application — no software installation required. Students work hands-on in Excel or Google Sheets, then use the tutorial to verify their work, get progressive hints, and explore discussion questions grounded in real-world case studies.</p>
 <p>All exercises share a common design: downloadable starter spreadsheets, three levels of progressive hints, quick-check and file-upload verification, answer keys, and guided discussion questions.</p>
-<hr />
-<h3 id="ex1">Exercise 1: Sales Tax Trend Analysis &amp; Revenue Forecasting</h3>
-<p><strong>Skills:</strong> CPI-based inflation adjustment, year-over-year percentage change, 12-month moving averages, trendline graphing
-<strong>Data:</strong> 245 rows of monthly sales tax collections (Oct 2001 – Feb 2022)
-<strong>Course:</strong> POLS 557 — Public Budgeting &amp; Finance (based on the exercise by Prof. Bob Bland &amp; Bernard Boadu, University of North Texas)</p>
-<p><strong>Tasks covered:</strong></p>
-<ol type="1">
-<li>Inflation Adjustment — converting nominal dollars to real dollars using CPI ratio</li>
-<li>Year-over-Year Percentage Change — comparing same month across years</li>
-<li>12-Month Moving Average — smoothing noisy data to reveal trends</li>
-<li>Data Visualization — line charts with trendlines</li>
-<li>Discussion &amp; Forecasting — predicting future collections and justifying assumptions</li>
+<div id="ex1" class="exercise-card l-page">
+<h3>
+Exercise 1: Sales Tax Trend Analysis &amp; Revenue Forecasting
+</h3>
+<div class="exercise-row">
+<div class="exercise-details">
+<span class="section-label">Skills</span>
+<p class="skills-line">
+CPI-based inflation adjustment, year-over-year percentage change, 12-month moving averages, trendline graphing
+</p>
+<span class="section-label">Data</span>
+<p class="skills-line">
+245 rows of monthly sales tax collections (Oct 2001 – Feb 2022)
+</p>
+<span class="section-label">Tasks Covered</span>
+<ol class="task-list">
+<li>
+Inflation Adjustment — converting nominal dollars to real dollars using CPI ratio
+</li>
+<li>
+Year-over-Year Percentage Change — comparing same month across years
+</li>
+<li>
+12-Month Moving Average — smoothing noisy data to reveal trends
+</li>
+<li>
+Data Visualization — line charts with trendlines
+</li>
+<li>
+Discussion &amp; Forecasting — predicting future collections and justifying assumptions
+</li>
 </ol>
-<p><a href="https://mro0001.github.io/excel-revenue-forecasting/"><strong>Launch Tutorial (Main Version)</strong></a>
-| <a href="https://github.com/mro0001/excel-revenue-forecasting">GitHub Repository</a></p>
-<h4 id="variants-branches">Variants (Branches)</h4>
-<p>This tutorial has multiple versions tailored for different audiences and institutions:</p>
-<table>
-<colgroup>
-<col style="width: 32%" />
-<col style="width: 46%" />
-<col style="width: 21%" />
-</colgroup>
+<div class="btn-row">
+<p><a class="launch-btn" href="https://mro0001.github.io/excel-revenue-forecasting/">Launch Tutorial (Main Version)</a>
+<a class="repo-link" href="https://github.com/mro0001/excel-revenue-forecasting">GitHub Repository</a></p>
+</div>
+<span class="section-label">Variants (Branches)</span>
+<p style="font-size:0.88rem; color:#6b7280; margin:0.25rem 0 0.5rem 0;">
+This tutorial has multiple versions tailored for different audiences and institutions:
+</p>
+<table class="variant-table">
 <thead>
-<tr class="header">
-<th>Version</th>
-<th>Description</th>
-<th>Link</th>
+<tr>
+<th>
+Version
+</th>
+<th>
+Description
+</th>
+<th>
+Link
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>Main</td>
-<td>Base version of the tutorial</td>
-<td><a href="https://mro0001.github.io/excel-revenue-forecasting/">View</a></td>
+<tr>
+<td>
+Main
+</td>
+<td>
+Base version of the tutorial
+</td>
+<td>
+<a href="https://mro0001.github.io/excel-revenue-forecasting/">View</a>
+</td>
 </tr>
-<tr class="even">
-<td>ADA Compliance</td>
-<td>Accessibility-enhanced version</td>
-<td><a href="https://github.com/mro0001/excel-revenue-forecasting/tree/ada-compliance">Branch</a></td>
+<tr>
+<td>
+ADA Compliance
+</td>
+<td>
+Accessibility-enhanced version
+</td>
+<td>
+<a href="https://github.com/mro0001/excel-revenue-forecasting/tree/ada-compliance">Branch</a>
+</td>
 </tr>
-<tr class="odd">
-<td>Content Changes</td>
-<td>Updated content and revisions</td>
-<td><a href="https://github.com/mro0001/excel-revenue-forecasting/tree/content-changes">Branch</a></td>
+<tr>
+<td>
+Content Changes
+</td>
+<td>
+Updated content and revisions
+</td>
+<td>
+<a href="https://github.com/mro0001/excel-revenue-forecasting/tree/content-changes">Branch</a>
+</td>
 </tr>
-<tr class="even">
-<td>Miami Branding</td>
-<td>Branded for Miami University</td>
-<td><a href="https://github.com/mro0001/excel-revenue-forecasting/tree/miami-branding">Branch</a></td>
+<tr>
+<td>
+Miami Branding
+</td>
+<td>
+Branded for Miami University
+</td>
+<td>
+<a href="https://github.com/mro0001/excel-revenue-forecasting/tree/miami-branding">Branch</a>
+</td>
 </tr>
-<tr class="odd">
-<td>Practitioner Tutorial</td>
-<td>Adapted for working professionals</td>
-<td><a href="https://github.com/mro0001/excel-revenue-forecasting/tree/practitioner-tutorial">Branch</a></td>
+<tr>
+<td>
+Practitioner Tutorial
+</td>
+<td>
+Adapted for working professionals
+</td>
+<td>
+<a href="https://github.com/mro0001/excel-revenue-forecasting/tree/practitioner-tutorial">Branch</a>
+</td>
 </tr>
-<tr class="even">
-<td>U of Idaho Branding</td>
-<td>Branded for University of Idaho</td>
-<td><a href="https://github.com/mro0001/excel-revenue-forecasting/tree/uidaho-branding">Branch</a></td>
+<tr>
+<td>
+U of Idaho Branding
+</td>
+<td>
+Branded for University of Idaho
+</td>
+<td>
+<a href="https://github.com/mro0001/excel-revenue-forecasting/tree/uidaho-branding">Branch</a>
+</td>
 </tr>
 </tbody>
 </table>
-<h4 id="related-case-studies">Related Case Studies</h4>
-<p><strong>Primary: Lubbock, TX — Sales Tax Forecasting Gone Wrong, Then Right</strong></p>
-<p>Lubbock overestimated sales tax revenue by $5M in FY2025, leading to a hiring freeze and spending cuts. By FY2026, conservative budgeting brought collections 6% above target. Students who complete the moving average and percentage change exercises will recognize exactly how analysts could over- or under-estimate — and the real policy consequences of getting it wrong.</p>
-<ul>
-<li><a href="https://www.kcbd.com/2026/02/25/lubbock-sales-tax-revenue-running-6-above-budget-start-fiscal-year-2026/">Lubbock sales tax revenue running 6% above budget (KCBD, Feb 2026)</a></li>
-<li><a href="https://lubbocklights.com/city-discusses-plans-to-save-close-to-5-million-in-current-budget-due-to-continuing-weaker-sales-tax/">City discusses plans to save close to $5M (Lubbock Lights)</a></li>
-<li><a href="https://www.kcbd.com/2026/01/08/lubbock-sales-tax-revenue-november-sales-up-18-over-prior-year/">November sales up 18% over prior year (KCBD, Jan 2026)</a></li>
+</div>
+<div class="exercise-cases">
+<div class="case-heading">
+Primary Case Study
+</div>
+<p class="case-summary">
+<strong>Lubbock, TX — Sales Tax Forecasting Gone Wrong, Then Right</strong>
+</p>
+<p class="case-summary">
+Lubbock overestimated sales tax revenue by $5M in FY2025, leading to a hiring freeze and spending cuts. By FY2026, conservative budgeting brought collections 6% above target. Students who complete the moving average and percentage change exercises will recognize exactly how analysts could over- or under-estimate — and the real policy consequences of getting it wrong.
+</p>
+<ul class="case-links">
+<li>
+<a href="https://www.kcbd.com/2026/02/25/lubbock-sales-tax-revenue-running-6-above-budget-start-fiscal-year-2026/">Lubbock sales tax revenue running 6% above budget (KCBD, Feb 2026)</a>
+</li>
+<li>
+<a href="https://lubbocklights.com/city-discusses-plans-to-save-close-to-5-million-in-current-budget-due-to-continuing-weaker-sales-tax/">City discusses plans to save close to $5M (Lubbock Lights)</a>
+</li>
+<li>
+<a href="https://www.kcbd.com/2026/01/08/lubbock-sales-tax-revenue-november-sales-up-18-over-prior-year/">November sales up 18% over prior year (KCBD, Jan 2026)</a>
+</li>
 </ul>
-<p><strong>Supplementary: Jefferson City, MO</strong></p>
-<ul>
-<li><a href="https://www.newstribune.com/news/2025/nov/25/city-sales-tax-revenue-below-budget-projections/">City sales tax revenue below budget projections (News Tribune)</a></li>
-<li><a href="https://www.newstribune.com/news/2025/sep/18/jefferson-city-sales-tax-revenue-come-in-below/">Sales tax revenue comes in below expectations (News Tribune)</a></li>
-<li><a href="https://krcgtv.com/news/local/jefferson-city-officials-explore-use-tax-as-sales-tax-revenue-fails-to-meet-projections">Officials explore use tax as sales tax falls short (KRCG)</a></li>
+<div class="case-heading supplementary">
+Supplementary
+</div>
+<p class="case-summary">
+<strong>Jefferson City, MO</strong>
+</p>
+<ul class="case-links">
+<li>
+<a href="https://www.newstribune.com/news/2025/nov/25/city-sales-tax-revenue-below-budget-projections/">City sales tax revenue below budget projections (News Tribune)</a>
+</li>
+<li>
+<a href="https://www.newstribune.com/news/2025/sep/18/jefferson-city-sales-tax-revenue-come-in-below/">Sales tax revenue comes in below expectations (News Tribune)</a>
+</li>
+<li>
+<a href="https://krcgtv.com/news/local/jefferson-city-officials-explore-use-tax-as-sales-tax-revenue-fails-to-meet-projections">Officials explore use tax as sales tax falls short (KRCG)</a>
+</li>
 </ul>
-<hr />
-<h3 id="ex2">Exercise 2: Waste Water Cost Schedule Analysis</h3>
-<p><strong>Skills:</strong> Fixed/variable cost identification, average and marginal cost calculation, cost curve graphing, pricing strategy analysis
-<strong>Difficulty:</strong> Beginner | <strong>Time:</strong> ~45 min
-<strong>Course:</strong> POLS 557 — Public Budgeting &amp; Finance, University of North Texas</p>
-<p><strong>Tasks covered:</strong></p>
-<ol type="1">
-<li>Complete the Cost Schedule — calculate FC, VC, AC, and MC for wastewater treatment</li>
-<li>Graph the Cost Curves — visualize AC and MC curves, identify minimum efficient scale</li>
-<li>MC Pricing &amp; Total Cost Recovery — evaluate marginal cost pricing efficiency</li>
-<li>Cost Recovery Pricing — calculate per-gallon rates using a 15,000-connection base</li>
-<li>Discussion Questions — U-shaped costs, MC vs. AC pricing tradeoffs, two-part tariffs</li>
+</div>
+</div>
+</div>
+<div id="ex2" class="exercise-card l-page">
+<h3>
+Exercise 2: Waste Water Cost Schedule Analysis
+</h3>
+<div class="exercise-row">
+<div class="exercise-details">
+<span class="section-label">Skills</span>
+<p class="skills-line">
+Fixed/variable cost identification, average and marginal cost calculation, cost curve graphing, pricing strategy analysis
+</p>
+<span class="section-label">Tasks Covered</span>
+<ol class="task-list">
+<li>
+Complete the Cost Schedule — calculate FC, VC, AC, and MC for wastewater treatment
+</li>
+<li>
+Graph the Cost Curves — visualize AC and MC curves, identify minimum efficient scale
+</li>
+<li>
+MC Pricing &amp; Total Cost Recovery — evaluate marginal cost pricing efficiency
+</li>
+<li>
+Cost Recovery Pricing — calculate per-gallon rates using a 15,000-connection base
+</li>
+<li>
+Discussion Questions — U-shaped costs, MC vs. AC pricing tradeoffs, two-part tariffs
+</li>
 </ol>
-<p><a href="https://mro0001.github.io/exercise2-waste-water-costs/"><strong>Launch Tutorial</strong></a>
-| <a href="https://github.com/mro0001/exercise2-waste-water-costs">GitHub Repository</a></p>
-<h4 id="related-case-studies-1">Related Case Studies</h4>
-<p><strong>Primary: Billings, MT — Two-Part Wastewater Rate Structure</strong></p>
-<p>Billings (pop. ~120,000) uses a two-part rate structure — a fixed monthly base charge covering infrastructure overhead plus a volumetric per-gallon charge — that directly mirrors the pricing concepts students explore in this exercise. The city “regularly reviews rates to determine whether current rates are generating adequate revenue to cover the cost of providing service.”</p>
-<ul>
-<li><a href="https://www.billingsmtpublicworks.gov/282/Water-Wastewater-Service-Rates">Billings Water &amp; Wastewater Service Rates</a></li>
+<div class="btn-row">
+<p><a class="launch-btn" href="https://mro0001.github.io/exercise2-waste-water-costs/">Launch Tutorial</a>
+<a class="repo-link" href="https://github.com/mro0001/exercise2-waste-water-costs">GitHub Repository</a></p>
+</div>
+</div>
+<div class="exercise-cases">
+<div class="case-heading">
+Primary Case Study
+</div>
+<p class="case-summary">
+<strong>Billings, MT — Two-Part Wastewater Rate Structure</strong>
+</p>
+<p class="case-summary">
+Billings (pop. ~120,000) uses a two-part rate structure — a fixed monthly base charge covering infrastructure overhead plus a volumetric per-gallon charge — that directly mirrors the pricing concepts students explore in this exercise. The city “regularly reviews rates to determine whether current rates are generating adequate revenue to cover the cost of providing service.”
+</p>
+<ul class="case-links">
+<li>
+<a href="https://www.billingsmtpublicworks.gov/282/Water-Wastewater-Service-Rates">Billings Water &amp; Wastewater Service Rates</a>
+</li>
 </ul>
-<p><strong>Supplementary:</strong></p>
-<ul>
-<li><a href="https://www.wltx.com/article/money/consumer/columbia-water-sewer-bills-increase/101-eefd5f46-5e5d-49c3-95b7-ae9270432c97">Columbia, SC — 5% rate hike to cover rising costs (WLTX)</a></li>
-<li><a href="https://www.governing.com/finance/navigating-long-term-water-utility-inflation">Navigating Long-Term Water Utility Inflation (Governing Magazine)</a></li>
+<div class="case-heading supplementary">
+Supplementary
+</div>
+<ul class="case-links">
+<li>
+<a href="https://www.wltx.com/article/money/consumer/columbia-water-sewer-bills-increase/101-eefd5f46-5e5d-49c3-95b7-ae9270432c97">Columbia, SC — 5% rate hike to cover rising costs (WLTX)</a>
+</li>
+<li>
+<a href="https://www.governing.com/finance/navigating-long-term-water-utility-inflation">Navigating Long-Term Water Utility Inflation (Governing Magazine)</a>
+</li>
 </ul>
-<hr />
-<h3 id="ex3">Exercise 3: Development Department Budget Trend Analysis</h3>
-<p><strong>Skills:</strong> Column totals, year-over-year percentage changes, average growth rates, budget extrapolation, balance analysis
-<strong>Difficulty:</strong> Intermediate | <strong>Time:</strong> ~90 min
-<strong>Course:</strong> Based on the exercise by Prof. Bob Bland &amp; Bernard Boadu, University of North Texas</p>
-<p><strong>Tasks covered:</strong></p>
-<ol type="1">
-<li>Column Totals — compute totals across 6 fiscal years of actuals plus adopted/revised budgets</li>
-<li>Annual Percentage Changes — calculate year-over-year changes for 32 expenditure and 34 revenue line items</li>
-<li>Average % Change &amp; Proposed FY8 Budget — extrapolate trends to build a proposed budget</li>
-<li>Budget Worksheet &amp; Balance Analysis — determine if development fees cover operating expenditures</li>
-<li>Discussion Questions — revenue vs. expenditure trends, target-base budgeting, budget linkages</li>
+</div>
+</div>
+</div>
+<div id="ex3" class="exercise-card l-page">
+<h3>
+Exercise 3: Development Department Budget Trend Analysis
+</h3>
+<div class="exercise-row">
+<div class="exercise-details">
+<span class="section-label">Skills</span>
+<p class="skills-line">
+Column totals, year-over-year percentage changes, average growth rates, budget extrapolation, balance analysis
+</p>
+<span class="section-label">Tasks Covered</span>
+<ol class="task-list">
+<li>
+Column Totals — compute totals across 6 fiscal years of actuals plus adopted/revised budgets
+</li>
+<li>
+Annual Percentage Changes — calculate year-over-year changes for 32 expenditure and 34 revenue line items
+</li>
+<li>
+Average % Change &amp; Proposed FY8 Budget — extrapolate trends to build a proposed budget
+</li>
+<li>
+Budget Worksheet &amp; Balance Analysis — determine if development fees cover operating expenditures
+</li>
+<li>
+Discussion Questions — revenue vs. expenditure trends, target-base budgeting, budget linkages
+</li>
 </ol>
-<p><a href="https://mro0001.github.io/exercise3-budget-trend-analysis/"><strong>Launch Tutorial</strong></a>
-| <a href="https://github.com/mro0001/exercise3-budget-trend-analysis">GitHub Repository</a></p>
-<h4 id="related-case-studies-2">Related Case Studies</h4>
-<p><strong>Primary: Austin, TX — Development Services Department Fee Revenue vs. Costs</strong></p>
-<p>Austin’s Development Services Department handles building permits, plan reviews, and inspections — the same functions in this exercise. During Austin’s building boom (2020–2023), permit fee revenues surged; when construction cooled, revenues dropped while fixed staffing costs remained. The department has faced recurring debates about whether permit fees cover operating costs — precisely the policy question in this exercise.</p>
-<ul>
-<li><a href="https://communityimpact.com/austin/south-central-austin/government/2024/07/30/austin-weighs-development-staffing-cuts-as-local-construction-slows/">Austin weighs development staffing cuts as construction slows (Community Impact)</a></li>
-<li><a href="https://www.reca.org/developmentfeeincrease.html">DSD fee increases to reflect cost of service (RECA)</a></li>
-<li><a href="https://www.austintexas.gov/sites/default/files/files/Finance/Financial%20Transparency/FY-2026---FY-2030-Five-Year-Financial-Forecast-Report.pdf">FY2026–2030 Five-Year Financial Forecast (City of Austin PDF)</a></li>
-<li><a href="https://www.binghamgp.com/blog/2024/5/8/bg-blog-austin-budget-review-2024">Austin budget review — DSD construction slowdown (Bingham GP)</a></li>
-<li><a href="https://www.austintexas.gov/sites/default/files/files/Development_Services/Matrix_Fee_Study_-2015.pdf">DSD fee study — 56% cost recovery rate (City of Austin PDF)</a></li>
+<div class="btn-row">
+<p><a class="launch-btn" href="https://mro0001.github.io/exercise3-budget-trend-analysis/">Launch Tutorial</a>
+<a class="repo-link" href="https://github.com/mro0001/exercise3-budget-trend-analysis">GitHub Repository</a></p>
+</div>
+</div>
+<div class="exercise-cases">
+<div class="case-heading">
+Primary Case Study
+</div>
+<p class="case-summary">
+<strong>Austin, TX — Development Services Department Fee Revenue vs. Costs</strong>
+</p>
+<p class="case-summary">
+Austin’s Development Services Department handles building permits, plan reviews, and inspections — the same functions in this exercise. During Austin’s building boom (2020–2023), permit fee revenues surged; when construction cooled, revenues dropped while fixed staffing costs remained. The department has faced recurring debates about whether permit fees cover operating costs — precisely the policy question in this exercise.
+</p>
+<ul class="case-links">
+<li>
+<a href="https://communityimpact.com/austin/south-central-austin/government/2024/07/30/austin-weighs-development-staffing-cuts-as-local-construction-slows/">Austin weighs development staffing cuts as construction slows (Community Impact)</a>
+</li>
+<li>
+<a href="https://www.reca.org/developmentfeeincrease.html">DSD fee increases to reflect cost of service (RECA)</a>
+</li>
+<li>
+<a href="https://www.austintexas.gov/sites/default/files/files/Finance/Financial%20Transparency/FY-2026---FY-2030-Five-Year-Financial-Forecast-Report.pdf">FY2026–2030 Five-Year Financial Forecast (City of Austin PDF)</a>
+</li>
+<li>
+<a href="https://www.binghamgp.com/blog/2024/5/8/bg-blog-austin-budget-review-2024">Austin budget review — DSD construction slowdown (Bingham GP)</a>
+</li>
+<li>
+<a href="https://www.austintexas.gov/sites/default/files/files/Development_Services/Matrix_Fee_Study_-2015.pdf">DSD fee study — 56% cost recovery rate (City of Austin PDF)</a>
+</li>
 </ul>
-<p><strong>Supplementary:</strong></p>
-<ul>
-<li><a href="https://www.cityofevanston.org/Home/Components/News/News/6704/249">Evanston, IL — flat tax levies then 12.9% reckoning (City of Evanston)</a></li>
-<li><a href="https://dailynorthwestern.com/2024/01/14/city/by-the-numbers-five-graphs-that-explain-evanstons-2024-budget/">By the numbers: five graphs explaining Evanston’s 2024 budget (Daily Northwestern)</a></li>
-<li><a href="https://www.nlc.org/resource/city-fiscal-conditions-2024/">City fiscal conditions 2024 (NLC)</a></li>
-<li><a href="https://www.constructiondive.com/news/city-budgets-flat-revenues-cost-increases-2025-national-league-of-cities/806398/">City budgets face flat revenues and cost increases (Construction Dive / NLC)</a></li>
-<li><a href="https://www.route-fifty.com/finance/2024/06/more-cities-are-seeing-budget-gaps-heres-what-not-do/397247/">More cities seeing budget gaps — what not to do (Route Fifty / Buffalo, NY)</a></li>
+<div class="case-heading supplementary">
+Supplementary
+</div>
+<ul class="case-links">
+<li>
+<a href="https://www.cityofevanston.org/Home/Components/News/News/6704/249">Evanston, IL — flat tax levies then 12.9% reckoning (City of Evanston)</a>
+</li>
+<li>
+<a href="https://dailynorthwestern.com/2024/01/14/city/by-the-numbers-five-graphs-that-explain-evanstons-2024-budget/">By the numbers: five graphs explaining Evanston’s 2024 budget (Daily Northwestern)</a>
+</li>
+<li>
+<a href="https://www.nlc.org/resource/city-fiscal-conditions-2024/">City fiscal conditions 2024 (NLC)</a>
+</li>
+<li>
+<a href="https://www.constructiondive.com/news/city-budgets-flat-revenues-cost-increases-2025-national-league-of-cities/806398/">City budgets face flat revenues and cost increases (Construction Dive / NLC)</a>
+</li>
+<li>
+<a href="https://www.route-fifty.com/finance/2024/06/more-cities-are-seeing-budget-gaps-heres-what-not-do/397247/">More cities seeing budget gaps — what not to do (Route Fifty / Buffalo, NY)</a>
+</li>
 </ul>
-<hr />
-<h3 id="ex4">Exercise 4: Year-End Budget Monitoring &amp; Projections</h3>
-<p><strong>Skills:</strong> Three projection formulas (average spending, seasonal, current month), best-estimate selection, variance analysis
-<strong>Difficulty:</strong> Intermediate | <strong>Time:</strong> ~75 min
-<strong>Course:</strong> POLS 557 — Public Budgeting &amp; Finance, University of North Texas</p>
-<p><strong>Tasks covered:</strong></p>
-<ol type="1">
-<li>Average Spending Formula — YTD / 7 x 12 (assumes uniform monthly spending)</li>
-<li>Seasonal &amp; Current Month Formulas — using last year’s pattern and most recent month data</li>
-<li>Select Best Estimate — choose the most appropriate formula per line item</li>
-<li>Variance &amp; Budget Comparison — compute Adopted Budget minus EOY Estimate</li>
-<li>Discussion Questions — when each formula works best, surplus/deficit management</li>
+</div>
+</div>
+</div>
+<div id="ex4" class="exercise-card l-page">
+<h3>
+Exercise 4: Year-End Budget Monitoring &amp; Projections
+</h3>
+<div class="exercise-row">
+<div class="exercise-details">
+<span class="section-label">Skills</span>
+<p class="skills-line">
+Three projection formulas (average spending, seasonal, current month), best-estimate selection, variance analysis
+</p>
+<span class="section-label">Tasks Covered</span>
+<ol class="task-list">
+<li>
+Average Spending Formula — YTD / 7 x 12 (assumes uniform monthly spending)
+</li>
+<li>
+Seasonal &amp; Current Month Formulas — using last year’s pattern and most recent month data
+</li>
+<li>
+Select Best Estimate — choose the most appropriate formula per line item
+</li>
+<li>
+Variance &amp; Budget Comparison — compute Adopted Budget minus EOY Estimate
+</li>
 </ol>
-<p><a href="https://mro0001.github.io/exercise4-budget-monitoring/"><strong>Launch Tutorial</strong></a>
-| <a href="https://github.com/mro0001/exercise4-budget-monitoring">GitHub Repository</a></p>
-<h4 id="related-case-studies-3">Related Case Studies</h4>
-<p><strong>Primary: Stockton, CA — When Budget Monitoring Fails</strong></p>
-<p>Stockton failed to track how actual spending commitments (generous pensions, a $47M arena, rising personnel costs) aligned with sustainable revenue. The gap grew over years until bankruptcy was the only option. The three projection formulas students apply in this exercise are the same type of basic monitoring that would have flagged Stockton’s growing fiscal crisis.</p>
-<ul>
-<li><a href="https://www.npr.org/2012/07/20/157105483/for-stockton-calif-bankruptcy-freezes-everything">For Stockton, bankruptcy freezes everything (NPR, 2012)</a></li>
-<li><a href="https://www.abc10.com/article/news/local/stockton/stockton-bankruptcy-10-years-later/103-188125b5-ef3c-44e0-a523-c2ea77e74e81">Stockton bankruptcy, 10 years later (ABC10)</a></li>
-<li><a href="https://www.npr.org/2012/03/11/148384030/an-example-to-avoid-city-of-stockton-on-the-brink">An example to avoid: City of Stockton on the brink (NPR, 2012)</a></li>
+<div class="btn-row">
+<p><a class="launch-btn" href="https://mro0001.github.io/exercise4-budget-monitoring/">Launch Tutorial</a>
+<a class="repo-link" href="https://github.com/mro0001/exercise4-budget-monitoring">GitHub Repository</a></p>
+</div>
+</div>
+<div class="exercise-cases">
+<div class="case-heading">
+Primary Case Study
+</div>
+<p class="case-summary">
+<strong>Stockton, CA — When Budget Monitoring Fails</strong>
+</p>
+<p class="case-summary">
+Stockton failed to track how actual spending commitments (generous pensions, a $47M arena, rising personnel costs) aligned with sustainable revenue. The gap grew over years until bankruptcy was the only option. The three projection formulas students apply in this exercise are the same type of basic monitoring that would have flagged Stockton’s growing fiscal crisis.
+</p>
+<ul class="case-links">
+<li>
+<a href="https://www.npr.org/2012/07/20/157105483/for-stockton-calif-bankruptcy-freezes-everything">For Stockton, bankruptcy freezes everything (NPR, 2012)</a>
+</li>
+<li>
+<a href="https://www.abc10.com/article/news/local/stockton/stockton-bankruptcy-10-years-later/103-188125b5-ef3c-44e0-a523-c2ea77e74e81">Stockton bankruptcy, 10 years later (ABC10)</a>
+</li>
+<li>
+<a href="https://www.npr.org/2012/03/11/148384030/an-example-to-avoid-city-of-stockton-on-the-brink">An example to avoid: City of Stockton on the brink (NPR, 2012)</a>
+</li>
 </ul>
-<p><strong>Supplementary:</strong></p>
-<ul>
-<li><a href="https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2022/03/how-states-can-manage-midyear-budget-gaps">How states can manage midyear budget gaps (Pew Charitable Trusts)</a></li>
+<div class="case-heading supplementary">
+Supplementary
+</div>
+<ul class="case-links">
+<li>
+<a href="https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2022/03/how-states-can-manage-midyear-budget-gaps">How states can manage midyear budget gaps (Pew Charitable Trusts)</a>
+</li>
 </ul>
-<hr />
-<h3 id="ex5">Exercise 5: Budgeting for Debt Service Using Constant Principal</h3>
-<p><strong>Skills:</strong> Debt service schedule construction, SUMPRODUCT-based interest, NIC/TIC calculation, I&amp;S tax rate analysis
-<strong>Data:</strong> $20 million serial bond issue, level principal ($1M/year for 20 years)
-<strong>Course:</strong> Based on the exercise by Lewis F. McLain, Jr. — Local Government Budgeting</p>
-<p><strong>Tasks covered:</strong></p>
-<ol type="1">
-<li>Compute Interest &amp; Debt Service — build the full annual payment schedule</li>
-<li>Calculate Bond Metrics — bond-years, average life, Net Interest Cost (NIC), True Interest Cost (TIC via IRR)</li>
-<li>I&amp;S Tax Rate &amp; Debt Capacity — determine the tax rate needed to fund debt service</li>
-<li>Visualize the Debt Schedule — chart principal, interest, and total payments over time</li>
-<li>Discussion — budgeting for Year 1 vs. Year 20, impact of rate changes, debt capacity limits</li>
+</div>
+</div>
+</div>
+<div id="ex5" class="exercise-card l-page">
+<h3>
+Exercise 5: Budgeting for Debt Service Using Constant Principal
+</h3>
+<div class="exercise-row">
+<div class="exercise-details">
+<span class="section-label">Skills</span>
+<p class="skills-line">
+Debt service schedule construction, SUMPRODUCT-based interest, NIC/TIC calculation, I&amp;S tax rate analysis
+</p>
+<span class="section-label">Tasks Covered</span>
+<ol class="task-list">
+<li>
+Compute Interest &amp; Debt Service — build the full annual payment schedule
+</li>
+<li>
+Calculate Bond Metrics — bond-years, average life, Net Interest Cost (NIC), True Interest Cost (TIC via IRR)
+</li>
+<li>
+I&amp;S Tax Rate &amp; Debt Capacity — determine a tax rate needed to fund debt service
+</li>
+<li>
+Visualize the Debt Schedule — chart principal, interest, and total payments over time
+</li>
 </ol>
-<p><a href="https://mro0001.github.io/exercise5-debt-service/"><strong>Launch Tutorial</strong></a>
-| <a href="https://github.com/mro0001/exercise5-debt-service">GitHub Repository</a></p>
-<h4 id="related-case-studies-4">Related Case Studies</h4>
-<p><strong>Primary: Harvey, IL — Bond Default and Restructuring</strong></p>
-<p>Harvey defaulted on $32M in GO bonds — the exact instrument students model in this exercise. The city’s total debt grew to $164M, far beyond any reasonable I&amp;S rate capacity. When students calculate Year 1 debt service of $1,418,600 for a well-managed $20M bond, they can contrast that with Harvey’s inability to make any payments at all. Every metric students calculate (debt service, NIC, I&amp;S rate) is a metric Harvey’s analysts should have been tracking.</p>
-<ul>
-<li><a href="https://www.bondbuyer.com/news/harvey-illinois-declares-itself-financially-distressed">Harvey declares itself financially distressed (Bond Buyer, Oct 2025)</a></li>
-<li><a href="https://www.bondbuyer.com/news/harvey-illinois-finally-seals-deal-on-bond-default-litigation">Harvey seals deal on bond default litigation (Bond Buyer, Aug 2023)</a></li>
-<li><a href="https://www.bondbuyer.com/news/harvey-illinois-launches-go-bond-exchange-offer-on-defaulted-debt">Harvey launches GO bond exchange offer (Bond Buyer, Jul 2023)</a></li>
-<li><a href="https://www.chicagotribune.com/2025/10/17/harvey-financially-distressed-shutdown-imminent/">Harvey: financially distressed, shutdown imminent (Chicago Tribune)</a></li>
-<li><a href="https://www.illinoispolicy.org/harvey-declaring-financial-distress-under-164m-debt/">Harvey declaring financial distress under $164M debt (Illinois Policy)</a></li>
+<div class="btn-row">
+<p><a class="launch-btn" href="https://mro0001.github.io/exercise5-debt-service/">Launch Tutorial</a>
+<a class="repo-link" href="https://github.com/mro0001/exercise5-debt-service">GitHub Repository</a></p>
+</div>
+</div>
+<div class="exercise-cases">
+<div class="case-heading">
+Primary Case Study
+</div>
+<p class="case-summary">
+<strong>Harvey, IL — Bond Default and Restructuring</strong>
+</p>
+<p class="case-summary">
+Harvey defaulted on $32M in GO bonds — the exact instrument students model in this exercise. The city’s total debt grew to $164M, far beyond any reasonable I&amp;S rate capacity. When students calculate Year 1 debt service of $1,418,600 for a well-managed $20M bond, they can contrast that with Harvey’s inability to make any payments at all. Every metric students calculate (debt service, NIC, I&amp;S rate) is a metric Harvey’s analysts should have been tracking.
+</p>
+<ul class="case-links">
+<li>
+<a href="https://www.bondbuyer.com/news/harvey-illinois-declares-itself-financially-distressed">Harvey declares itself financially distressed (Bond Buyer, Oct 2025)</a>
+</li>
+<li>
+<a href="https://www.bondbuyer.com/news/harvey-illinois-finally-seals-deal-on-bond-default-litigation">Harvey seals deal on bond default litigation (Bond Buyer, Aug 2023)</a>
+</li>
+<li>
+<a href="https://www.bondbuyer.com/news/harvey-illinois-launches-go-bond-exchange-offer-on-defaulted-debt">Harvey launches GO bond exchange offer (Bond Buyer, Jul 2023)</a>
+</li>
+<li>
+<a href="https://www.chicagotribune.com/2025/10/17/harvey-financially-distressed-shutdown-imminent/">Harvey: financially distressed, shutdown imminent (Chicago Tribune)</a>
+</li>
+<li>
+<a href="https://www.illinoispolicy.org/harvey-declaring-financial-distress-under-164m-debt/">Harvey declaring financial distress under $164M debt (Illinois Policy)</a>
+</li>
 </ul>
-<p><strong>Supplementary:</strong></p>
-<ul>
-<li><a href="https://www.alexandriava.gov/budget-memos-fy26/fy-26-budget-qa-053-provide-an-update-on-potential-threats-to-the-municipal-bond">Alexandria, VA — interest rate sensitivity and municipal bond threats (City of Alexandria)</a></li>
-<li><a href="https://www.record-eagle.com/news/local_news/digging-deep-beulah-oks-treatment-plant-sewer-main-projects/article_b4a44acd-a08d-439c-b89a-64e64d89eaca.html">Beulah, MI — $10.5M sewer bond, $435K annual payments for 40 years (Record-Eagle)</a></li>
-<li><a href="https://beulahsewerproject.org/">Beulah Sewer Project — community information site</a></li>
+<div class="case-heading supplementary">
+Supplementary
+</div>
+<ul class="case-links">
+<li>
+<a href="https://www.alexandriava.gov/budget-memos-fy26/fy-26-budget-qa-053-provide-an-update-on-potential-threats-to-the-municipal-bond">Alexandria, VA — interest rate sensitivity and municipal bond threats (City of Alexandria)</a>
+</li>
+<li>
+<a href="https://www.record-eagle.com/news/local_news/digging-deep-beulah-oks-treatment-plant-sewer-main-projects/article_b4a44acd-a08d-439c-b89a-64e64d89eaca.html">Beulah, MI — $10.5M sewer bond, $435K annual payments for 40 years (Record-Eagle)</a>
+</li>
+<li>
+<a href="https://beulahsewerproject.org/">Beulah Sewer Project — community information site</a>
+</li>
 </ul>
+</div>
+</div>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
