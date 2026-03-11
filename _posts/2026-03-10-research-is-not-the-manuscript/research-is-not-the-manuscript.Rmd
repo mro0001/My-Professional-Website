@@ -1,0 +1,77 @@
+---
+title: "The Research Is Not the Manuscript"
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I had a situation that I think a lot of researchers will recognize. My collaborators and I had completed a large research project. The analysis was done. The findings were significant and, in my opinion, publishable. But converting the report to journal-ready manuscripts had stalled. Not because the science was incomplete, but because we ran out of bandwidth and time.
+
+Important and very publishable insights sitting there, never to see the light of day for no other reason than time.
+
+It is an odd place to find myself. The work was already completed in the original report, but putting it into a format considered credible by the scientific community became an impossible task. Not intellectually, just logistically.
+
+So I ran an experiment. I pointed Claude Code at our completed research and asked it to extract and draft two manuscripts using only the information in the report. I specifically asked for two papers my colleagues and I had discussed previously. The drafts came back closer to submission ready than I anticipated.
+
+I sent them to my collaborators. The response was honest, thoughtful, and conflicted.
+
+One collaborator captured something I think a lot of scholars feel right now. I am paraphrasing, but the gist was this: using AI to improve code, to analyze data at scale — that feels fine. But the writing process feels more personal. And beyond the personal discomfort, there were practical concerns — intellectual property, whether journals would accept it, etc.
+
+I get it. I am probably more flexible on this than most academics but I completely respect and understand their position.
+
+But the exchange crystallized something for me. In our case, every intellectual decision — the theoretical framework, the hypotheses, the identification strategy, the interpretation — had already been made by us. The AI did not do our research. It reformatted research we had already completed into manuscript form. And yet, the result felt unsettling. To me and to my collaborators, in different ways and for different reasons.
+
+That dissonance is what led me to the thought experiment.
+
+## The Thought Experiment
+
+Simplify the research paper-writing process to four steps:
+
+1. Research question formulation
+2. Topic sentence outline
+3. Full draft
+4. Careful review and copy editing before submission
+
+In this thought experiment, the human scholar always does Steps 1 and 4. But AI does either Step 2 or Step 3.
+
+Now consider two scholars:
+
+**Scholar A** formulates the research question, then writes the topic sentence outline — the full argumentative structure of the paper. Literature engagement, theoretical framework, hypotheses, research design, data and variable selection, methodology, interpretation of findings. All of that is encoded in the outline. Then Scholar A lets AI expand that outline into a full draft.
+
+**Scholar B** formulates the research question, then lets AI develop the topic sentence outline. The AI structures the argument, maps the literature, selects the theoretical lens, sequences the logic. Then Scholar B writes the full draft personally, in their own voice, from the AI's outline.
+
+Both do the final review and editing. Both use AI. Both produce a complete manuscript. Which scholar outsourced more of the intellectual contribution?
+
+An important caveat before I share where I land. This thought experiment neatly separates the phases of writing in a way that does not fully reflect how science actually develops. For many scholars, the drafting process IS where research decisions become concrete. Writing is thinking. The act of putting ideas into prose forces you to confront gaps in your logic, rethink your argument, and refine your contribution. I am not dismissing that experience — it is real and it matters. The thought experiment simplifies deliberately, and that simplification has limits.
+
+My sense is that many scholars feel that letting AI write an outline seems like getting help with scaffolding. Letting AI write the draft feels like AI "writing your paper."
+
+I fall into the opposite camp.
+
+The topic sentence outline (Step 2) is where I convey my thinking.  However informal the format, whether it is bullet points or notes or answers from a guided conversation — is where the research is created. It is the compressed expression of everything the scholar knows and has decided: which gap matters, what theory fits, what hypotheses follow, how to test them, what data to use, which estimation strategy identifies the effect, and what the findings mean.
+
+The draft (Step 3) expands that compressed knowledge into manuscript form — transitions, narrative flow, literature summaries, prose descriptions of tables you have already built. Important, sure. But that is not where my scholarly contribution originates.
+
+My situation with my collaborators made this vivid. We had already done ALL of that work. The research existed. What we lacked was time to write it up. The AI did not contribute to our scholarship. It communicated scholarship that was already complete.
+
+When scholars say "AI wrote my paper" and feel alarm, the real fear is "AI did my thinking." That fear is valid. But I would argue it applies more to Scholar B than Scholar A. Scholar A's thinking is fully encoded in the outline. Scholar B outsourced the thinking and kept the typing. At the same time, I understand the counterargument — that writing assistance on individual sentences is different from handing over the entire draft. That is a fair point and one I do not think is fully resolved.
+
+I am not naive about where this goes. When AI compresses the ENTIRE process, including the research design and analysis, we have lost the human expertise that makes the output trustworthy. Scott Cunningham's recent Substack posts have been asking important questions about the future of research in an era where AI can write plausible science. We are entering a phase of scientific publication where individuals as paper mills (a term taken from a conversation with Justin Ross) will not only exist, but become common. That is the tsunami of AI slop that, only by the grace of our field's aversion to technology, has not yet hit public administration and the social sciences the way it has hit machine learning and computer science.
+
+But there is a difference between AI compressing the entire process and AI expanding a human-produced outline into a draft. In my particular circumstance, publishable findings were sitting in a technical report, never reaching journal audiences because translating them to a journal article could not be prioritized. That is not protecting scholarship. That is letting the format bottleneck the science.
+
+As we develop norms for AI use in scholarship — and all publishing scientists will need to determine for themselves how they will use AI — those norms should be calibrated to where the intellectual contribution actually resides. If you use AI at any stage of writing, disclose it clearly, review the output critically, and take full responsibility for the output. But when we draw the ethical lines, we should draw them based on where the thinking happens. Not where the typing happens.
+
+The research is not the manuscript. The manuscript is how we communicate the research.
+
+With the help of Claude Code, I built an [interactive sorting exercise](../../sorting-game.html) to make this thought experiment concrete. It presents 20 tasks involved in writing a research paper and asks you to sort them based on whether you would be comfortable with AI performing each one. Then it reveals which tasks belong to the outline stage versus the draft stage. I am not collecting data; I thought this was an opportunity to develop something illustrative.
+
+*Claude Code helped in the drafting of this blog post.*
+
+---
+
+*Michael Overton is an Associate Professor of Public Administration and Associate Director of the Institute for Interdisciplinary Data Science at the University of Idaho. His recent work includes the TaMPER framework for LLM integration in social science research and a RAG-based assessment of AI's impact on the federal workforce. He is currently speed-running the existential crisis concern train and landing somewhere between cautious optimism and informed anxiety.*
