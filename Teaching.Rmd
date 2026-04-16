@@ -24,3 +24,15 @@ I highly recommend Checking out the site [PASyllabi.com](https://pasyllabi.com/)
 [**Public Administration (I use Parks and Recreation instead of a textbook in this course)**](https://drive.google.com/file/d/1FopItT1UG_lda3ImJxmOZLeb0GQBu8O1/view?usp=sharing)
 -Last taught: Summer 2019
 
+-----
+
+## Interactive R Tutorials
+
+Browser-based, interactive tutorials for learning R. No software installation required — R runs directly in your browser.
+
+[**R Basics — Objects, Functions, and Operators**](https://mro0001.github.io/r-tutorials/)
+Interactive tutorial covering the foundational building blocks of R programming.
+
+[**Setup in R — Scripts, Working Directory, Libraries, and Data**](https://mro0001.github.io/r-tutorials/setup-overview.html)
+Step-by-step guide to starting a project in R, from opening a script to importing data.
+
