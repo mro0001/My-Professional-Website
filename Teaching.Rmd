@@ -33,6 +33,6 @@ Browser-based, interactive tutorials for learning R. No software installation re
 [**R Basics — Objects, Functions, and Operators**](https://mro0001.github.io/r-tutorials/)
 Interactive tutorial covering the foundational building blocks of R programming.
 
-[**Setup in R — Scripts, Working Directory, Libraries, and Data**](https://mro0001.github.io/r-tutorials/setup-overview.html)
+[**Workflow: A Quick and Dirty Introduction — Scripts, Working Directory, Libraries, and Data**](https://mro0001.github.io/r-tutorials/setup-overview.html)
 Step-by-step guide to starting a project in R, from opening a script to importing data.
 
