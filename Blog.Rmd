@@ -3,6 +3,8 @@ title: "Blog (Click the title to read!)"
 description: "What am I thinking"
 listing:
   posts:
+    - 2026-04-29-evaluating-llms-for-credible-social-science
+    - 2026-03-10-research-is-not-the-manuscript
     - 2026-02-26-forks-branches-pull-requests-collaboration
     - 2026-02-19-hosting-assignments-on-github
     - 2026-02-12-using-ai-to-make-assignments-interactive

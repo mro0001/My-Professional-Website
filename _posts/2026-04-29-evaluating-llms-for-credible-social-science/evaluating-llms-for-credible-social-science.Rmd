@@ -1,0 +1,60 @@
+---
+title: "Evaluating LLMs for Credible and Rigorous Social Science Research"
+description: "A talk for the Center for Social Science Scholarship at UMBC: treating LLMs as measurement instruments under metrology principles, not as tools and not as people."
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I gave a talk to the Center for Social Science Scholarship at the University of Maryland, Baltimore County, on how to evaluate LLMs when we want to use them for credible scientific research. The full slide deck is interactive and lives here:
+
+**[Open the deck → mro0001.github.io/evaluation-presentation](https://mro0001.github.io/evaluation-presentation/slides-evaluation.html)** &nbsp; ([source on GitHub](https://github.com/mro0001/evaluation-presentation))
+
+You can navigate with arrow keys. Press `f` for fullscreen, `o` for an overview of all slides, and `?` for the full keymap.
+
+## The argument in one paragraph
+
+Researcher use of LLMs has gone from 57% in 2024 to 84% in 2025, and the methods we use to evaluate them have not kept up. The two defaults — "LLM as tool" and "LLM as person" — both miss what an LLM actually is in a research workflow: a measurement instrument that takes a document or a prompt as input and produces a classification, score, or extraction as output. Once you accept that frame, the right intellectual home is not classical test theory and not psychometrics. It is **metrology** — the science of measurement and uncertainty. Every measurement carries uncertainty; every instrument needs validation; and the result of any measurement is *best estimate ± uncertainty*, not a single number reported as if it were ground truth.
+
+## The protocol
+
+The talk walks through a five-component framework — **TaMPER** (Task, Model, Prompt, Evaluation, Reporting) — and a sample-benchmark-population approach that lets researchers combine a small hand-coded calibration set with a large LLM-coded corpus and still produce valid confidence intervals (Prediction-Powered Inference, Angelopoulos et al. 2023, *Science*).
+
+## The criteria
+
+I argue that any defensible LLM-assisted analysis must demonstrate, in this order, a minimum floor of three primary criteria:
+
+- **Compliance** — does the output even match the required structure?
+- **Accuracy** — is the system systematically close to a reference value?
+- **Precision** — is the system consistent across repeated runs?
+
+Above that floor sit the secondary **Quality** criteria — Linguistic, Logic, Information Fidelity, and Informativeness — which tell us not whether the data is right but whether the *instrument itself* is functioning. Two questions, two layers: accuracy and precision evaluate what we measured; compliance and quality evaluate the thing doing the measuring.
+
+## Worked examples woven through
+
+Rather than abstract principles, the deck threads worked examples from my own and my collaborators' empirical work:
+
+- **Stance detection on Amazon HQ2 Twitter data** — comparing four large frontier models (Command A, GPT OSS, Phi 4, Qwen 3) with established versus revised prompts; statistical tests (McNemar, Krippendorff's α, agreement rate) actually applied to model differences.
+- **Prediction-Powered Inference** on SST-5 sentiment, where 200 hand-coded items combined with 2,010 LLM-coded items produced a 95% confidence interval that was 45% narrower than naive labeling alone — and was valid regardless of how good the LLM was.
+- **Embedding-based precision** — when iterations agree on the answer, the response embeddings cluster tightly; when they disagree, the embeddings drift apart. Visible in cosine similarity distributions overlaid by model.
+- **LLM-as-judge as a quality measure** — same model, same data, only the prompt changes from a default scoring instruction to one asking for "extremely harsh but fair" scoring. The harsh prompt produces a different distribution of judge scores than the lenient one (KS, Mann-Whitney U, Wasserstein, and Welch's *t* all reject the null on every model). The judge prompt is itself an instrument that needs validation.
+
+## Why I think this matters
+
+If we treat LLMs as black-box tools, we lose the ability to defend the choices that go into a study. If we treat them as people, we import standards (consent, intent, expertise) that don't apply. Treating them as measurement instruments — with documented specs, reported uncertainty, and convergent validation across criteria — gives social science a path forward that is rigorous *and* scalable. The infrastructure for that work is being built right now.
+
+The deck closes with three things to take into your next paper, and an illustrative game of 20 Questions that I think makes the verifiability problem unforgettable. I would rather not spoil that one — it is on the live deck.
+
+## Acknowledgements and links
+
+- **Live deck:** <https://mro0001.github.io/evaluation-presentation/slides-evaluation.html>
+- **Source code:** <https://github.com/mro0001/evaluation-presentation>
+- **Print to PDF:** append `?print-pdf` to the URL and use your browser's print dialog (`Cmd-P`)
+
+The technical scaffolding (CSS, Reveal.js distribution, widget framework) is lifted from the [REACH 2026 workshop site](https://github.com/ui-insight/REACHWorkshop2026) — Wiggins, Layman, and Robison at UI Insight, University of Idaho — with attribution. The substance, the data, and the argument are mine.
+
+Comments, pushback, and collaborations are all welcome. I am at <moverton@uidaho.edu>.
