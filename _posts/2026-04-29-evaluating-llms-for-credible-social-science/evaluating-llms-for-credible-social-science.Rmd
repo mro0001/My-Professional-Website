@@ -16,6 +16,10 @@ I gave a talk to the Center for Social Science Scholarship at the University of 
 
 You can navigate with arrow keys. Press `f` for fullscreen, `o` for an overview of all slides, and `?` for the full keymap.
 
+## Recording
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/ccPviEJ2l7s" title="Evaluating LLMs for Credible and Rigorous Social Science Research" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## The argument in one paragraph
 
 Researcher use of LLMs has gone from 57% in 2024 to 84% in 2025, and the methods we use to evaluate them have not kept up. The two defaults — "LLM as tool" and "LLM as person" — both miss what an LLM actually is in a research workflow: a measurement instrument that takes a document or a prompt as input and produces a classification, score, or extraction as output. Once you accept that frame, the right intellectual home is not classical test theory and not psychometrics. It is **metrology** — the science of measurement and uncertainty. Every measurement carries uncertainty; every instrument needs validation; and the result of any measurement is *best estimate ± uncertainty*, not a single number reported as if it were ground truth.
@@ -52,6 +56,7 @@ The deck closes with three things to take into your next paper, and an illustrat
 ## Acknowledgements and links
 
 - **Live deck:** <https://mro0001.github.io/evaluation-presentation/slides-evaluation.html>
+- **Recording:** <https://www.youtube.com/watch?v=ccPviEJ2l7s>
 - **Source code:** <https://github.com/mro0001/evaluation-presentation>
 - **Print to PDF:** append `?print-pdf` to the URL and use your browser's print dialog (`Cmd-P`)
 
