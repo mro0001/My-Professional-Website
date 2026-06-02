@@ -1,0 +1,21 @@
+---
+title: "Generative AI in Public Administration Research"
+description: "Slides and a worked classification example from my PMRC 2026 pre-conference workshop on using LLMs with enough rigor that a reviewer can audit the work."
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I helped run a pre-conference workshop at PMRC 2026, "Beyond the Hype: Using Generative AI in Public Administration Research." My block introduced the **TaMPER** framework, a practical way to use large language models in research with enough rigor that a reviewer can audit the work. TaMPER stands for Task, the silent agents, Model, Prompt, Evaluation, and Reporting.
+
+Two things from the session are now online and open to anyone.
+
+**[The talk slides](https://mro0001.github.io/pmrc-tamper-talk-deck/)** are a browser based deck you can click through. Use the arrow keys to move, press `f` for fullscreen, and `?` for the full keymap. The examples are interactive, so you can try them rather than just read about them.
+
+**[A worked classification example](https://mro0001.github.io/pmrc-genai-workshop/use-case-3/use-case-3-classification.html)** walks through one use case from raw text to a scored, structured output.
+
+Comments and questions are welcome. I am at <moverton@uidaho.edu>.

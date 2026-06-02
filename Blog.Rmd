@@ -3,6 +3,7 @@ title: "Blog (Click the title to read!)"
 description: "What am I thinking"
 listing:
   posts:
+    - 2026-06-01-tamper-genai-workshop
     - 2026-04-29-evaluating-llms-for-credible-social-science
     - 2026-03-10-research-is-not-the-manuscript
     - 2026-02-26-forks-branches-pull-requests-collaboration
