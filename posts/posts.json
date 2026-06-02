@@ -1,5 +1,17 @@
 [
   {
+    "path": "posts/2026-06-01-tamper-genai-workshop/",
+    "title": "Generative AI in Public Administration Research",
+    "description": "Slides and a worked classification example from my PMRC 2026 pre-conference workshop on using LLMs with enough rigor that a reviewer can audit the work.",
+    "author": [],
+    "date": "2026-06-01",
+    "categories": [],
+    "contents": "\nI helped run a pre-conference workshop at PMRC 2026, “Beyond the Hype: Using Generative AI in Public Administration Research.” My block introduced the TaMPER framework, a practical way to use large language models in research with enough rigor that a reviewer can audit the work. TaMPER stands for Task, the silent agents, Model, Prompt, Evaluation, and Reporting.\nTwo things from the session are now online and open to anyone.\nThe talk slides are a browser based deck you can click through. Use the arrow keys to move, press f for fullscreen, and ? for the full keymap. The examples are interactive, so you can try them rather than just read about them.\nA worked classification example walks through one use case from raw text to a scored, structured output.\nComments and questions are welcome. I am at moverton@uidaho.edu.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2026-06-01T17:46:52-07:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2026-04-29-evaluating-llms-for-credible-social-science/",
     "title": "Evaluating LLMs for Credible and Rigorous Social Science Research",
     "description": "A talk for the Center for Social Science Scholarship at UMBC: treating LLMs as measurement instruments under metrology principles, not as tools and not as people.",
