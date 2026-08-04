@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository xmlns="http://www.openarchives.org/OAI/2.0/static-repository" 
+            xmlns:oai="http://www.openarchives.org/OAI/2.0/" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/static-repository 
+                                http://www.openarchives.org/OAI/2.0/static-repository.xsd">
+    <Identify>
+        <oai:repositoryName>Michael Overton | Research</oai:repositoryName>
+        <oai:baseURL>http://gateway.institution.org/oai/www.michaeloverton.net/research/oai.xml</oai:baseURL>
+        <oai:protocolVersion>2.0</oai:protocolVersion>
+        <oai:adminEmail>collectionbuilder.team@gmail.com</oai:adminEmail>
+        <oai:earliestDatestamp>2026-08-04</oai:earliestDatestamp>
+        <oai:deletedRecord>no</oai:deletedRecord>
+        <oai:granularity>YYYY-MM-DD</oai:granularity>
+    </Identify>
+    <ListMetadataFormats>
+        <oai:metadataFormat>
+            <oai:metadataPrefix>oai_dc</oai:metadataPrefix>
+            <oai:schema>http://www.openarchives.org/OAI/2.0/oai_dc.xsd</oai:schema>
+            <oai:metadataNamespace>http://www.openarchives.org/OAI/2.0/oai_dc/</oai:metadataNamespace>
+        </oai:metadataFormat>
+    </ListMetadataFormats>
+    <ListRecords metadataPrefix="oai_dc">
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/towards_housing_equity_the_role_of_cdbg_grants</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Towards Housing Equity: The Role of CDBG Grants</dc:title>
+                    <dc:creator>Stokan, Eric; Overton, Michael; Hatch, Megan</dc:creator>
+                    <dc:date>2025</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Housing policy; Social equity; CDBG; Federal grants</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1177/10780874251359269</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>towards_housing_equity_the_role_of_cdbg_grants</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/towards_housing_equity_the_role_of_cdbg_grants.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/is_there_a_gold_standard_or_need_for_a_city_centric_approach</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Is There a Gold Standard or Need for a City-Centric Approach for Sales Tax Revenue Forecasting</dc:title>
+                    <dc:creator>Larson, Sarah; Overton, Michael</dc:creator>
+                    <dc:date>2025</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Revenue forecasting; Sales tax; Municipal finance</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.59469/pfj.2025.45</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>is_there_a_gold_standard_or_need_for_a_city_centric_approach</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/is_there_a_gold_standard_or_need_for_a_city_centric_approach.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/rethinking_development_and_redistribution_policy_testing_the</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Rethinking Development and Redistribution Policy: Testing the Local Expenditure Assumption using the Community Development Block Grant Program</dc:title>
+                    <dc:creator>Overton, Michael; Stokan, Eric</dc:creator>
+                    <dc:date>2025</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Local expenditure; CDBG; Redistribution; Urban policy</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1080/07352166.2023.2171880</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>rethinking_development_and_redistribution_policy_testing_the</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/rethinking_development_and_redistribution_policy_testing_the.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/assessing_the_impact_of_generative_artificial_intelligence_o</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Assessing the Impact of Generative Artificial Intelligence on the U.S. Federal Workforce through a Competency-Based Approach</dc:title>
+                    <dc:creator>Resh, Bill; Ming, Yi; Xia, Xinyao; Overton, Michael; Gurbuz, Gul Nisa; Breuhl, Brandon De</dc:creator>
+                    <dc:date>2025</dc:date><dc:type>Preprint</dc:type>
+                    <dc:subject>Generative AI; Federal workforce; Competency</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.48550/arXiv.2503.09637</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>assessing_the_impact_of_generative_artificial_intelligence_o</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/assessing_the_impact_of_generative_artificial_intelligence_o.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/tampering_with_large_language_models_a_field_guide_for_gener</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>TaMPERING with Large Language Models: A Field Guide for Generative AI in Public Administration Research</dc:title>
+                    <dc:creator>Overton, Michael; Robison, Barrie; Sheneman, Luke</dc:creator>
+                    <dc:date>2025</dc:date><dc:type>Preprint</dc:type>
+                    <dc:subject>Generative AI; LLMs; Research methods; Reporting standards</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.48550/arXiv.2504.01037</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>tampering_with_large_language_models_a_field_guide_for_gener</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/tampering_with_large_language_models_a_field_guide_for_gener.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/modeling_approach_matters_but_not_as_much_as_preprocessing_c</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Modeling Approach Matters but not as Much as Preprocessing: Comparison of Machine Learning and Traditional Revenue Forecasting Techniques</dc:title>
+                    <dc:creator>Larson, Sarah; Overton, Michael</dc:creator>
+                    <dc:date>2024</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Machine learning; Revenue forecasting; Preprocessing</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.59469/pfj.2024.8</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>modeling_approach_matters_but_not_as_much_as_preprocessing_c</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/modeling_approach_matters_but_not_as_much_as_preprocessing_c.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/whose_neighborhood_needs_assessing_the_spatial_distribution</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Whose Neighborhood Needs? Assessing the Spatial Distribution of Federal Community Development Funds</dc:title>
+                    <dc:creator>Stokan, Eric; Overton, Michael; Deslatte, Aaron; Zhang, Christine</dc:creator>
+                    <dc:date>2024</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Spatial analysis; Community development; Federal funding</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1177/10780874231212843</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>whose_neighborhood_needs_assessing_the_spatial_distribution</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/whose_neighborhood_needs_assessing_the_spatial_distribution.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/50_years_as_the_4th_pillar_of_public_administration_a_polyce</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>50 Years as the 4th Pillar of Public Administration: A Polycentric Extension of the Social Equity Framework</dc:title>
+                    <dc:creator>Stokan, Eric; Hatch, Megan; Overton, Michael</dc:creator>
+                    <dc:date>2023</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Social equity; Polycentricity; Public administration theory</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1111/padm.12888</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>50_years_as_the_4th_pillar_of_public_administration_a_polyce</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/50_years_as_the_4th_pillar_of_public_administration_a_polyce.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/administrative_informatics_a_roundtable_on_the_conceptual_fo</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Administrative Informatics: A Roundtable on the Conceptual Foundations of a Public Administration-Centered Data Science Subfield</dc:title>
+                    <dc:creator>Overton, Michael; Kleinschmit, Stephen; Feeney, Mary; Fusi, Federica; Hart, Nick; Maruolis, Spiro; Schwoerer, Kayla; Stokan, Eric; Thomas, Herschel; Workman, Samuel</dc:creator>
+                    <dc:date>2023</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Administrative informatics; Data science; Disciplinary formation</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.30636/jbpa.61.330</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>administrative_informatics_a_roundtable_on_the_conceptual_fo</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/administrative_informatics_a_roundtable_on_the_conceptual_fo.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/transforming_research_methods_education_through_data_science</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Transforming research methods education through data science literacy</dc:title>
+                    <dc:creator>Overton, Michael; Kleinschmit, Stephen</dc:creator>
+                    <dc:date>2023</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Pedagogy; Research methods; Data science literacy</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi-org.uidaho.idm.oclc.org/10.1177/01447394221084488</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>transforming_research_methods_education_through_data_science</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/transforming_research_methods_education_through_data_science.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/theoretical_foundations_of_public_budgeting_the_road_to_entr</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Theoretical Foundations of Public Budgeting: The Road to Entrepreneurial Budgeting and Beyond</dc:title>
+                    <dc:creator>Bland, Robert; Overton, Michael; Prentice, Valencia</dc:creator>
+                    <dc:date>2023</dc:date><dc:type>Book Chapter</dc:type>
+                    <dc:subject>Budgeting theory; Entrepreneurial budgeting</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier></dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>theoretical_foundations_of_public_budgeting_the_road_to_entr</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/theoretical_foundations_of_public_budgeting_the_road_to_entr.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/public_data_primacy_the_changing_landscape_of_public_service</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Public Data Primacy: The Changing Landscape of Public Service Delivery as Big Data gets Bigger</dc:title>
+                    <dc:creator>Overton, Michael; Larson, Sarah; Carlson, Lisa; Kleinschmit, Stephen</dc:creator>
+                    <dc:date>2022</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Big data; Public service delivery; Governance</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1007/s43508-022-00052-z</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>public_data_primacy_the_changing_landscape_of_public_service</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/public_data_primacy_the_changing_landscape_of_public_service.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/data_science_literacy_towards_a_philosophy_of_accessible_and</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Data Science Literacy: Towards a Philosophy of Accessible and Adaptable Data Science Skill Development in Public Administration Programs</dc:title>
+                    <dc:creator>Overton, Michael; Kleinschmit, Stephen</dc:creator>
+                    <dc:date>2022</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Data science literacy; Pedagogy; MPA curriculum</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1177/01447394211004990</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>data_science_literacy_towards_a_philosophy_of_accessible_and</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/data_science_literacy_towards_a_philosophy_of_accessible_and.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/budget_volatility_and_economic_base_composition_in_local_gov</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Budget Volatility and Economic Base Composition in Local Governments</dc:title>
+                    <dc:creator>Overton, Michael; Bland, Robert</dc:creator>
+                    <dc:date>2022</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Budget volatility; Economic base; Municipal finance</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier></dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>budget_volatility_and_economic_base_composition_in_local_gov</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/budget_volatility_and_economic_base_composition_in_local_gov.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/emergent_patterns_in_local_economic_development_in_light_of</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Emergent Patterns in Local Economic Development in Light of COVID-19</dc:title>
+                    <dc:creator>Johnson, Brad; Wilson, Darrin; Stokan, Eric; Overton, Michael</dc:creator>
+                    <dc:date>2022</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>COVID-19; Economic development; Local government</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1177/0160323X221097711</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>emergent_patterns_in_local_economic_development_in_light_of</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/emergent_patterns_in_local_economic_development_in_light_of.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/book_review_of_the_public_affairs_faculty_manual</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Book Review of the Public Affairs Faculty Manual</dc:title>
+                    <dc:creator>Overton, Michael</dc:creator>
+                    <dc:date>2021</dc:date><dc:type>Book Review</dc:type>
+                    <dc:subject>Book review; Public affairs education</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.20899/jpna.7.2.293-296</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>book_review_of_the_public_affairs_faculty_manual</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/book_review_of_the_public_affairs_faculty_manual.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/institutional_collective_action_during_covid_19_lessons_in_l</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Institutional Collective Action During Covid-19: Lessons in Local Economic Development</dc:title>
+                    <dc:creator>Wilson, Darrin; Johnson, Brad; Stokan, Eric; Overton, Michael</dc:creator>
+                    <dc:date>2020</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>COVID-19; Institutional collective action; Economic development</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1111/puar.13234</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>institutional_collective_action_during_covid_19_lessons_in_l</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/institutional_collective_action_during_covid_19_lessons_in_l.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/investigating_sales_tax_revenue_competition_among_principal</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Investigating Sales Tax Revenue Competition among Principal Cities and Their Neighboring Cities in Texas</dc:title>
+                    <dc:creator>Overton, Michael; Nukpezah, Julius</dc:creator>
+                    <dc:date>2020</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Sales tax; Tax competition; Local government</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1080/01900692.2019.1661433</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>investigating_sales_tax_revenue_competition_among_principal</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/investigating_sales_tax_revenue_competition_among_principal.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/vertical_and_horizontal_tax_competition_in_the_usa</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Vertical and Horizontal Tax Competition in the USA</dc:title>
+                    <dc:creator>Nukpezah, Julius; Overton, Michael</dc:creator>
+                    <dc:date>2020</dc:date><dc:type>Book Chapter</dc:type>
+                    <dc:subject>Tax competition; Federalism</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1007/978-3-319-31816-5_3936-1</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>vertical_and_horizontal_tax_competition_in_the_usa</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/vertical_and_horizontal_tax_competition_in_the_usa.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/a_century_of_budget_innovations</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>A Century of Budget Innovations</dc:title>
+                    <dc:creator>Bland, Bob; Overton, Michael</dc:creator>
+                    <dc:date>2020</dc:date><dc:type>Magazine Article</dc:type>
+                    <dc:subject>Budgeting history; Public budgeting</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier></dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>a_century_of_budget_innovations</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/a_century_of_budget_innovations.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/a_budgeting_guide_for_local_government</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>A Budgeting Guide for Local Government</dc:title>
+                    <dc:creator>Bland, Bob; Overton, Michael</dc:creator>
+                    <dc:date>2019</dc:date><dc:type>Book</dc:type>
+                    <dc:subject>Public budgeting; Practitioner guidance; Local government</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier></dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>a_budgeting_guide_for_local_government</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/a_budgeting_guide_for_local_government.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/market_differentiation_and_the_adoption_of_economic_developm</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Market Differentiation and the Adoption of Economic Development Strategies: Explaining Policy Adoption in Metropolitan Areas</dc:title>
+                    <dc:creator>Overton, Michael</dc:creator>
+                    <dc:date>2018</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Economic development strategy; Policy adoption; Metropolitan areas</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.52324/001c.7990</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>market_differentiation_and_the_adoption_of_economic_developm</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/market_differentiation_and_the_adoption_of_economic_developm.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/early_payments_late_payments_and_revenue_volatility_in_texas</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Early Payments, Late Payments, and Revenue Volatility in Texas Cities</dc:title>
+                    <dc:creator>Overton, Michael; Nukpezah, Julius; Ismayilov, Orkhan</dc:creator>
+                    <dc:date>2017</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Revenue volatility; Municipal finance; Texas</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1080/09540962.2017.1372099</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>early_payments_late_payments_and_revenue_volatility_in_texas</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/early_payments_late_payments_and_revenue_volatility_in_texas.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/sorting_through_the_determinants_of_local_government_competi</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Sorting Through the Determinants of Local Government Competition</dc:title>
+                    <dc:creator>Overton, Michael</dc:creator>
+                    <dc:date>2017</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Local competition; Tiebout; Public choice</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1177/0275074016651143</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>sorting_through_the_determinants_of_local_government_competi</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/sorting_through_the_determinants_of_local_government_competi.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/assessing_the_contributions_of_collaborators_in_public_priva</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>Assessing the Contributions of Collaborators in Public-Private Partnerships: Evidence from Tax Increment Financing</dc:title>
+                    <dc:creator>Bland, Robert; Overton, Michael</dc:creator>
+                    <dc:date>2016</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Public-private partnerships; TIF; Collaboration</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1177/0275074014559246</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>assessing_the_contributions_of_collaborators_in_public_priva</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/assessing_the_contributions_of_collaborators_in_public_priva.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+        <oai:record> 
+            <oai:header>
+                <oai:identifier>oai:www.michaeloverton.net:research/the_great_recession_s_impact_on_credible_commitment_an_analy</oai:identifier> 
+                <oai:datestamp>2026-08-04</oai:datestamp>
+            </oai:header>
+            <oai:metadata>
+                <oai_dc:dc 
+                xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" 
+                xmlns:dc="http://purl.org/dc/elements/1.1/" 
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ 
+                                    http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+                    <dc:title>The Great Recession&apos;s Impact on Credible Commitment: An Analysis of Private Investment in Tax Increment Financing Districts</dc:title>
+                    <dc:creator>Overton, Michael; Bland, Robert</dc:creator>
+                    <dc:date>2014</dc:date><dc:type>Journal Article</dc:type>
+                    <dc:subject>Tax increment financing; Public-private partnerships</dc:subject>
+                    <dc:coverage></dc:coverage>
+                    <dc:identifier>https://doi.org/10.1177/0160323X14559713</dc:identifier>
+                    <dc:rights></dc:rights>
+                    <dc:identifier>the_great_recession_s_impact_on_credible_commitment_an_analy</dc:identifier>
+                    <dc:identifier>https://www.michaeloverton.net/research/items/the_great_recession_s_impact_on_credible_commitment_an_analy.html</dc:identifier>
+                </oai_dc:dc>
+            </oai:metadata>
+        </oai:record>
+        
+    </ListRecords>
+</Repository>

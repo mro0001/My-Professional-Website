@@ -1,0 +1,180 @@
+{
+    "facets": [ 
+        {
+            "field": "theme",
+            "terms": { 
+                "municipal finance and budgeting": 20,
+                "data science and ai": 6
+            }
+        },
+        {
+            "field": "subtheme",
+            "terms": { 
+                "economic development": 9,
+                "data science": 4,
+                "municipal competition": 4,
+                "forecasting": 3,
+                "budgeting": 3,
+                "ai": 2,
+                "general pa": 1
+            }
+        },
+        {
+            "field": "trajectory",
+            "terms": { 
+                "community development block grants": 4,
+                "market differentiation and municipal competition": 4,
+                "sales tax revenue forecasting": 3,
+                "administrative informatics": 2,
+                "data science literacy": 2,
+                "public-private partnerships": 2
+            }
+        },
+        {
+            "field": "type",
+            "terms": { 
+                "journal article": 19,
+                "preprint": 2,
+                "book chapter": 2,
+                "book review": 1,
+                "magazine article": 1,
+                "book": 1
+            }
+        },
+        {
+            "field": "venue_type",
+            "terms": { 
+                "peer-reviewed journal": 19,
+                "preprint": 2,
+                "book chapter": 2,
+                "book review": 1,
+                "magazine article": 1,
+                "book": 1
+            }
+        },
+        {
+            "field": "subject",
+            "terms": { 
+                "municipal finance": 3,
+                "local government": 3,
+                "social equity": 2,
+                "cdbg": 2,
+                "public budgeting": 2,
+                "revenue forecasting": 2,
+                "sales tax": 2,
+                "covid-19": 2,
+                "public-private partnerships": 2,
+                "economic development": 2,
+                "generative ai": 2,
+                "tax competition": 2,
+                "data science literacy": 2,
+                "research methods": 2,
+                "pedagogy": 2,
+                "institutional collective action": 1,
+                "federalism": 1,
+                "budgeting history": 1,
+                "public affairs education": 1,
+                "book review": 1,
+                "economic base": 1,
+                "budget volatility": 1,
+                "practitioner guidance": 1,
+                "economic development strategy": 1,
+                "policy adoption": 1,
+                "metropolitan areas": 1,
+                "revenue volatility": 1,
+                "texas": 1,
+                "local competition": 1,
+                "tiebout": 1,
+                "public choice": 1,
+                "tif": 1,
+                "collaboration": 1,
+                "tax increment financing": 1,
+                "housing policy": 1,
+                "federal grants": 1,
+                "local expenditure": 1,
+                "redistribution": 1,
+                "urban policy": 1,
+                "federal workforce": 1,
+                "competency": 1,
+                "llms": 1,
+                "reporting standards": 1,
+                "machine learning": 1,
+                "preprocessing": 1,
+                "spatial analysis": 1,
+                "community development": 1,
+                "federal funding": 1,
+                "polycentricity": 1,
+                "public administration theory": 1,
+                "administrative informatics": 1,
+                "data science": 1,
+                "disciplinary formation": 1,
+                "budgeting theory": 1,
+                "entrepreneurial budgeting": 1,
+                "big data": 1,
+                "public service delivery": 1,
+                "governance": 1,
+                "mpa curriculum": 1
+            }
+        },
+        {
+            "field": "creator",
+            "terms": { 
+                "overton, michael": 26,
+                "stokan, eric": 7,
+                "kleinschmit, stephen": 4,
+                "bland, robert": 4,
+                "larson, sarah": 3,
+                "nukpezah, julius": 3,
+                "johnson, brad": 2,
+                "wilson, darrin": 2,
+                "bland, bob": 2,
+                "hatch, megan": 2,
+                "carlson, lisa": 1,
+                "prentice, valencia": 1,
+                "ismayilov, orkhan": 1,
+                "workman, samuel": 1,
+                "thomas, herschel": 1,
+                "schwoerer, kayla": 1,
+                "maruolis, spiro": 1,
+                "hart, nick": 1,
+                "fusi, federica": 1,
+                "feeney, mary": 1,
+                "zhang, christine": 1,
+                "deslatte, aaron": 1,
+                "sheneman, luke": 1,
+                "robison, barrie": 1,
+                "breuhl, brandon de": 1,
+                "gurbuz, gul nisa": 1,
+                "xia, xinyao": 1,
+                "ming, yi": 1,
+                "resh, bill": 1
+            }
+        },
+        {
+            "field": "venue",
+            "terms": { 
+                "the american review of public administration": 2,
+                "state and local government review": 2,
+                "teaching public administration": 2,
+                "urban affairs review": 2,
+                "public finance journal": 2,
+                "arxiv": 2,
+                "journal of behavioral public administration": 1,
+                "journal of urban affairs": 1,
+                "the research handbook on public finance": 1,
+                "global public policy and governance": 1,
+                "municipal finance journal": 1,
+                "public administration": 1,
+                "journal of public and nonprofit affairs": 1,
+                "public administration review": 1,
+                "international journal of public administration": 1,
+                "global encyclopedia of public administration (springer)": 1,
+                "pm magazine": 1,
+                "icma press": 1,
+                "the review of regional studies": 1,
+                "public money & management": 1
+            }
+        }
+        
+    ]
+}

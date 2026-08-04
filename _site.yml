@@ -11,7 +11,7 @@ navbar:
     - text: "CV and Bio"
       href: Bio.html
     - text: "Research"
-      href: Research.html
+      href: research/index.html
     - text: "Teaching"
       href: Teaching.html
     - text: "Assignments"
@@ -26,4 +26,5 @@ navbar:
       href: Links.html
     - text: "Blog"
       href: Blog.html
+exclude: ["research"]
 output: distill::distill_article

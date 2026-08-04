@@ -1,0 +1,600 @@
+{ "objects": [{ 
+        "title": "Towards Housing Equity: The Role of CDBG Grants",
+        "creator": "Stokan, Eric; Overton, Michael; Hatch, Megan",
+        "date": "2025",
+        "type": "Journal Article",
+        "venue": "Urban Affairs Review",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        "trajectory": "Community Development Block Grants",
+        
+        "subject": "Housing policy; Social equity; CDBG; Federal grants",
+        "description": "Journal Article in Urban Affairs Review. 2025.",
+        "abstract": "Housing rehabilitation investments funded through programs such as the Community Development Block Grant (CDBG) have been shown to increase property values; however, whether the same market value returns to these investments is realized for racial minority homeowners has lacked empirical scrutiny. This article examines the impact of housing rehabilitation services, funded through the CDBG program, on changes in property values in Dallas County, Texas, between 2004 and 2020. Based on a prediction of the homeowner's race/ethnicity, we estimate the impact of these investments on property values using a Generalized Synthetic Control model. The results highlight that while the program is effective and enhances outcome equality, with no significant difference in property value effects between estimates for different race/ethnicity groups, outcome equity is not achieved. This goal imposes higher standards than efficiency or equality for policymakers wishing to pursue racial outcome equity requiring governments to tailor programs to overcome historical discrimination.",
+        "doi": "https://doi.org/10.1177/10780874251359269",
+        
+        
+        "citation": "Stokan, Eric, Michael Overton, Megan Hatch. (2025) \"Towards Housing Equity: The Role of CDBG Grants.\" Urban Affairs Review, (OnlineFirst). https://doi.org/10.1177/10780874251359269",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/towards_housing_equity_the_role_of_cdbg_grants_th.jpg",
+        "object_location": "https://doi.org/10.1177/10780874251359269",
+        "reference_url": "/research/items/towards_housing_equity_the_role_of_cdbg_grants.html"
+    },
+    { 
+        "title": "Is There a Gold Standard or Need for a City-Centric Approach for Sales Tax Revenue Forecasting",
+        "creator": "Larson, Sarah; Overton, Michael",
+        "date": "2025",
+        "type": "Journal Article",
+        "venue": "Public Finance Journal",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Forecasting",
+        "trajectory": "Sales Tax Revenue Forecasting",
+        
+        "subject": "Revenue forecasting; Sales tax; Municipal finance",
+        "description": "Journal Article in Public Finance Journal. 2025.",
+        "abstract": "The accuracy of sales tax revenue forecasting is essential for local governments, as they rely on these forecasts to develop their annual budgets. Previous research has focused on identifying gold-standard forecasting methods with high average accuracy across multiple cities. However, such approaches may still produce inaccurate predictions for specific municipalities, making this scholarship less relevant to practitioners. Our research addresses the gap in the existing literature by focusing on the relative accuracy of forecasts from the municipal perspective rather than the overall average accuracy across all municipalities—a city-centric approach—to identify variations in various machine learning and traditional revenue forecasting methods. Here, we show that following the steps of PREE: (P) prepare, (R) run multiple models, (E) evaluate against benchmarks, and (E) evaluate overall performance can help to maximize the accuracy of sales tax revenue forecasting at the municipal level. The high variability in model performance across municipalities highlights the risks associated with relying on a single gold-standard forecasting approach. Instead, practitioners should focus on forecasting processes, such as PREE.",
+        "doi": "https://doi.org/10.59469/pfj.2025.45",
+        
+        "cited_by": "1",
+        "citation": "Larson, Sarah and Michael Overton. (2025) \"Is There a Gold Standard or Need for a City-Centric Approach for Sales Tax Revenue Forecasting.\" Public Finance Journal, 2 (2), 99-120. https://doi.org/10.59469/pfj.2025.45",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/is_there_a_gold_standard_or_need_for_a_city_centric_approach_th.jpg",
+        "object_location": "https://doi.org/10.59469/pfj.2025.45",
+        "reference_url": "/research/items/is_there_a_gold_standard_or_need_for_a_city_centric_approach.html"
+    },
+    { 
+        "title": "Rethinking Development and Redistribution Policy: Testing the Local Expenditure Assumption using the Community Development Block Grant Program",
+        "creator": "Overton, Michael; Stokan, Eric",
+        "date": "2025",
+        "type": "Journal Article",
+        "venue": "Journal of Urban Affairs",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        "trajectory": "Community Development Block Grants",
+        
+        "subject": "Local expenditure; CDBG; Redistribution; Urban policy",
+        "description": "Journal Article in Journal of Urban Affairs. 2025.",
+        "abstract": "Local governments make important public service decisions based on a critical assumption from urban political economy scholarship that development activities lead to economic growth, while redistributive activities do not. Using the Community Development Block Grant (CDBG) program, we test this local expenditure assumption by exploring the differential effectiveness of CDBG activities on individual and neighboring residential and commercial property values. To this end, we challenge the notion that development policies frequently improve economic returns while redistributive policies do not. We analyze the economic impact of 16 different CDBG activities on more than seven million properties between 2004 and 2017 in Dallas County, Texas. We find strong evidence that, contrary to conventional wisdom, redistributive policies can yield positive economic returns while development expenditures have mixed results. These findings have important implications for local governments seeking to grow their economy equitably.",
+        "doi": "https://doi.org/10.1080/07352166.2023.2171880",
+        
+        "cited_by": "7",
+        "citation": "Overton, Michael and Eric Stokan. (2025). \"Rethinking Development and Redistribution Policy: Testing the Local Expenditure Assumption using the Community Development Block Grant Program.\" Journal of Urban Affairs, 47 (1), 214-234. https://doi.org/10.1080/07352166.2023.2171880",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/rethinking_development_and_redistribution_policy_testing_the_th.jpg",
+        "object_location": "https://doi.org/10.1080/07352166.2023.2171880",
+        "reference_url": "/research/items/rethinking_development_and_redistribution_policy_testing_the.html"
+    },
+    { 
+        "title": "Assessing the Impact of Generative Artificial Intelligence on the U.S. Federal Workforce through a Competency-Based Approach",
+        "creator": "Resh, Bill; Ming, Yi; Xia, Xinyao; Overton, Michael; Gurbuz, Gul Nisa; Breuhl, Brandon De",
+        "date": "2025",
+        "type": "Preprint",
+        "venue": "arXiv",
+        "venue_type": "Preprint",
+        "status": "Under review",
+        "theme": "Data Science and AI",
+        "subtheme": "AI",
+        
+        "project_group": "AI and The Future of Government Work",
+        "subject": "Generative AI; Federal workforce; Competency",
+        "description": "Preprint in arXiv. 2025.",
+        "abstract": "This study investigates the near-future impacts of generative artificial intelligence (AI) technologies on occupational competencies across the U.S. federal workforce. We develop a multi-stage Retrieval-Augmented Generation system to leverage large language models for predictive AI modeling that projects shifts in required competencies and to identify vulnerable occupations on a knowledge-by-skill-by-ability basis across the federal government workforce. This study highlights policy recommendations essential for workforce planning in the era of AI. We integrate several sources of detailed data on occupational requirements across the federal government from both centralized and decentralized human resource sources, including from the U.S. Office of Personnel Management (OPM) and various federal agencies. While our preliminary findings suggest some significant shifts in required competencies and potential vulnerability of certain roles to AI-driven changes, we provide nuanced insights that support arguments against abrupt or generic approaches to strategic human capital planning around the development of generative AI. The study aims to inform strategic workforce planning and policy development within federal agencies and demonstrates how this approach can be replicated across other large employment institutions and labor markets.",
+        "doi": "https://doi.org/10.48550/arXiv.2503.09637",
+        "arxiv_id": "2503.09637",
+        "cited_by": "1",
+        "citation": "Resh, Bill, Yi Ming, Xinyao Xia, Michael Overton, Gul Nisa Gurbuz, and Brandon De Breuhl. \"Assessing the Impact of Generative Artificial Intelligence on the U.S. Federal Workforce through a Competency-Based Approach.\" arXiv preprint arXiv:2503.09637. https://doi.org/10.48550/arXiv.2503.09637 (Under Review)",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/assessing_the_impact_of_generative_artificial_intelligence_o_th.jpg",
+        "object_location": "https://www.michaeloverton.net/research/objects/genai_federal_workforce.pdf",
+        "reference_url": "/research/items/assessing_the_impact_of_generative_artificial_intelligence_o.html"
+    },
+    { 
+        "title": "TaMPERING with Large Language Models: A Field Guide for Generative AI in Public Administration Research",
+        "creator": "Overton, Michael; Robison, Barrie; Sheneman, Luke",
+        "date": "2025",
+        "type": "Preprint",
+        "venue": "arXiv",
+        "venue_type": "Preprint",
+        "status": "Under review",
+        "theme": "Data Science and AI",
+        "subtheme": "AI",
+        
+        
+        "subject": "Generative AI; LLMs; Research methods; Reporting standards",
+        "description": "Preprint in arXiv. 2025.",
+        "abstract": "The integration of Large Language Models (LLMs) into social science research presents transformative opportunities for advancing scientific inquiry, particularly in public administration (PA). However, the absence of standardized methodologies for using LLMs poses significant challenges for ensuring transparency, reproducibility, and replicability. This manuscript introduces the TaMPER framework-a structured methodology organized around five critical decision points: Task, Model, Prompt, Evaluation, and Reporting. The TaMPER framework provides scholars with a systematic approach to leveraging LLMs effectively while addressing key challenges such as model variability, prompt design, evaluation protocols, and transparent reporting practices.",
+        "doi": "https://doi.org/10.48550/arXiv.2504.01037",
+        "arxiv_id": "2504.01037",
+        
+        "citation": "Overton, Michael, Barrie Robison, and Luke Sheneman. \"TaMPERING with Large Language Models: A Field Guide for Generative AI in Public Administration Research.\" arXiv preprint arXiv:2504.01037. https://doi.org/10.48550/arXiv.2504.01037 (Under Review)",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/tampering_with_large_language_models_a_field_guide_for_gener_th.jpg",
+        "object_location": "https://www.michaeloverton.net/research/objects/tampering_llm.pdf",
+        "reference_url": "/research/items/tampering_with_large_language_models_a_field_guide_for_gener.html"
+    },
+    { 
+        "title": "Modeling Approach Matters but not as Much as Preprocessing: Comparison of Machine Learning and Traditional Revenue Forecasting Techniques",
+        "creator": "Larson, Sarah; Overton, Michael",
+        "date": "2024",
+        "type": "Journal Article",
+        "venue": "Public Finance Journal",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Forecasting",
+        "trajectory": "Sales Tax Revenue Forecasting",
+        
+        "subject": "Machine learning; Revenue forecasting; Preprocessing",
+        "description": "Journal Article in Public Finance Journal. 2024.",
+        "abstract": "Revenue forecasting accuracy is critical to governmental operations. This paper addresses the question: What is the best technique for forecasting sales tax revenue? Prior studies in this area have focused on the differences between machine learning techniques and traditional approaches and neglected to consider how differences in pre-processing steps for the data before the forecasting model is applied are important. Here, we show that machine learning techniques do not always provide increased forecasting accuracy. Instead, the modeling choices matter, but less than the prior literature and practice suggested. Rather, pre-processing makes the most significant difference in forecasting accuracy, and forecasters need to understand the unique characteristics of time series data to improve forecasting performance. The immediate implications of these findings are that the focus of practitioners of in sales tax revenue forecasting should shift from prioritizing model choice towards data pre-processing.",
+        "doi": "https://doi.org/10.59469/pfj.2024.8",
+        
+        "cited_by": "7",
+        "citation": "Larson, Sarah and Michael Overton. (2024). \"Modeling Approach Matters but not as Much as Preprocessing: Comparison of Machine Learning and Traditional Revenue Forecasting Techniques.\" Public Finance Journal, 1 (1), 29-48. https://doi.org/10.59469/pfj.2024.8",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/modeling_approach_matters_but_not_as_much_as_preprocessing_c_th.jpg",
+        "object_location": "https://doi.org/10.59469/pfj.2024.8",
+        "reference_url": "/research/items/modeling_approach_matters_but_not_as_much_as_preprocessing_c.html"
+    },
+    { 
+        "title": "Whose Neighborhood Needs? Assessing the Spatial Distribution of Federal Community Development Funds",
+        "creator": "Stokan, Eric; Overton, Michael; Deslatte, Aaron; Zhang, Christine",
+        "date": "2024",
+        "type": "Journal Article",
+        "venue": "Urban Affairs Review",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        "trajectory": "Community Development Block Grants",
+        
+        "subject": "Spatial analysis; Community development; Federal funding",
+        "description": "Journal Article in Urban Affairs Review. 2024.",
+        "abstract": "Local governments must balance their growth ambitions against needs arising from social inequities. The Community Development Block Grant (CDBG) program aims to redress these disparities by directing funds toward disinvested tracts. We ask whether a city's institutional design, public and private actor composition, and resource availability influence the decision to invest in communities with greater levels of social need. Utilizing a social equity framework, we connect place-level procedural fairness mechanisms with neighborhood-level access equity consequences. Combining U.S. local government survey data over two decades with census tract-level CDBG expenditures, we find that in neighborhood where 51 percent or more of the families are low-to-moderate income (LMI), its likelihood of receiving funds increases with its share of LMI population relative to the city's, but at a diminished rate compared to non-LMI tracts. Further, city-level factors moderate this relationship (e.g., including community development corporations in planning processes).",
+        "doi": "https://doi.org/10.1177/10780874231212843",
+        
+        "cited_by": "5",
+        "citation": "Stokan, Eric, Michael Overton, Aaron Deslatte, Christine Zhang. (2024). \"Whose Neighborhood Needs? Assessing the Spatial Distribution of Federal Community Development Funds.\" Urban Affairs Review, 60 (1), 29-48. https://doi.org/10.1177/10780874231212843",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/whose_neighborhood_needs_assessing_the_spatial_distribution_th.jpg",
+        "object_location": "https://doi.org/10.1177/10780874231212843",
+        "reference_url": "/research/items/whose_neighborhood_needs_assessing_the_spatial_distribution.html"
+    },
+    { 
+        "title": "50 Years as the 4th Pillar of Public Administration: A Polycentric Extension of the Social Equity Framework",
+        "creator": "Stokan, Eric; Hatch, Megan; Overton, Michael",
+        "date": "2023",
+        "type": "Journal Article",
+        "venue": "Public Administration",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        "trajectory": "Community Development Block Grants",
+        
+        "subject": "Social equity; Polycentricity; Public administration theory",
+        "description": "Journal Article in Public Administration. 2023.",
+        "abstract": "Abstract While public consideration of social equity pre‐dates Minnowbrook (Blessett et al., 2019; Burnier, 2021), the field formally recognized social equity as its fourth pillar after the conference (Frederickson, 1971). The National Academy of Public Administration (NAPA, 2000), Svara and Brunet (2004, 2005), and Johnson and Svara (2011) outlined a unified social equity framework along four dimensions: procedural fairness, access, quality, and outcomes. We build on this important work by offering a polycentric extension , which considers what social equity means when government programs are often place‐based and delivered in an intergovernmental context with multiple decision‐making units across spatial levels (e.g., state, city, neighborhood) simultaneously. Using the Community Development Block Grant as an example, we demonstrate the importance of careful consideration of geographic levels in the delivery of public goods for understanding the program's social equity implications. The polycentric framework can be a useful tool for evaluating the social equity of policies.",
+        "doi": "https://doi.org/10.1111/padm.12888",
+        
+        "cited_by": "30",
+        "citation": "Stokan, Eric, Megan Hatch, and Michael Overton. (2023). \"50 Years as the 4th Pillar of Public Administration: A Polycentric Extension of the Social Equity Framework.\" Public Administration, 101 (4), 1427-1442. https://doi.org/10.1111/padm.12888",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/50_years_as_the_4th_pillar_of_public_administration_a_polyce_th.jpg",
+        "object_location": "https://doi.org/10.1111/padm.12888",
+        "reference_url": "/research/items/50_years_as_the_4th_pillar_of_public_administration_a_polyce.html"
+    },
+    { 
+        "title": "Administrative Informatics: A Roundtable on the Conceptual Foundations of a Public Administration-Centered Data Science Subfield",
+        "creator": "Overton, Michael; Kleinschmit, Stephen; Feeney, Mary; Fusi, Federica; Hart, Nick; Maruolis, Spiro; Schwoerer, Kayla; Stokan, Eric; Thomas, Herschel; Workman, Samuel",
+        "date": "2023",
+        "type": "Journal Article",
+        "venue": "Journal of Behavioral Public Administration",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Data Science and AI",
+        "subtheme": "Data Science",
+        "trajectory": "Administrative Informatics",
+        
+        "subject": "Administrative informatics; Data science; Disciplinary formation",
+        "description": "Journal Article in Journal of Behavioral Public Administration. 2023.",
+        "abstract": "The purpose of this roundtable is to present, argue, and evaluate the role of administrative informatics in behavioral public administration. This essay is broken up into three sections. The first section introduces the substantive focus of administrative informatics and how it can be studied. The second section introduces the central concepts required to establish a new approach to scientific knowledge production. The final section provides a short overview of the contributions of the roundtable and nests them within the arguments established in this essay.",
+        "doi": "https://doi.org/10.30636/jbpa.61.330",
+        
+        "cited_by": "2",
+        "citation": "Overton, Michael, Stephen Kleinschmit, Mary Feeney, Federica Fusi, Nick Hart, Spiro Maruolis, Kayla Schwoerer, Eric Stokan, Herschel Thomas, and Samuel Workman. (2023) \"Administrative Informatics: A Roundtable on the Conceptual Foundations of a Public Administration-Centered Data Science Subfield.\" Overton, Michael and Stephen Kleinschmit contributed \"Defining Administrative Informatics: An Applied Data Science Subfield for the Public Sector.\" Journal of Behavioral Public Administration, (6), 1-31. https://doi.org/10.30636/jbpa.61.330",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/administrative_informatics_a_roundtable_on_the_conceptual_fo_th.jpg",
+        "object_location": "https://doi.org/10.30636/jbpa.61.330",
+        "reference_url": "/research/items/administrative_informatics_a_roundtable_on_the_conceptual_fo.html"
+    },
+    { 
+        "title": "Transforming research methods education through data science literacy",
+        "creator": "Overton, Michael; Kleinschmit, Stephen",
+        "date": "2023",
+        "type": "Journal Article",
+        "venue": "Teaching Public Administration",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Data Science and AI",
+        "subtheme": "Data Science",
+        "trajectory": "Data Science Literacy",
+        
+        "subject": "Pedagogy; Research methods; Data science literacy",
+        "description": "Journal Article in Teaching Public Administration. 2023.",
+        "abstract": "Mass adoption of advanced information technologies is fueling a need for public servants with the skills to manage data-driven public agencies. Public employees typically acquire data skills through graduate research methods courses, which focus primarily on research design and statistical analysis. What data skills are currently taught, and what content should Master of Public Administration (MPA) programs include in their research method courses? We categorized research method course content in 52 syllabi from 31 MPA programs to understand how data skills are taught in public administration. We find that most graduate programs rely on research methods more suited for academic and policy research while lacking the data skills needed to modernize public agencies. Informed by these results, this work presents the Data Science Literacy Framework as a guide for assessing and planning curriculum within MPA programs.",
+        "doi": "https://doi-org.uidaho.idm.oclc.org/10.1177/01447394221084488",
+        
+        "cited_by": "8",
+        "citation": "Overton, Michael, and Stephen Kleinschmit. (2023). \"Transforming research methods education through data science literacy.\" Teaching Public Administration, 41 (2), 149-169. https://doi-org.uidaho.idm.oclc.org/10.1177/01447394221084488",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/transforming_research_methods_education_through_data_science_th.jpg",
+        "object_location": "https://doi-org.uidaho.idm.oclc.org/10.1177/01447394221084488",
+        "reference_url": "/research/items/transforming_research_methods_education_through_data_science.html"
+    },
+    { 
+        "title": "Theoretical Foundations of Public Budgeting: The Road to Entrepreneurial Budgeting and Beyond",
+        "creator": "Bland, Robert; Overton, Michael; Prentice, Valencia",
+        "date": "2023",
+        "type": "Book Chapter",
+        "venue": "The Research Handbook on Public Finance",
+        "venue_type": "Book Chapter",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Budgeting",
+        
+        
+        "subject": "Budgeting theory; Entrepreneurial budgeting",
+        "description": "Book Chapter in The Research Handbook on Public Finance. 2023.",
+        
+        
+        
+        
+        "citation": "Bland, Robert, Michael Overton, and Valencia Prentice. (2023) \"Theoretical Foundations of Public Budgeting: The Road to Entrepreneurial Budgeting and Beyond.\" In: The Research Handbook on Public Finance.",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/theoretical_foundations_of_public_budgeting_the_road_to_entr_th.jpg",
+        "object_location": "",
+        "reference_url": "/research/items/theoretical_foundations_of_public_budgeting_the_road_to_entr.html"
+    },
+    { 
+        "title": "Public Data Primacy: The Changing Landscape of Public Service Delivery as Big Data gets Bigger",
+        "creator": "Overton, Michael; Larson, Sarah; Carlson, Lisa; Kleinschmit, Stephen",
+        "date": "2022",
+        "type": "Journal Article",
+        "venue": "Global Public Policy and Governance",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Data Science and AI",
+        "subtheme": "Data Science",
+        "trajectory": "Administrative Informatics",
+        
+        "subject": "Big data; Public service delivery; Governance",
+        "description": "Journal Article in Global Public Policy and Governance. 2022.",
+        
+        "doi": "https://doi.org/10.1007/s43508-022-00052-z",
+        
+        "cited_by": "18",
+        "citation": "Overton, Michael, Sarah Larson, Lisa Carlson, and Stephen Kleinschmit. (2022). \"Public Data Primacy: The Changing Landscape of Public Service Delivery as Big Data gets Bigger.\" Global Public Policy and Governance. 1 (2), 381-399. https://doi.org/10.1007/s43508-022-00052-z",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/public_data_primacy_the_changing_landscape_of_public_service_th.jpg",
+        "object_location": "https://doi.org/10.1007/s43508-022-00052-z",
+        "reference_url": "/research/items/public_data_primacy_the_changing_landscape_of_public_service.html"
+    },
+    { 
+        "title": "Data Science Literacy: Towards a Philosophy of Accessible and Adaptable Data Science Skill Development in Public Administration Programs",
+        "creator": "Overton, Michael; Kleinschmit, Stephen",
+        "date": "2022",
+        "type": "Journal Article",
+        "venue": "Teaching Public Administration",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Data Science and AI",
+        "subtheme": "Data Science",
+        "trajectory": "Data Science Literacy",
+        
+        "subject": "Data science literacy; Pedagogy; MPA curriculum",
+        "description": "Journal Article in Teaching Public Administration. 2022.",
+        "abstract": "Public administration is struggling to contend with a substantial shift in practice fueled by the accelerating adoption of information technology. New skills, competencies and pedagogies are required by the field to help overcome the data-skills gap. As a means to address these deficiencies, we introduce the Data Science Literacy Framework, a heuristic for incorporating data science principles into public administration programs. The framework suggests that data literacy is the dominant principle underlying a shift in professional practice, accentuated by an understanding of computational science, statistical methodology, and data-adjacent domain knowledge. A combination of new and existing skills meshed into public administration curriculums help implement these principles and advance public administration education.",
+        "doi": "https://doi.org/10.1177/01447394211004990",
+        
+        "cited_by": "29",
+        "citation": "Overton, Michael and Stephen Kleinschmit. (2022). \"Data Science Literacy: Towards a Philosophy of Accessible and Adaptable Data Science Skill Development in Public Administration Programs.\" Teaching Public Administration, 40 (3), 354-365. https://doi.org/10.1177/01447394211004990",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/data_science_literacy_towards_a_philosophy_of_accessible_and_th.jpg",
+        "object_location": "https://doi.org/10.1177/01447394211004990",
+        "reference_url": "/research/items/data_science_literacy_towards_a_philosophy_of_accessible_and.html"
+    },
+    { 
+        "title": "Budget Volatility and Economic Base Composition in Local Governments",
+        "creator": "Overton, Michael; Bland, Robert",
+        "date": "2022",
+        "type": "Journal Article",
+        "venue": "Municipal Finance Journal",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        
+        
+        "subject": "Budget volatility; Economic base; Municipal finance",
+        "description": "Journal Article in Municipal Finance Journal. 2022.",
+        "abstract": "Budget volatility—the difference between expected and actual revenues and expenditures—is a critical component to sustaining a local government’s fiscal health. Although scholars have examined many determinants of budget volatility, less understood is the effect of a local government’s economy—the composition of its economic base—on budget volatility. To fill this gap, this article uses panel data methods to test the impact of a city’s economic base on budget volatility. The results suggest that industrial diversification has no impact on budget stability but that certain industrial clusters do generally promote budget stability.",
+        
+        
+        
+        "citation": "Overton, Michael, and Robert Bland. (2022). \"Budget Volatility and Economic Base Composition in Local Governments.\" Municipal Finance Journal, 43 (1), 1-23.",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/budget_volatility_and_economic_base_composition_in_local_gov_th.jpg",
+        "object_location": "",
+        "reference_url": "/research/items/budget_volatility_and_economic_base_composition_in_local_gov.html"
+    },
+    { 
+        "title": "Emergent Patterns in Local Economic Development in Light of COVID-19",
+        "creator": "Johnson, Brad; Wilson, Darrin; Stokan, Eric; Overton, Michael",
+        "date": "2022",
+        "type": "Journal Article",
+        "venue": "State and Local Government Review",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        
+        
+        "subject": "COVID-19; Economic development; Local government",
+        "description": "Journal Article in State and Local Government Review. 2022.",
+        "abstract": "The COVID-19 pandemic pressured local governments to employ creative and untested economic development strategies to stabilize private businesses. To explore how the uncertainty of the pandemic impacted the priorities and strategies of economic development officials, we surveyed officials about their initial economic development response to the pandemic coupled with subsequent in-depth interviews in the Cincinnati metropolitan region. Our analysis suggests that local officials did not drastically alter their use of supply-side tools during the pandemic. However, they did start coupling supply-side with demand-side policies in unique ways compared to past economic crises. This study also finds that the pandemic affected collaboration processes, leading officials to deepen and forge relationships with other local governments. We find that these shifts have proven durable over the past year as municipalities continue to grapple with changing economic conditions due to COVID-19. As additional waves are likely, we suggest that administrators must consider the skills required to manage evolving economic conditions as well as both the supply and demand sides of local economic development.",
+        "doi": "https://doi.org/10.1177/0160323X221097711",
+        
+        "cited_by": "7",
+        "citation": "Johnson, Brad, Darrin Wilson, Eric Stokan, and Michael Overton. (2022). \"Emergent Patterns in Local Economic Development in Light of COVID-19.\" State and Local Government Review, 54 (2), 174-191. https://doi.org/10.1177/0160323X221097711",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/emergent_patterns_in_local_economic_development_in_light_of_th.jpg",
+        "object_location": "https://doi.org/10.1177/0160323X221097711",
+        "reference_url": "/research/items/emergent_patterns_in_local_economic_development_in_light_of.html"
+    },
+    { 
+        "title": "Book Review of the Public Affairs Faculty Manual",
+        "creator": "Overton, Michael",
+        "date": "2021",
+        "type": "Book Review",
+        "venue": "Journal of Public and Nonprofit Affairs",
+        "venue_type": "Book Review",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "General PA",
+        
+        
+        "subject": "Book review; Public affairs education",
+        "description": "Book Review in Journal of Public and Nonprofit Affairs. 2021.",
+        "abstract": "In The Public Affairs Faculty Manual: A Guide to the Effective Management of Public Affairs Programs, editors Bruce McDonald III and William Hatcher, provide a broad overview on designing, leading, and managing a public affairs (PA) program. The edited volume is explicitly written for PA faculty in new leadership roles in higher education, though it is a useful reference for administrators of all levels and even useful for regular faculty. Despite excellent journals focused on PA education, such as Journal of Public Affairs Education, and Teaching Public Administration, there is a clear need for a focused cultivation of fundamental knowledge, research, and experience-informed advice for academic administrators in PA programs.",
+        "doi": "https://doi.org/10.20899/jpna.7.2.293-296",
+        
+        "cited_by": "2",
+        "citation": "Overton, Michael. (2021). \"Book Review of the Public Affairs Faculty Manual.\" Journal of Public and Nonprofit Affairs, 7 (2), 293-296. https://doi.org/10.20899/jpna.7.2.293-296.",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/book_review_of_the_public_affairs_faculty_manual_th.jpg",
+        "object_location": "https://doi.org/10.20899/jpna.7.2.293-296",
+        "reference_url": "/research/items/book_review_of_the_public_affairs_faculty_manual.html"
+    },
+    { 
+        "title": "Institutional Collective Action During Covid-19: Lessons in Local Economic Development",
+        "creator": "Wilson, Darrin; Johnson, Brad; Stokan, Eric; Overton, Michael",
+        "date": "2020",
+        "type": "Journal Article",
+        "venue": "Public Administration Review",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        
+        
+        "subject": "COVID-19; Institutional collective action; Economic development",
+        "description": "Journal Article in Public Administration Review. 2020.",
+        "abstract": "At this point, little is known about local government responses to the economic crisis caused by COVID-19. This crisis is happening on Main Streets around the nation. This article examines how some local governments are taking collective action in partnership with other governments as well as with organizations at the local and regional levels. What is unique is that collective action is rare as it relates to traditional economic development practices, yet it is occurring and leading to offerings of multi-institutional grants and low-interest loans. However, some newer supply- and demand-side actions are the result of a lack of resources and need for expediency. Practitioners can learn about the collaborative economic development actions that governments are taking and how these partnerships can stabilize their local economies.",
+        "doi": "https://doi.org/10.1111/puar.13234",
+        
+        "cited_by": "42",
+        "citation": "Wilson, Darrin, Brad Johnson, Eric Stokan, and Michael Overton. (2020). \"Institutional Collective Action During Covid-19: Lessons in Local Economic Development.\" Public Administration Review, 80 (5), 862-865. https://doi.org/10.1111/puar.13234",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/institutional_collective_action_during_covid_19_lessons_in_l_th.jpg",
+        "object_location": "https://doi.org/10.1111/puar.13234",
+        "reference_url": "/research/items/institutional_collective_action_during_covid_19_lessons_in_l.html"
+    },
+    { 
+        "title": "Investigating Sales Tax Revenue Competition among Principal Cities and Their Neighboring Cities in Texas",
+        "creator": "Overton, Michael; Nukpezah, Julius",
+        "date": "2020",
+        "type": "Journal Article",
+        "venue": "International Journal of Public Administration",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Municipal Competition",
+        "trajectory": "Market Differentiation and Municipal Competition",
+        
+        "subject": "Sales tax; Tax competition; Local government",
+        "description": "Journal Article in International Journal of Public Administration. 2020.",
+        "abstract": "While research has explored the economic importance of principal cities on regional economies, little is known about the short-run and long-run dynamic relationships between principal cities and their neighboring cities as it pertains to their sales tax revenue elasticities and the subsequent affect this has on horizontal tax competition. Using vector error correction models on data from six principal cities in Texas, the findings of this study suggest that the relationship between principal and neighboring cities is highly dynamic and unique for each principal city. The study recommends that local economic policies should reflect these unique relationships.",
+        "doi": "https://doi.org/10.1080/01900692.2019.1661433",
+        
+        "cited_by": "11",
+        "citation": "Overton, Michael, and Julius Nukpezah. (2020). \"Investigating Sales Tax Revenue Competition among Principal Cities and Their Neighboring Cities in Texas.\" International Journal of Public Administration, 43 (11), 937-948. https://doi.org/10.1080/01900692.2019.1661433",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/investigating_sales_tax_revenue_competition_among_principal_th.jpg",
+        "object_location": "https://doi.org/10.1080/01900692.2019.1661433",
+        "reference_url": "/research/items/investigating_sales_tax_revenue_competition_among_principal.html"
+    },
+    { 
+        "title": "Vertical and Horizontal Tax Competition in the USA",
+        "creator": "Nukpezah, Julius; Overton, Michael",
+        "date": "2020",
+        "type": "Book Chapter",
+        "venue": "Global Encyclopedia of Public Administration (Springer)",
+        "venue_type": "Book Chapter",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Municipal Competition",
+        "trajectory": "Market Differentiation and Municipal Competition",
+        
+        "subject": "Tax competition; Federalism",
+        "description": "Book Chapter in Global Encyclopedia of Public Administration (Springer). 2020.",
+        
+        "doi": "https://doi.org/10.1007/978-3-319-31816-5_3936-1",
+        
+        "cited_by": "2",
+        "citation": "Nukpezah, Julius, and Michael Overton. (2020) \"Vertical and Horizontal Tax Competition in the USA.\" In: Farazmand A. (ed.) Global Encyclopedia of Public Administration. (pp.1-8) Springer, Cham. https://doi.org/10.1007/978-3-319-31816-5_3936-1.",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/vertical_and_horizontal_tax_competition_in_the_usa_th.jpg",
+        "object_location": "https://doi.org/10.1007/978-3-319-31816-5_3936-1",
+        "reference_url": "/research/items/vertical_and_horizontal_tax_competition_in_the_usa.html"
+    },
+    { 
+        "title": "A Century of Budget Innovations",
+        "creator": "Bland, Bob; Overton, Michael",
+        "date": "2020",
+        "type": "Magazine Article",
+        "venue": "PM Magazine",
+        "venue_type": "Magazine Article",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Budgeting",
+        
+        
+        "subject": "Budgeting history; Public budgeting",
+        "description": "Magazine Article in PM Magazine. 2020.",
+        
+        
+        
+        
+        "citation": "Bland, Bob, and Michael Overton (2020). \"A Century of Budget Innovations.\" PM Magazine, February 102 (2): 12-19.",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/a_century_of_budget_innovations_th.jpg",
+        "object_location": "",
+        "reference_url": "/research/items/a_century_of_budget_innovations.html"
+    },
+    { 
+        "title": "A Budgeting Guide for Local Government",
+        "creator": "Bland, Bob; Overton, Michael",
+        "date": "2019",
+        "type": "Book",
+        "venue": "ICMA Press",
+        "venue_type": "Book",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Budgeting",
+        
+        
+        "subject": "Public budgeting; Practitioner guidance; Local government",
+        "description": "Book in ICMA Press. 2019.",
+        
+        
+        
+        
+        "citation": "Bland, Bob, and Michael Overton (2019). A Budgeting Guide for Local Government. 4th ed. International City/County Management Association Press: Washington, DC.",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/a_budgeting_guide_for_local_government_th.jpg",
+        "object_location": "",
+        "reference_url": "/research/items/a_budgeting_guide_for_local_government.html"
+    },
+    { 
+        "title": "Market Differentiation and the Adoption of Economic Development Strategies: Explaining Policy Adoption in Metropolitan Areas",
+        "creator": "Overton, Michael",
+        "date": "2018",
+        "type": "Journal Article",
+        "venue": "The Review of Regional Studies",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Municipal Competition",
+        "trajectory": "Market Differentiation and Municipal Competition",
+        
+        "subject": "Economic development strategy; Policy adoption; Metropolitan areas",
+        "description": "Journal Article in The Review of Regional Studies. 2018.",
+        "abstract": "Local government competition for private business investment is a central concern in polycentric governance. Previous research argues that competition for business investment is intense and ubiquitous across local governments (Peterson, 1981; Rubin, 1988). However, local government managers adopt policy and economic development strategies in the context of the strategies adopted by neighboring local governments. Do cities, knowing the economic development strategies of their neighboring cities, pursue similar types of businesses? Or do they strategically target different types of businesses to avoid the negative consequences of competition? Hypotheses are tested by applying product differentiation theory to policy adoption in metropolitan areas using spatial regression analysis on a sample of 2,299 cities. Results indicate that cities pursue similar development strategies as neighboring cities, but will implement increasingly differentiated strategies as population heterogeneity and political and bureaucratic incentives increase. Furthermore, this study finds that a city’s reliance on the sales tax and the costs of competing for business location impact the type of development strategy used by a city.",
+        "doi": "https://doi.org/10.52324/001c.7990",
+        
+        "cited_by": "5",
+        "citation": "Overton, Michael. (2018). \"Market Differentiation and the Adoption of Economic Development Strategies: Explaining Policy Adoption in Metropolitan Areas.\" The Review of Regional Studies, 48 (3), 299-322. https://doi.org/10.52324/001c.7990",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/market_differentiation_and_the_adoption_of_economic_developm_th.jpg",
+        "object_location": "https://doi.org/10.52324/001c.7990",
+        "reference_url": "/research/items/market_differentiation_and_the_adoption_of_economic_developm.html"
+    },
+    { 
+        "title": "Early Payments, Late Payments, and Revenue Volatility in Texas Cities",
+        "creator": "Overton, Michael; Nukpezah, Julius; Ismayilov, Orkhan",
+        "date": "2017",
+        "type": "Journal Article",
+        "venue": "Public Money & Management",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Forecasting",
+        "trajectory": "Sales Tax Revenue Forecasting",
+        
+        "subject": "Revenue volatility; Municipal finance; Texas",
+        "description": "Journal Article in Public Money & Management. 2017.",
+        "abstract": "Local governments with volatile revenues face a variety of managerial challenges. This study examines the impact of prepayments and late payments on sales tax revenue volatility (STRV). Prepayments and late payments have the potential of disrupting the predictability of sales tax revenue. Using a sample of 1,075 cities in Texas over a 15-year period (1998 to 2013), the study finds that late payments impact STRV while early payments do not.",
+        "doi": "https://doi.org/10.1080/09540962.2017.1372099",
+        
+        "cited_by": "6",
+        "citation": "Overton, Michael, Julius Nukpezah, and Orkhan Ismayilov. (2017). \"Early Payments, Late Payments, and Revenue Volatility in Texas Cities.\" Public Money & Management, 38 (7), 469-476. https://doi.org/10.1080/09540962.2017.1372099",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/early_payments_late_payments_and_revenue_volatility_in_texas_th.jpg",
+        "object_location": "https://doi.org/10.1080/09540962.2017.1372099",
+        "reference_url": "/research/items/early_payments_late_payments_and_revenue_volatility_in_texas.html"
+    },
+    { 
+        "title": "Sorting Through the Determinants of Local Government Competition",
+        "creator": "Overton, Michael",
+        "date": "2017",
+        "type": "Journal Article",
+        "venue": "The American Review of Public Administration",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Municipal Competition",
+        "trajectory": "Market Differentiation and Municipal Competition",
+        
+        "subject": "Local competition; Tiebout; Public choice",
+        "description": "Journal Article in The American Review of Public Administration. 2017.",
+        "abstract": "Competition among local governments for business investment and residents is a key feature of metropolitan governance scholarship. Despite the excellent work exploring interjurisdictional competition, the conceptualization and operationalization of competition still lack the necessary complexity to fully capture the determinants of competition. In reality, the degree of competition between local governments is a multidimensional concept. How do the different dimensions of competition impact a city’s own-source revenue yield? Using a Spatial Durbin Model (SDM) to analyze a sample of 2,299 U.S. cities, this study finds that household income differentiation and manufacturing differentiation are important in a city’s revenue yield, and both types of differentiation limit head-to-head competition among local governments. In addition, the results indicate that entry barriers and collaboration affect a city’s revenue yields, while the number of cities in a metropolitan statistical area (MSA) does not influence those collections.",
+        "doi": "https://doi.org/10.1177/0275074016651143",
+        
+        "cited_by": "31",
+        "citation": "Overton, Michael. (2017). \"Sorting Through the Determinants of Local Government Competition.\" The American Review of Public Administration, 47 (8), 914-928. https://doi.org/10.1177/0275074016651143",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/sorting_through_the_determinants_of_local_government_competi_th.jpg",
+        "object_location": "https://doi.org/10.1177/0275074016651143",
+        "reference_url": "/research/items/sorting_through_the_determinants_of_local_government_competi.html"
+    },
+    { 
+        "title": "Assessing the Contributions of Collaborators in Public-Private Partnerships: Evidence from Tax Increment Financing",
+        "creator": "Bland, Robert; Overton, Michael",
+        "date": "2016",
+        "type": "Journal Article",
+        "venue": "The American Review of Public Administration",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        "trajectory": "Public-Private Partnerships",
+        
+        "subject": "Public-private partnerships; TIF; Collaboration",
+        "description": "Journal Article in The American Review of Public Administration. 2016.",
+        "abstract": "Partnerships that bring together public, private, and nonprofit organizations have become widely used by local governments. But we lack knowledge about the distinct contributions of collaborators to the partnership. This study uses tax increment financing (TIF) in Dallas, Texas, to assess the distinctive roles of public and private partners in achieving mutually beneficial policy outcomes. We find that, while public investment is essential to the partnership’s success, private investment directly increases property values. The city’s greatest contribution is to leverage private investment to create added taxable value in the TIF district. The increased property value provides revenue that is used for public purposes benefiting TIF district occupants. As with other quasi-private institutions that have gained popularity in the new order of governance, the appeal of TIF is its capacity to create public goods with bounded benefits. In addition, both institutional and operational knowledge contribute to the partnership’s success. The city’s experience at establishing new TIF districts and administering existing ones increases taxable value.",
+        "doi": "https://doi.org/10.1177/0275074014559246",
+        
+        "cited_by": "20",
+        "citation": "Bland, Robert and Michael Overton. (2016). \"Assessing the Contributions of Collaborators in Public-Private Partnerships: Evidence from Tax Increment Financing.\" The American Review of Public Administration, 46 (4), 418-435. https://doi.org/10.1177/0275074014559246",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/assessing_the_contributions_of_collaborators_in_public_priva_th.jpg",
+        "object_location": "https://doi.org/10.1177/0275074014559246",
+        "reference_url": "/research/items/assessing_the_contributions_of_collaborators_in_public_priva.html"
+    },
+    { 
+        "title": "The Great Recession's Impact on Credible Commitment: An Analysis of Private Investment in Tax Increment Financing Districts",
+        "creator": "Overton, Michael; Bland, Robert",
+        "date": "2014",
+        "type": "Journal Article",
+        "venue": "State and Local Government Review",
+        "venue_type": "Peer-reviewed journal",
+        "status": "Published",
+        "theme": "Municipal Finance and Budgeting",
+        "subtheme": "Economic Development",
+        "trajectory": "Public-Private Partnerships",
+        
+        "subject": "Tax increment financing; Public-private partnerships",
+        "description": "Journal Article in State and Local Government Review. 2014.",
+        "abstract": "This study explores the Great Recession’s effect on the commitment by the city of Dallas, Texas, to its private partners in seventeen tax increment financing (TIF) districts. What effect did the recession have on private investment in public–private partnerships? Did the recession cause a loss of credibility in the city’s commitment, resulting in lower levels of private investment? Was there a lasting structural change in the determinants of private participation stemming from the recession? Results from a random effects Tobit model show that the city’s proposed budget for each TIF district was a significant determinant of the level of private investment. However, during the recession, the actual amount of investment by the city was essential to reassuring private investors of the city’s commitment.",
+        "doi": "https://doi.org/10.1177/0160323X14559713",
+        
+        "cited_by": "12",
+        "citation": "Overton, Michael and Robert Bland. (2014). \"The Great Recession's Impact on Credible Commitment: An Analysis of Private Investment in Tax Increment Financing Districts.\" State and Local Government Review, 46 (4), 282-297. https://doi.org/10.1177/0160323X14559713",
+        "object_thumb": "https://www.michaeloverton.net/research/objects/thumbs/the_great_recession_s_impact_on_credible_commitment_an_analy_th.jpg",
+        "object_location": "https://doi.org/10.1177/0160323X14559713",
+        "reference_url": "/research/items/the_great_recession_s_impact_on_credible_commitment_an_analy.html"
+    }
+    
+] }

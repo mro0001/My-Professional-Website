@@ -1,0 +1,407 @@
+{
+    "title": {
+        "media": {
+          "url": "https://www.michaeloverton.net/research/assets/img/banner.jpg",
+          "alt": "Abstract banner representing a body of scholarly work",
+          "caption": null,
+          "credit": "Michael Overton | Research"
+        },
+        "text": {
+          "headline": "Michael Overton | Research Timeline",
+          "text": "The research corpus of Michael Overton: peer-reviewed articles, technical reports, working papers, and conference presentations in public administration and public finance."
+        }
+    },
+    "events": [
+      {
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/towards_housing_equity_the_role_of_cdbg_grants_sm.jpg",
+          "alt": "Cover card for Towards Housing Equity: The Role of CDBG Grants, a journal article in Urban Affairs Review",
+          "caption": "Towards Housing Equity: The Role of CDBG Grants",
+          "link": "https://www.michaeloverton.net/research/items/towards_housing_equity_the_role_of_cdbg_grants.html"
+        },
+        "start_date": { 
+          
+          "year": "2025"
+        },
+        "text": {
+          "headline": "Towards Housing Equity: The Role of CDBG Grants",
+          "text": "Journal Article in Urban Affairs Review. 2025."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/is_there_a_gold_standard_or_need_for_a_city_centric_approach_sm.jpg",
+          "alt": "Cover card for Is There a Gold Standard or Need for a City-Centric Approach for Sales Tax Revenue Forecasting, a journal article in Public Finance Journal",
+          "caption": "Is There a Gold Standard or Need for a City-Centric Approach for Sales Tax Revenue Forecasting",
+          "link": "https://www.michaeloverton.net/research/items/is_there_a_gold_standard_or_need_for_a_city_centric_approach.html"
+        },
+        "start_date": { 
+          
+          "year": "2025"
+        },
+        "text": {
+          "headline": "Is There a Gold Standard or Need for a City-Centric Approach for Sales Tax Revenue Forecasting",
+          "text": "Journal Article in Public Finance Journal. 2025."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/rethinking_development_and_redistribution_policy_testing_the_sm.jpg",
+          "alt": "Cover card for Rethinking Development and Redistribution Policy: Testing the Local Expenditure Assumption using the Community Development Block Grant Program, a journal article in Journal of Urban Affairs",
+          "caption": "Rethinking Development and Redistribution Policy: Testing the Local Expenditure Assumption using the Community Development Block Grant Program",
+          "link": "https://www.michaeloverton.net/research/items/rethinking_development_and_redistribution_policy_testing_the.html"
+        },
+        "start_date": { 
+          
+          "year": "2025"
+        },
+        "text": {
+          "headline": "Rethinking Development and Redistribution Policy: Testing the Local Expenditure Assumption using the Community Development Block Grant Program",
+          "text": "Journal Article in Journal of Urban Affairs. 2025."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/assessing_the_impact_of_generative_artificial_intelligence_o_sm.jpg",
+          "alt": "Cover card for Assessing the Impact of Generative Artificial Intelligence on the U.S. Federal Workforce through a Competency-Based Approach, a preprint in arXiv",
+          "caption": "Assessing the Impact of Generative Artificial Intelligence on the U.S. Federal Workforce through a Competency-Based Approach",
+          "link": "https://www.michaeloverton.net/research/items/assessing_the_impact_of_generative_artificial_intelligence_o.html"
+        },
+        "start_date": { 
+          
+          "year": "2025"
+        },
+        "text": {
+          "headline": "Assessing the Impact of Generative Artificial Intelligence on the U.S. Federal Workforce through a Competency-Based Approach",
+          "text": "Preprint in arXiv. 2025."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/tampering_with_large_language_models_a_field_guide_for_gener_sm.jpg",
+          "alt": "Cover card for TaMPERING with Large Language Models: A Field Guide for Generative AI in Public Administration Research, a preprint in arXiv",
+          "caption": "TaMPERING with Large Language Models: A Field Guide for Generative AI in Public Administration Research",
+          "link": "https://www.michaeloverton.net/research/items/tampering_with_large_language_models_a_field_guide_for_gener.html"
+        },
+        "start_date": { 
+          
+          "year": "2025"
+        },
+        "text": {
+          "headline": "TaMPERING with Large Language Models: A Field Guide for Generative AI in Public Administration Research",
+          "text": "Preprint in arXiv. 2025."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/modeling_approach_matters_but_not_as_much_as_preprocessing_c_sm.jpg",
+          "alt": "Cover card for Modeling Approach Matters but not as Much as Preprocessing: Comparison of Machine Learning and Traditional Revenue Forecasting Techniques, a journal article in Public Finance Journal",
+          "caption": "Modeling Approach Matters but not as Much as Preprocessing: Comparison of Machine Learning and Traditional Revenue Forecasting Techniques",
+          "link": "https://www.michaeloverton.net/research/items/modeling_approach_matters_but_not_as_much_as_preprocessing_c.html"
+        },
+        "start_date": { 
+          
+          "year": "2024"
+        },
+        "text": {
+          "headline": "Modeling Approach Matters but not as Much as Preprocessing: Comparison of Machine Learning and Traditional Revenue Forecasting Techniques",
+          "text": "Journal Article in Public Finance Journal. 2024."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/whose_neighborhood_needs_assessing_the_spatial_distribution_sm.jpg",
+          "alt": "Cover card for Whose Neighborhood Needs? Assessing the Spatial Distribution of Federal Community Development Funds, a journal article in Urban Affairs Review",
+          "caption": "Whose Neighborhood Needs? Assessing the Spatial Distribution of Federal Community Development Funds",
+          "link": "https://www.michaeloverton.net/research/items/whose_neighborhood_needs_assessing_the_spatial_distribution.html"
+        },
+        "start_date": { 
+          
+          "year": "2024"
+        },
+        "text": {
+          "headline": "Whose Neighborhood Needs? Assessing the Spatial Distribution of Federal Community Development Funds",
+          "text": "Journal Article in Urban Affairs Review. 2024."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/50_years_as_the_4th_pillar_of_public_administration_a_polyce_sm.jpg",
+          "alt": "Cover card for 50 Years as the 4th Pillar of Public Administration: A Polycentric Extension of the Social Equity Framework, a journal article in Public Administration",
+          "caption": "50 Years as the 4th Pillar of Public Administration: A Polycentric Extension of the Social Equity Framework",
+          "link": "https://www.michaeloverton.net/research/items/50_years_as_the_4th_pillar_of_public_administration_a_polyce.html"
+        },
+        "start_date": { 
+          
+          "year": "2023"
+        },
+        "text": {
+          "headline": "50 Years as the 4th Pillar of Public Administration: A Polycentric Extension of the Social Equity Framework",
+          "text": "Journal Article in Public Administration. 2023."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/administrative_informatics_a_roundtable_on_the_conceptual_fo_sm.jpg",
+          "alt": "Cover card for Administrative Informatics: A Roundtable on the Conceptual Foundations of a Public Administration-Centered Data Science Subfield, a journal article in Journal of Behavioral Public Administration",
+          "caption": "Administrative Informatics: A Roundtable on the Conceptual Foundations of a Public Administration-Centered Data Science Subfield",
+          "link": "https://www.michaeloverton.net/research/items/administrative_informatics_a_roundtable_on_the_conceptual_fo.html"
+        },
+        "start_date": { 
+          
+          "year": "2023"
+        },
+        "text": {
+          "headline": "Administrative Informatics: A Roundtable on the Conceptual Foundations of a Public Administration-Centered Data Science Subfield",
+          "text": "Journal Article in Journal of Behavioral Public Administration. 2023."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/transforming_research_methods_education_through_data_science_sm.jpg",
+          "alt": "Cover card for Transforming research methods education through data science literacy, a journal article in Teaching Public Administration",
+          "caption": "Transforming research methods education through data science literacy",
+          "link": "https://www.michaeloverton.net/research/items/transforming_research_methods_education_through_data_science.html"
+        },
+        "start_date": { 
+          
+          "year": "2023"
+        },
+        "text": {
+          "headline": "Transforming research methods education through data science literacy",
+          "text": "Journal Article in Teaching Public Administration. 2023."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/theoretical_foundations_of_public_budgeting_the_road_to_entr_sm.jpg",
+          "alt": "Cover card for Theoretical Foundations of Public Budgeting: The Road to Entrepreneurial Budgeting and Beyond, a book chapter in The Research Handbook on Public Finance",
+          "caption": "Theoretical Foundations of Public Budgeting: The Road to Entrepreneurial Budgeting and Beyond",
+          "link": "https://www.michaeloverton.net/research/items/theoretical_foundations_of_public_budgeting_the_road_to_entr.html"
+        },
+        "start_date": { 
+          
+          "year": "2023"
+        },
+        "text": {
+          "headline": "Theoretical Foundations of Public Budgeting: The Road to Entrepreneurial Budgeting and Beyond",
+          "text": "Book Chapter in The Research Handbook on Public Finance. 2023."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/public_data_primacy_the_changing_landscape_of_public_service_sm.jpg",
+          "alt": "Cover card for Public Data Primacy: The Changing Landscape of Public Service Delivery as Big Data gets Bigger, a journal article in Global Public Policy and Governance",
+          "caption": "Public Data Primacy: The Changing Landscape of Public Service Delivery as Big Data gets Bigger",
+          "link": "https://www.michaeloverton.net/research/items/public_data_primacy_the_changing_landscape_of_public_service.html"
+        },
+        "start_date": { 
+          
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Public Data Primacy: The Changing Landscape of Public Service Delivery as Big Data gets Bigger",
+          "text": "Journal Article in Global Public Policy and Governance. 2022."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/data_science_literacy_towards_a_philosophy_of_accessible_and_sm.jpg",
+          "alt": "Cover card for Data Science Literacy: Towards a Philosophy of Accessible and Adaptable Data Science Skill Development in Public Administration Programs, a journal article in Teaching Public Administration",
+          "caption": "Data Science Literacy: Towards a Philosophy of Accessible and Adaptable Data Science Skill Development in Public Administration Programs",
+          "link": "https://www.michaeloverton.net/research/items/data_science_literacy_towards_a_philosophy_of_accessible_and.html"
+        },
+        "start_date": { 
+          
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Data Science Literacy: Towards a Philosophy of Accessible and Adaptable Data Science Skill Development in Public Administration Programs",
+          "text": "Journal Article in Teaching Public Administration. 2022."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/budget_volatility_and_economic_base_composition_in_local_gov_sm.jpg",
+          "alt": "Cover card for Budget Volatility and Economic Base Composition in Local Governments, a journal article in Municipal Finance Journal",
+          "caption": "Budget Volatility and Economic Base Composition in Local Governments",
+          "link": "https://www.michaeloverton.net/research/items/budget_volatility_and_economic_base_composition_in_local_gov.html"
+        },
+        "start_date": { 
+          
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Budget Volatility and Economic Base Composition in Local Governments",
+          "text": "Journal Article in Municipal Finance Journal. 2022."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/emergent_patterns_in_local_economic_development_in_light_of_sm.jpg",
+          "alt": "Cover card for Emergent Patterns in Local Economic Development in Light of COVID-19, a journal article in State and Local Government Review",
+          "caption": "Emergent Patterns in Local Economic Development in Light of COVID-19",
+          "link": "https://www.michaeloverton.net/research/items/emergent_patterns_in_local_economic_development_in_light_of.html"
+        },
+        "start_date": { 
+          
+          "year": "2022"
+        },
+        "text": {
+          "headline": "Emergent Patterns in Local Economic Development in Light of COVID-19",
+          "text": "Journal Article in State and Local Government Review. 2022."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/book_review_of_the_public_affairs_faculty_manual_sm.jpg",
+          "alt": "Cover card for Book Review of the Public Affairs Faculty Manual, a book review in Journal of Public and Nonprofit Affairs",
+          "caption": "Book Review of the Public Affairs Faculty Manual",
+          "link": "https://www.michaeloverton.net/research/items/book_review_of_the_public_affairs_faculty_manual.html"
+        },
+        "start_date": { 
+          
+          "year": "2021"
+        },
+        "text": {
+          "headline": "Book Review of the Public Affairs Faculty Manual",
+          "text": "Book Review in Journal of Public and Nonprofit Affairs. 2021."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/institutional_collective_action_during_covid_19_lessons_in_l_sm.jpg",
+          "alt": "Cover card for Institutional Collective Action During Covid-19: Lessons in Local Economic Development, a journal article in Public Administration Review",
+          "caption": "Institutional Collective Action During Covid-19: Lessons in Local Economic Development",
+          "link": "https://www.michaeloverton.net/research/items/institutional_collective_action_during_covid_19_lessons_in_l.html"
+        },
+        "start_date": { 
+          
+          "year": "2020"
+        },
+        "text": {
+          "headline": "Institutional Collective Action During Covid-19: Lessons in Local Economic Development",
+          "text": "Journal Article in Public Administration Review. 2020."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/investigating_sales_tax_revenue_competition_among_principal_sm.jpg",
+          "alt": "Cover card for Investigating Sales Tax Revenue Competition among Principal Cities and Their Neighboring Cities in Texas, a journal article in International Journal of Public Administration",
+          "caption": "Investigating Sales Tax Revenue Competition among Principal Cities and Their Neighboring Cities in Texas",
+          "link": "https://www.michaeloverton.net/research/items/investigating_sales_tax_revenue_competition_among_principal.html"
+        },
+        "start_date": { 
+          
+          "year": "2020"
+        },
+        "text": {
+          "headline": "Investigating Sales Tax Revenue Competition among Principal Cities and Their Neighboring Cities in Texas",
+          "text": "Journal Article in International Journal of Public Administration. 2020."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/vertical_and_horizontal_tax_competition_in_the_usa_sm.jpg",
+          "alt": "Cover card for Vertical and Horizontal Tax Competition in the USA, a book chapter in Global Encyclopedia of Public Administration (Springer)",
+          "caption": "Vertical and Horizontal Tax Competition in the USA",
+          "link": "https://www.michaeloverton.net/research/items/vertical_and_horizontal_tax_competition_in_the_usa.html"
+        },
+        "start_date": { 
+          
+          "year": "2020"
+        },
+        "text": {
+          "headline": "Vertical and Horizontal Tax Competition in the USA",
+          "text": "Book Chapter in Global Encyclopedia of Public Administration (Springer). 2020."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/a_century_of_budget_innovations_sm.jpg",
+          "alt": "Cover card for A Century of Budget Innovations, a magazine article in PM Magazine",
+          "caption": "A Century of Budget Innovations",
+          "link": "https://www.michaeloverton.net/research/items/a_century_of_budget_innovations.html"
+        },
+        "start_date": { 
+          
+          "year": "2020"
+        },
+        "text": {
+          "headline": "A Century of Budget Innovations",
+          "text": "Magazine Article in PM Magazine. 2020."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/a_budgeting_guide_for_local_government_sm.jpg",
+          "alt": "Cover card for A Budgeting Guide for Local Government, a book in ICMA Press",
+          "caption": "A Budgeting Guide for Local Government",
+          "link": "https://www.michaeloverton.net/research/items/a_budgeting_guide_for_local_government.html"
+        },
+        "start_date": { 
+          
+          "year": "2019"
+        },
+        "text": {
+          "headline": "A Budgeting Guide for Local Government",
+          "text": "Book in ICMA Press. 2019."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/market_differentiation_and_the_adoption_of_economic_developm_sm.jpg",
+          "alt": "Cover card for Market Differentiation and the Adoption of Economic Development Strategies: Explaining Policy Adoption in Metropolitan Areas, a journal article in The Review of Regional Studies",
+          "caption": "Market Differentiation and the Adoption of Economic Development Strategies: Explaining Policy Adoption in Metropolitan Areas",
+          "link": "https://www.michaeloverton.net/research/items/market_differentiation_and_the_adoption_of_economic_developm.html"
+        },
+        "start_date": { 
+          
+          "year": "2018"
+        },
+        "text": {
+          "headline": "Market Differentiation and the Adoption of Economic Development Strategies: Explaining Policy Adoption in Metropolitan Areas",
+          "text": "Journal Article in The Review of Regional Studies. 2018."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/early_payments_late_payments_and_revenue_volatility_in_texas_sm.jpg",
+          "alt": "Cover card for Early Payments, Late Payments, and Revenue Volatility in Texas Cities, a journal article in Public Money & Management",
+          "caption": "Early Payments, Late Payments, and Revenue Volatility in Texas Cities",
+          "link": "https://www.michaeloverton.net/research/items/early_payments_late_payments_and_revenue_volatility_in_texas.html"
+        },
+        "start_date": { 
+          
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Early Payments, Late Payments, and Revenue Volatility in Texas Cities",
+          "text": "Journal Article in Public Money & Management. 2017."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/sorting_through_the_determinants_of_local_government_competi_sm.jpg",
+          "alt": "Cover card for Sorting Through the Determinants of Local Government Competition, a journal article in The American Review of Public Administration",
+          "caption": "Sorting Through the Determinants of Local Government Competition",
+          "link": "https://www.michaeloverton.net/research/items/sorting_through_the_determinants_of_local_government_competi.html"
+        },
+        "start_date": { 
+          
+          "year": "2017"
+        },
+        "text": {
+          "headline": "Sorting Through the Determinants of Local Government Competition",
+          "text": "Journal Article in The American Review of Public Administration. 2017."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/assessing_the_contributions_of_collaborators_in_public_priva_sm.jpg",
+          "alt": "Cover card for Assessing the Contributions of Collaborators in Public-Private Partnerships: Evidence from Tax Increment Financing, a journal article in The American Review of Public Administration",
+          "caption": "Assessing the Contributions of Collaborators in Public-Private Partnerships: Evidence from Tax Increment Financing",
+          "link": "https://www.michaeloverton.net/research/items/assessing_the_contributions_of_collaborators_in_public_priva.html"
+        },
+        "start_date": { 
+          
+          "year": "2016"
+        },
+        "text": {
+          "headline": "Assessing the Contributions of Collaborators in Public-Private Partnerships: Evidence from Tax Increment Financing",
+          "text": "Journal Article in The American Review of Public Administration. 2016."
+        }
+      },{
+        "media": {
+          "url": "https://www.michaeloverton.net/research/objects/small/the_great_recession_s_impact_on_credible_commitment_an_analy_sm.jpg",
+          "alt": "Cover card for The Great Recession's Impact on Credible Commitment: An Analysis of Private Investment in Tax Increment Financing Districts, a journal article in State and Local Government Review",
+          "caption": "The Great Recession's Impact on Credible Commitment: An Analysis of Private Investment in Tax Increment Financing Districts",
+          "link": "https://www.michaeloverton.net/research/items/the_great_recession_s_impact_on_credible_commitment_an_analy.html"
+        },
+        "start_date": { 
+          
+          "year": "2014"
+        },
+        "text": {
+          "headline": "The Great Recession's Impact on Credible Commitment: An Analysis of Private Investment in Tax Increment Financing Districts",
+          "text": "Journal Article in State and Local Government Review. 2014."
+        }
+      }
+    ]
+}

@@ -1,0 +1,20 @@
+{ 
+    "title": "Michael Overton | Research",
+    "url": "https://www.michaeloverton.net/research/",
+    "image": "https://www.michaeloverton.net/research/assets/img/banner.jpg", 
+    "description": "The research corpus of Michael Overton: peer-reviewed articles, technical reports, working papers, and conference presentations in public administration and public finance.",
+    "publisher": { 
+        "name": "University of Idaho", 
+        "url": "https://www.uidaho.edu/", 
+        "logo": "" 
+    },
+    "date_start": "2014",
+    "date_end": "2025",
+    "objects": {
+        null: "0"
+        
+    },
+    "data": "https://www.michaeloverton.net/research/assets/data/datapackage.json",
+    "last_build_date": "2026-08-04"
+}
+
