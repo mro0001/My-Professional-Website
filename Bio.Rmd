@@ -5,21 +5,22 @@ title: "CV and Biography"
 
 [CV (August 12, 2026)](files/Overton-CV.pdf)
 
-I am currently an Assistant Professor of Public Administration at the University of Idaho where I research local government management, data science, budgeting, and economic development. I graduated with my Ph.D. from the University of North Texas in 2015. Unlike many of my contemporaries, I did not go directly into academia. Instead, I worked at the North Central Texas Council of Governments as a Transportation Planner then as the Grant Manager at the John Peter Smith Foundation. This experience was invaluable in shaping my understanding of local governance and changing the way I approach research.
+I am currently an Associate Professor of Public Administration at the University of Idaho, where I research local government management, data science, budgeting, and economic development. I also serve as the Associate Director of the Institute for Interdisciplinary Data Sciences. I graduated with my Ph.D. from the University of North Texas in 2015. Unlike many of my contemporaries, I did not go directly into academia. Instead, I worked at the North Central Texas Council of Governments as a Transportation Planner then as the Grant Manager at the John Peter Smith Foundation. This experience was invaluable in shaping my understanding of local governance and changing the way I approach research.
 
-My research into local governments is eclectic--much like my professional history--and explores data science, budgeting and economic development. More specifically, I study competition among local governments, economic development and municipal fiscal health, and data science in the public sector. My research has been published in Public Administration Review, the American Review of Public Administration, State and Local Government Review, the International Journal of Public Administration, Municipal Finance Journal, and Teaching Public Administration. 
+My research into local governments is eclectic--much like my professional history--and explores data science, budgeting and economic development. More specifically, I study competition among local governments, economic development and municipal fiscal health, and data science in the public sector. More recently my work has turned toward generative artificial intelligence, and in particular toward whether large language models can be evaluated carefully enough to be trusted as research instruments. That work argues for minimum reporting standards, better measurement practice, and rather more skepticism than the field currently applies. My research has been published in Public Administration Review, Public Administration, the Journal of Urban Affairs, Urban Affairs Review, the American Review of Public Administration, and State and Local Government Review, among others.
 
 While I teach a variety of courses, I primarily teach courses in Local Government Management and Public Budgeting and Finance. I enjoy finding unique ways to introduce students to public administration. For example, I developed and taught an introductory PA course for undergraduates that required no textbook and instead assigned episodes of Parks and Recreation. My strongest pedagogical contribution has been in the area of data science where I have taught multiple courses for MPA students and even designed a graduate level data science certificate for those without math or programming backgrounds.
 
 My career has been a wild ride and while I still feel uncomfortable about promoting this information because it feels like bragging, I have received the following awards and honors:
 
+- 2026 Best Article in the Journal of Urban Affairs Award, Urban Affairs Association
 - 2021 Benjamin and Patricia Doty Award, University of Idaho
 - 2017 ASPA Founders Fellow, American Society of Public Administration
 - 2016 Leadership Acceleration Program, John Peter Smith Health Network
 - 2016 Lincoln Scholars Program, Lincoln Institute of Land Policy
 - 2015 Toulouse Dissertation Award in Social Science, University of North Texas
 
-I am proud to serve the public sector in my roll as a professor. It is a gift to have the flexibility to research, teach, and collaborate with local governments to serve the public.
+I am proud to serve the public sector in my role as a professor. It is a gift to have the flexibility to research, teach, and collaborate with local governments to serve the public.
 
 If you care to read more about me, you can find a more [in-depth profile here](https://www.uidaho.edu/class/politics-and-philosophy/news-and-events/overton)
 
